@@ -20,6 +20,8 @@ SITE = ROOT / "site/data"
 BUILD = ROOT / "build"          # private outputs: published to the Worker, never committed
 OPEN = BUILD / "open-data"
 SUPPORT = 0.5          # a song is "agreed" when at least half the rasikas at that concert listed it
+LOCK_MIN = 3           # lists needed before a concert can be confirmed
+LOCK_SUPPORT = 0.66    # ...and every agreed song must be on at least two-thirds of them
 
 # ---------- transliteration-tolerant keys (same rules as site/app.js) ----------
 def plain(s):
@@ -125,7 +127,10 @@ def consensus_for(subs, songs, ragas):
         for i, r in enumerate(lst, 1):
             r["pos"] = i; del r["_pos"]
     level = "single report" if n == 1 else "two reports" if n == 2 else "consensus"
-    return {"n_rasikas": n, "level": level, "songs": agreed, "disputed": minority}
+    # Confirmed ("locked"): 3+ rasikas whose lists tally. New rasikas then confirm or correct the list as text,
+    # and the Worker stops reading photos for this concert. Any real disagreement re-opens it the next night.
+    locked = n >= LOCK_MIN and not minority and bool(agreed) and all(r["support"] >= LOCK_SUPPORT for r in agreed)
+    return {"n_rasikas": n, "level": level, "locked": locked, "songs": agreed, "disputed": minority}
 
 # ---------- season stats ----------
 def season_stats(consensus, concerts, songs, ragas_in_db):

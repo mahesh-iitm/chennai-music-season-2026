@@ -110,6 +110,12 @@ async function ocr(request, env) {
   const img = String(b.image || "");
   const mt = ["image/jpeg", "image/png", "image/webp", "image/gif"].includes(b.media_type) ? b.media_type : "image/jpeg";
   if (!img || img.length > MAX_IMAGE_B64) fail("image missing or too large (max ~5 MB)");
+  // concerts whose list rasikas have already confirmed take corrections as text, so no photo reading is spent on them
+  if (b.concert_id && CONCERT_ID.test(String(b.concert_id))) {
+    await ensurePublished(env);
+    const row = await env.DB.prepare("SELECT json FROM published WHERE name=?").bind("concert/" + b.concert_id).first();
+    if (row && JSON.parse(row.json).locked) fail("This concert's song list is already confirmed. Please confirm or correct it instead of sending a photo.", 409);
+  }
   const ip = await ipHash(request, env);
   if (!(await bump(env, "ocr:all", Number(env.OCR_DAILY_LIMIT || 400)))) fail("Daily reading limit reached. Please try again tomorrow, or type the list in by hand.", 429);
   if (!(await bump(env, "ocr:" + ip, Number(env.OCR_PER_IP_LIMIT || 15)))) fail("You've reached today's limit for photo reading. You can still type the list by hand.", 429);

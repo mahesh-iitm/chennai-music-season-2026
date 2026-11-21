@@ -117,3 +117,10 @@ textarea{font:inherit;line-height:1.5}
 .banner img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .banner figcaption{position:absolute;right:10px;bottom:8px;font-size:.72rem;color:#fff;background:rgba(0,0,0,.45);padding:2px 8px;border-radius:999px}
 @media (min-width:721px){.banner img{aspect-ratio:21/9;object-position:center 35%}}
+.seg{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.seg button{padding:6px 10px;font-size:.85rem;border-radius:999px;background:#fff}
+.seg button.on[data-v="ok"]{background:#dcefe4;border-color:var(--green);color:var(--green)}
+.seg button.on[data-v="no"]{background:#fbe0dc;border-color:#b3412f;color:#7a1f1f}
+.seg button.on[data-v="fix"]{background:var(--gold-soft);border-color:var(--gold)}
+.row.rv{grid-template-columns:28px 1fr}
+.row.rv .fix{margin-top:8px}

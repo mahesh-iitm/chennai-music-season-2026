@@ -153,7 +153,7 @@ function viewSeason() {
       alt="Painting of the Carnatic Trinity: Muthuswami Dikshitar with veena, Tyagaraja and Syama Sastri with tamburas"><figcaption>Painting: S. Rajam</figcaption></figure>
   <section class="hero">
     <div><h1>What is Chennai singing this Margazhi?</h1>
-      <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. Lists from several rasikas are cross-checked, and the whole Season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
+      <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. The whole Season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
       <div class="actions"><a class="btn primary" href="#/submit">Share a concert's song list</a><a class="btn" href="#/concerts">Browse concerts</a></div></div>
     <div class="card"><h3>How it works</h3><ol class="sub" style="padding-left:18px;margin:0">
       <li>Pick the sabha, date and concert.</li><li>Take or upload a photo of your notes, or paste them as text.</li>
@@ -184,7 +184,7 @@ function viewSeason() {
     <section class="card"><h2>Artists</h2><table><tr><th>Artist</th><th>Concerts</th><th>Krithis</th><th>Ragas</th></tr>
       ${st.artists.slice(0, 25).map(a => `<tr><td>${esc(a.artist)}</td><td>${a.concerts}</td><td>${a.distinct_songs}</td><td>${a.distinct_ragas}</td></tr>`).join("")}</table></section>
   </div>
-  <p class="sub">Updated ${new Date(st.generated_at).toLocaleString("en-IN")}. A song counts once at least half the rasikas at that concert listed it.</p>`;
+  <p class="sub">Updated ${new Date(st.generated_at).toLocaleString("en-IN")}.</p>`;
 }
 
 const istDate = (plus = 0) => new Date(Date.now() + 5.5 * 3600e3 + plus * 864e5).toISOString().slice(0, 10);
@@ -251,13 +251,13 @@ async function viewConcert(id) {
   const head = c ? `<h1>${esc(c.artist)}</h1><p class="sub">${fmtDate(c.date)}, ${fmtTime(c.time)} · ${esc(sabhaName(c.sabha_id))}${c.accompanists ? `<br>${esc(c.accompanists)}` : ""}</p>` : `<h1>${esc(id)}</h1>`;
   const live = D.counts[id] || 0;
   let body;
-  if (!cons) body = `<div class="card empty"><p>${live ? `${live} list${live > 1 ? "s have" : " has"} been shared. The combined list appears after tonight's update.` : "No list shared yet for this concert."}</p><a class="btn primary" href="#/submit/${encodeURIComponent(id)}">Share your list</a></div>`;
+  if (!cons) body = `<div class="card empty"><p>${live ? `A song list has been shared for this concert. It will appear here after tonight's update.` : "No list shared yet for this concert."}</p><a class="btn primary" href="#/submit/${encodeURIComponent(id)}">Share your list</a></div>`;
   else {
-    const lvl = cons.n_rasikas >= 3 ? `<span class="pill green">consensus of ${cons.n_rasikas} rasikas</span>` : `<span class="pill warn">${cons.level}: needs more rasikas to confirm</span>`;
-    body = `<div class="card"><div class="actions" style="margin:0 0 10px">${lvl}<a class="btn" href="#/submit/${encodeURIComponent(id)}">Add your list</a></div>
-      <table><tr><th>#</th><th>Song</th><th>Raga</th><th>Tala</th><th>Composer</th><th>Agreement</th></tr>
-      ${cons.songs.map(s => `<tr><td>${s.pos}</td><td><b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}${s.notes ? `<div class="sub">${esc(s.notes)}</div>` : ""}</td><td>${esc(s.raga)}</td><td>${esc(s.tala)}</td><td>${esc(s.composer)}</td><td>${s.votes}/${cons.n_rasikas}</td></tr>`).join("")}</table>
-      ${cons.disputed?.length ? `<h3 style="margin-top:16px">Listed by fewer than half</h3><ul class="list">${cons.disputed.map(s => `<li>${esc(s.title)} <span class="sub">${esc(s.raga)} · ${s.votes}/${cons.n_rasikas}</span></li>`).join("")}</ul>` : ""}</div>`;
+    const lvl = cons.locked ? `<span class="pill green">✓ Confirmed by rasikas</span>` : `<span class="pill warn">Waiting for more rasikas to confirm</span>`;
+    const act = cons.locked ? "Were you there? Confirm or correct" : "Were you there? Share your list";
+    body = `<div class="card"><div class="actions" style="margin:0 0 10px">${lvl}<a class="btn" href="#/submit/${encodeURIComponent(id)}">${act}</a></div>
+      <table><tr><th>#</th><th>Song</th><th>Raga</th><th>Tala</th><th>Composer</th></tr>
+      ${cons.songs.map(s => `<tr><td>${s.pos}</td><td><b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}${s.notes ? `<div class="sub">${esc(s.notes)}</div>` : ""}</td><td>${esc(s.raga)}</td><td>${esc(s.tala)}</td><td>${esc(s.composer)}</td></tr>`).join("")}</table></div>`;
   }
   app.innerHTML = head + body;
 }
@@ -265,8 +265,8 @@ function viewAbout() {
   app.innerHTML = `<div class="card"><h1>How it works</h1>
   <p><b>Concert list.</b> The schedules of Chennai's major sabhas are loaded as they are published. If a concert is missing, any rasika can add it.</p>
   <p><b>Reading your notes.</b> Your photo is sent to an AI handwriting reader, which returns each line it can read. The photo is not stored. Each line is then matched to the <a href="https://www.karnatik.com/lyrics.shtml">karnatik.com</a> catalogue of over 8,000 compositions, using the raga you noted to tell apart songs with similar names. You correct anything it got wrong before confirming.</p>
-  <p><b>Majority vote.</b> Every night, all confirmed lists for a concert are combined. A song is accepted when at least half the rasikas at that concert listed it, and the order follows the median position. One list is shown as a "single report", three or more as a consensus.</p>
-  <p><b>Privacy.</b> No login, no names, no photos kept. Each browser gets a random id so that a rasika who resubmits replaces their own earlier list rather than voting twice.</p>
+  <p><b>Confirmed lists.</b> When enough rasikas have shared matching lists for a concert, its list is marked confirmed. After that, you can simply tick the songs you heard and correct any that are wrong.</p>
+  <p><b>Privacy.</b> No login, no names, no photos kept. Each browser gets a random id, so if you share again for the same concert, your new list replaces your earlier one.</p>
   <p><b>Your data.</b> Song lists and statistics are shown here for rasikas and are not published as downloadable data. How the collected data may be shared after the Season will be decided later.</p></div>`;
 }
 
@@ -325,7 +325,11 @@ function stepConcert(S) {
     } catch (e) { msg.textContent = e.message; }
   };
   if (c0) { sab.value = c0.sabha_id; fillDates(); dt.value = c0.date; fillConcerts(); con.value = c0.id; con.onchange(); }
-  next.onclick = () => stepPhoto(S);
+  next.onclick = async () => {
+    next.disabled = true; next.textContent = "Loading…";
+    const cons = D.cindex[S.concert.id] && API ? await getJSON(`${API}/api/data/concert/${encodeURIComponent(S.concert.id)}`, null) : null;
+    if (cons?.locked) { S.confirmed = cons; await loadSongs(); stepReview(S); } else stepPhoto(S);
+  };
 }
 async function post(path, body) {
   const r = await fetch(API + path, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
@@ -489,18 +493,58 @@ async function shrink(file, max = 1600) {
 }
 const toB64 = b => new Promise(ok => { const r = new FileReader(); r.onload = () => ok(String(r.result).split(",")[1]); r.readAsDataURL(b); });
 
+// A concert whose list rasikas have already confirmed: tick songs, correct the rest as text (no photo reading needed).
+function stepReview(S) {
+  const songs = S.confirmed.songs;
+  S.review = S.review || songs.map(() => ({ ok: true, fix: "" }));
+  app.innerHTML = `<h1>Confirm the song list</h1>${steps(2)}${concertLine(S.concert)}
+    <div class="notice ok">Rasikas have already confirmed this concert's list. Tick what you heard, and correct anything that's wrong.</div>
+    <ol class="rows" id="rv"></ol>
+    <div class="card"><label for="extra"><b style="color:var(--ink)">Anything missing?</b> Type extra songs, one per line (song, raga, tala in any order).</label>
+      <textarea id="extra" rows="3" placeholder="e.g. Thillana - Dhanasri"></textarea></div>
+    <div class="card"><div class="actions" style="margin:0"><button class="primary" id="rvnext">Next: check and share</button><span id="rvmsg" class="sub"></span></div></div>`;
+  $("#chg").onclick = () => stepConcert(S);
+  $("#extra").value = S.extraText || "";
+  const ol = $("#rv");
+  songs.forEach((s, i) => {
+    const r = S.review[i], li = document.createElement("li");
+    li.className = "row rv"; li.innerHTML = `<div class="row-num">${i + 1}</div><div class="row-body"><b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}
+      <div class="sub">${dots(s.raga, s.tala, s.composer)}</div>
+      <div class="seg" role="group"><button data-v="ok">✓ Heard</button><button data-v="no">✕ Not sung</button><button data-v="fix">✎ Different</button></div>
+      <input class="fix" type="text" placeholder="What was actually sung? e.g. Nagumomu - Abheri" hidden></div>`;
+    const fix = li.querySelector(".fix");
+    const paint = () => { li.querySelectorAll(".seg button").forEach(b => b.classList.toggle("on", b.dataset.v === (r.ok === true ? "ok" : r.ok === false ? "no" : "fix"))); fix.hidden = r.ok !== "fix"; };
+    li.querySelectorAll(".seg button").forEach(b => b.onclick = () => { r.ok = b.dataset.v === "ok" ? true : b.dataset.v === "no" ? false : "fix"; paint(); if (r.ok === "fix") fix.focus(); });
+    fix.value = r.fix; fix.oninput = () => { r.fix = fix.value; };
+    paint(); ol.append(li);
+  });
+  $("#rvnext").onclick = () => {
+    S.extraText = $("#extra").value;
+    if (S.review.some(r => r.ok === "fix" && !r.fix.trim())) { $("#rvmsg").textContent = "Type what was sung for each song marked Different, or mark it Not sung."; return; }
+    const items = [];
+    songs.forEach((s, i) => {
+      const r = S.review[i];
+      if (r.ok === true) items.push({ ...blankItem(), song_id: s.song_id, title: s.title, raga: s.raga, tala: s.tala, composer: s.composer, type: s.type, notes: s.notes || "", written: "confirmed" });
+      else if (r.ok === "fix") { const p = parseList(r.fix); if (p.length) items.push({ ...p[0], written: `instead of ${s.title}: ${r.fix}`, edited: true }); }
+    });
+    if (S.extraText.trim()) items.push(...parseList(S.extraText).map(it => ({ ...it, edited: true })));
+    if (!items.length) { $("#rvmsg").textContent = "Tick at least one song, or add the songs you heard."; return; }
+    S.items = items; S.ocr = null; S.usedPhoto = false; S.source = "review"; S.header = null; S.unreadable = "";
+    stepCheck(S);
+  };
+}
 function stepCheck(S) {
   const c = S.concert, h = S.header || {};
   const mism = h.artist && key(h.artist).slice(0, 5) && !key(c.artist).includes(key(h.artist).slice(0, 5));
   app.innerHTML = `<h1>Check what we read</h1>${steps(3)}${concertLine(c)}
-    ${S.usedPhoto ? `<div class="notice">We read <b>${S.items.length}</b> item${S.items.length > 1 ? "s" : ""}. Lines marked <span class="pill green">matched</span> were found in the Karnatik song list. Fix anything that's wrong, then confirm.</div>` : `<div class="notice">Add each song in the order it was sung. Start typing a title to pick it from the Karnatik song list.</div>`}
+    ${S.source === "review" ? `<div class="notice">Here is your list. Check any songs you typed, then confirm.</div>` : S.usedPhoto ? `<div class="notice">We read <b>${S.items.length}</b> item${S.items.length > 1 ? "s" : ""}. Lines marked <span class="pill green">matched</span> were found in the Karnatik song list. Fix anything that's wrong, then confirm.</div>` : `<div class="notice">Add each song in the order it was sung. Start typing a title to pick it from the Karnatik song list.</div>`}
     ${mism ? `<div class="notice err">Your notes mention <b>${esc(h.artist)}</b>, but the concert you chose is <b>${esc(c.artist)}</b>. Please check you picked the right concert.</div>` : ""}
     ${S.unreadable ? `<div class="notice">Couldn't read: ${esc(S.unreadable)}</div>` : ""}
     <ol class="rows" id="rows"></ol>
     <div class="actions"><button id="addrow">+ Add a song</button></div>
-    <div class="card" style="margin-top:16px"><div class="actions" style="margin:0"><button class="primary" id="confirm">Confirm and share</button><button id="back">Back to photo</button><span id="cmsg" class="sub"></span></div></div>`;
+    <div class="card" style="margin-top:16px"><div class="actions" style="margin:0"><button class="primary" id="confirm">Confirm and share</button><button id="back">Back</button><span id="cmsg" class="sub"></span></div></div>`;
   $("#chg").onclick = () => stepConcert(S);
-  $("#back").onclick = () => stepPhoto(S);
+  $("#back").onclick = () => (S.source === "review" ? stepReview(S) : stepPhoto(S));
   $("#addrow").onclick = () => { S.items.push(blankItem()); drawRows(S); $("#rows").lastElementChild?.querySelector(".q").focus(); };
   $("#confirm").onclick = () => confirmSubmit(S);
   drawRows(S);
@@ -563,7 +607,7 @@ async function confirmSubmit(S) {
       items: items.map(it => ({ song_id: it.song_id, title: it.title, raga: it.raga, tala: it.tala, composer: it.composer, type: it.type, notes: it.notes, written: it.written, edited: !!it.edited })) });
     D.counts[S.concert.id] = (D.counts[S.concert.id] || 0) + 1;
     app.innerHTML = `<h1>Thank you!</h1>${steps(4)}<div class="card"><p>Your list of <b>${items.length}</b> item${items.length > 1 ? "s" : ""} for <b>${esc(S.concert.artist)}</b> at ${esc(sabhaName(S.concert.sabha_id))} has been shared.</p>
-      <p class="sub">Lists from all rasikas at this concert are combined every night. If you share again for the same concert, your new list replaces this one.</p>
+      <p class="sub">It will appear on the concert's page after tonight's update. If you share again for the same concert, your new list replaces this one.</p>
       <div class="actions"><a class="btn primary" href="#/submit">Share another concert</a><a class="btn" href="#/concert/${encodeURIComponent(S.concert.id)}">View this concert</a><a class="btn" href="#/">Season view</a></div></div>`;
   } catch (e) { msg.textContent = e.message; btn.disabled = false; }
 }

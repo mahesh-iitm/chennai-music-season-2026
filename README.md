@@ -146,6 +146,7 @@ Rasikas subscribe by tapping **Subscribe on WhatsApp** on the Daily page. WhatsA
 - A song is **agreed** when at least half of the rasikas at that concert listed it. Its position is the median of where rasikas put it.
 - A concert is labelled "single report" (1 list), "two reports" (2) or "consensus" (3 or more). Songs listed by fewer than half are shown separately as "listed by fewer than half".
 - Season statistics use agreed songs only.
+- **Confirmed concerts.** When 3 or more rasikas' lists tally (no song listed by fewer than half, every agreed song on at least two-thirds of the lists), the concert is marked `locked`. The next rasika sees the confirmed list and ticks, rejects or replaces each song, typing corrections as text, and the Worker refuses photo reading for that concert (saving AI credit). Their answers are stored as a normal list, so if enough rasikas disagree, the concert re-opens the next night.
 
 ## Costs and limits
 
