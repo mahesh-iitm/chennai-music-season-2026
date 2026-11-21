@@ -169,4 +169,5 @@ cd site && python3 -m http.server 8000
 
 - Song catalogue: [karnatik.com](https://www.karnatik.com/lyrics.shtml), scraped 19 Nov 2026 (`scripts/scrape_karnatik_*.py`). Raga, tala and composer spellings standardised by `scripts/standardise_karnatik.py` and `scripts/build_site_songs.py`. The site's original spellings are kept in `data/karnatik/`.
 - Six further compositions found only on [shivkumar.org](https://www.shivkumar.org/music/) are added with ids from 100001 (`data/shivkumar/extra_songs.json`). `data/shivkumar/shivkumar_vs_karnatik.json` maps each of that site's 380 distinct songs to its karnatik.com entry, with its notation link.
+- 54 compositions from *Sangita Sampradaya Pradarsini* Part V (Music Academy, 1983; [archive.org](https://archive.org/details/sspradarshini1983sangitasampradayapradarshiniofsrisubbaramadikshitar)) that are not in the karnatik.com list, transliterated from the book's Tamil contents pages (`data/ssp/`). Ids 100007-100060.
 - Code: MIT licence. Rasika-contributed song lists are not released; terms for any release after the Season are to be decided.

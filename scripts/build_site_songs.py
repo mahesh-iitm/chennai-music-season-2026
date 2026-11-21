@@ -51,12 +51,12 @@ def main():
         for v in cnt: comp[v] = name
     out = [[r[0], readable(r[2]), r[3] or "", r[4] or "", comp.get(r[5], "") if r[5] else "", r[6] or "", r[2] or ""] for r in rows]
     # songs found only on shivkumar.org (ids from 100001); see data/shivkumar/
-    extra = ROOT / "data/shivkumar/extra_songs.json"
-    if extra.exists():
+    # songs not in karnatik.com, from other sources (ids from 100001): data/<source>/extra_songs.json
+    for extra in sorted((ROOT / "data").glob("*/extra_songs.json")):
         out += [r[:7] for r in json.loads(extra.read_text())["songs"]]
     (ROOT / "site/data/songs.json").write_text(json.dumps(
         {"fields": ["id", "title", "raga", "tala", "composer", "language", "orig"],
-         "source": "https://www.karnatik.com/lyrics.shtml (scraped 19 Nov 2026; raga, tala and composer spellings standardised) plus songs found only on https://www.shivkumar.org/music/ (ids 100001+)",
+         "source": "https://www.karnatik.com/lyrics.shtml (scraped 19 Nov 2026; raga, tala and composer spellings standardised) plus songs found only on shivkumar.org and in Sangita Sampradaya Pradarsini Part V (ids 100001+)",
          "songs": out}, ensure_ascii=False, separators=(",", ":")))
     print(len(out), "songs,", len(set(comp.values())), "composers")
 

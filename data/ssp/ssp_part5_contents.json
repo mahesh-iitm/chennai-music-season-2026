@@ -1,0 +1,622 @@
+{
+ "source": "Sangita Sampradaya Pradarsini of Subbarama Dikshitar, Part V (Music Academy, Madras, 1983), contents pages xxvii-xxx; https://archive.org/details/sspradarshini1983sangitasampradayapradarshiniofsrisubbaramadikshitar",
+ "note": "Titles are the opening words given in the Tamil contents list, transliterated; spellings of the rarer pieces are approximate. Ragalakshanas, lakshya gitas and sancharis are not included.",
+ "songs": [
+  {
+   "title": "Guruguha Swaram",
+   "raga": "Chaturangini",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1180,
+   "catalogue_id": 5709
+  },
+  {
+   "title": "Anandamrutakarshini",
+   "raga": "Amritavarshini",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1182,
+   "catalogue_id": 5630
+  },
+  {
+   "title": "Santana Manjari",
+   "raga": "Santanamanjari",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1185,
+   "catalogue_id": 5894
+  },
+  {
+   "title": "Param Jyotishmati",
+   "raga": "Jyoti",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1188,
+   "catalogue_id": 5850
+  },
+  {
+   "title": "Matangi",
+   "raga": "Dhautapanchamam",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1191,
+   "catalogue_id": 5795
+  },
+  {
+   "title": "Sri Rama Saraswati",
+   "raga": "Nasamani",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1194,
+   "catalogue_id": 5961
+  },
+  {
+   "title": "Kusumakara",
+   "raga": "Kusumakaram",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1197,
+   "catalogue_id": 5759
+  },
+  {
+   "title": "Sringara Rasamanjarim",
+   "raga": "Rasamanjari",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1200,
+   "catalogue_id": 5987
+  },
+  {
+   "title": "Sri Visvanatham",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1203,
+   "catalogue_id": 5986
+  },
+  {
+   "title": "Purnachandra",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1209,
+   "catalogue_id": 5866
+  },
+  {
+   "title": "Siva Mohana Sakti",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Ramaswami Dikshitar",
+   "page": 1210,
+   "catalogue_id": 100007
+  },
+  {
+   "title": "Manasa Veritarula",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1216,
+   "catalogue_id": 100008
+  },
+  {
+   "title": "Enduku Rara",
+   "raga": "Ragamalika",
+   "type": "ragamalika (navaratnamalika)",
+   "composer": "Subbarama Dikshitar",
+   "page": 1222,
+   "catalogue_id": 100009
+  },
+  {
+   "title": "Nisari Lerani",
+   "raga": "Ragamalika",
+   "type": "ragamalika (navaratnamalika)",
+   "composer": "Subbarama Dikshitar",
+   "page": 1230,
+   "catalogue_id": 100010
+  },
+  {
+   "title": "Karavamukha",
+   "raga": "Ragamalika",
+   "type": "ragamalika (navaratnamalika)",
+   "composer": "Subbarama Dikshitar",
+   "page": 1240,
+   "catalogue_id": 100011
+  },
+  {
+   "title": "Kaminchi Kalavati",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Subbarama Dikshitar",
+   "page": 1247,
+   "catalogue_id": 100012
+  },
+  {
+   "title": "Valapu Miri",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Subbarama Dikshitar",
+   "page": 1258,
+   "catalogue_id": 100013
+  },
+  {
+   "title": "Manatodi Inangina",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Subbarama Dikshitar",
+   "page": 1265,
+   "catalogue_id": 100014
+  },
+  {
+   "title": "Natakadi Vidyala",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Ramaswami Dikshitar",
+   "page": 1274,
+   "catalogue_id": 100015
+  },
+  {
+   "title": "Veduka To",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Subbarama Dikshitar",
+   "page": 1315,
+   "catalogue_id": 100016
+  },
+  {
+   "title": "Ee Kanakambari",
+   "raga": "Ragamalika",
+   "type": "ragamalika (raganga, 72 ragas)",
+   "composer": "Krishna Kavi (words), Subbarama Dikshitar (music)",
+   "page": 1320,
+   "catalogue_id": 100017
+  },
+  {
+   "title": "Samaja Gamana",
+   "raga": "Ragamalika",
+   "type": "ragamalika",
+   "composer": "Ramaswami Dikshitar",
+   "page": 1345,
+   "catalogue_id": 100018
+  },
+  {
+   "title": "Sarasa Nayana",
+   "raga": "Gangatarangini",
+   "type": "daru",
+   "composer": "Ramaswami Dikshitar",
+   "page": 1358,
+   "catalogue_id": 100019
+  },
+  {
+   "title": "Gurumurte",
+   "raga": "Shankarabharanam",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1358,
+   "catalogue_id": 3331
+  },
+  {
+   "title": "Gananayakam",
+   "raga": "Rudrapriya",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1359,
+   "catalogue_id": 5693
+  },
+  {
+   "title": "Tyagesam",
+   "raga": "Rudrapriya",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1360,
+   "catalogue_id": 6020
+  },
+  {
+   "title": "Ganesa Kumara",
+   "raga": "Jinjhoti",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1361,
+   "catalogue_id": 1482
+  },
+  {
+   "title": "Ananta Bala",
+   "raga": "Isamanohari",
+   "type": "kriti",
+   "composer": "Muthuswami Dikshitar",
+   "page": 1362,
+   "catalogue_id": 5632
+  },
+  {
+   "title": "Sri Vallipate",
+   "raga": "Nagasvaravali",
+   "type": "kriti",
+   "composer": "Subbarama Dikshitar",
+   "page": 1363,
+   "catalogue_id": 100020
+  },
+  {
+   "title": "Virahamu",
+   "raga": "Vamsavati",
+   "type": "varnam (chauka)",
+   "composer": "Muttukumara Pulavar",
+   "page": 1365,
+   "catalogue_id": 100021
+  },
+  {
+   "title": "Enduku",
+   "raga": "Kambhoji",
+   "type": "padam",
+   "composer": "Venkatesvara Ettappa Maharaja",
+   "page": 1370,
+   "catalogue_id": 100022
+  },
+  {
+   "title": "Indendu",
+   "raga": "Begada",
+   "type": "padam",
+   "composer": "Jagannatha Chetti",
+   "page": 1374,
+   "catalogue_id": 100023
+  },
+  {
+   "title": "Kanakangi",
+   "raga": "Todi",
+   "type": "varnam (tana)",
+   "composer": "Pallavi Gopala Aiyyar",
+   "page": 1377,
+   "catalogue_id": 100024
+  },
+  {
+   "title": "Ambanatu",
+   "raga": "Todi",
+   "type": "kriti",
+   "composer": "Pallavi Gopala Aiyyar",
+   "page": 1381,
+   "catalogue_id": 1152
+  },
+  {
+   "title": "Hari Sarva",
+   "raga": "Kambhoji",
+   "type": "kriti",
+   "composer": "Pallavi Gopala Aiyyar",
+   "page": 1383,
+   "catalogue_id": 100025
+  },
+  {
+   "title": "Mahishasura",
+   "raga": "Kalyani",
+   "type": "kriti",
+   "composer": "Pallavi Gopala Aiyyar",
+   "page": 1385,
+   "catalogue_id": 100026
+  },
+  {
+   "title": "Nikedaya",
+   "raga": "Kalyani",
+   "type": "kriti",
+   "composer": "Kuppusamayya",
+   "page": 1387,
+   "catalogue_id": 100027
+  },
+  {
+   "title": "Ekkadiki",
+   "raga": "Bhairavi",
+   "type": "padam",
+   "composer": "Kuppusamayya",
+   "page": 1388,
+   "catalogue_id": 100028
+  },
+  {
+   "title": "Sri Venkatesvaruni",
+   "raga": "Darbar",
+   "type": "kriti",
+   "composer": "Kuppusamayya",
+   "page": 1390,
+   "catalogue_id": 100029
+  },
+  {
+   "title": "Radha Namitadaya",
+   "raga": "Hamir Kalyani",
+   "type": "kriti",
+   "composer": "Kuppusamayya",
+   "page": 1392,
+   "catalogue_id": 100030
+  },
+  {
+   "title": "Nisari Sati",
+   "raga": "Todi",
+   "type": "kriti",
+   "composer": "Kuppusamayya",
+   "page": 1393,
+   "catalogue_id": 100031
+  },
+  {
+   "title": "Inka Dayaradha",
+   "raga": "Kalyani",
+   "type": "kriti",
+   "composer": "Srinivasayya",
+   "page": 1395,
+   "catalogue_id": 100032
+  },
+  {
+   "title": "Ninnu Minchina",
+   "raga": "Natakuranji",
+   "type": "kriti",
+   "composer": "Srinivasayya",
+   "page": 1397,
+   "catalogue_id": 100033
+  },
+  {
+   "title": "Dhurjati",
+   "raga": "Gaula",
+   "type": "kriti",
+   "composer": "Dorasamayya",
+   "page": 1399,
+   "catalogue_id": 100034
+  },
+  {
+   "title": "Tattatri",
+   "raga": "Todi",
+   "type": "kriti",
+   "composer": "Dorasamayya",
+   "page": 1400,
+   "catalogue_id": 100035
+  },
+  {
+   "title": "Rave Himagiri Kumari",
+   "raga": "Todi",
+   "type": "svarajati",
+   "composer": "Syama Sastri",
+   "page": 1402,
+   "catalogue_id": 8827
+  },
+  {
+   "title": "Tarali Poyye",
+   "raga": "Todi",
+   "type": "kriti",
+   "composer": "Kavi Matrubhutayya",
+   "page": 1404,
+   "catalogue_id": 100036
+  },
+  {
+   "title": "Uma Himachala",
+   "raga": "Saranga",
+   "type": "kriti",
+   "composer": "Kavi Matrubhutayya",
+   "page": 1406,
+   "catalogue_id": 100037
+  },
+  {
+   "title": "Kannatalli",
+   "raga": "Anandabhairavi",
+   "type": "kriti",
+   "composer": "Merattur Venkatarama Sastri",
+   "page": 1409,
+   "catalogue_id": 100038
+  },
+  {
+   "title": "Kanugoni",
+   "raga": "Kalyani",
+   "type": "kriti",
+   "composer": "Kavi Matrubhutayya",
+   "page": 1412,
+   "catalogue_id": 100039
+  },
+  {
+   "title": "Sambho Puramatha",
+   "raga": "Kedaragaula",
+   "type": "kriti",
+   "composer": "Kavi Matrubhutayya",
+   "page": 1415,
+   "catalogue_id": 100040
+  },
+  {
+   "title": "Paraju",
+   "raga": "Paraju",
+   "type": "kriti",
+   "composer": "Vaikuntha Sastri",
+   "page": 1417,
+   "catalogue_id": 100041
+  },
+  {
+   "title": "Sevinchi",
+   "raga": "Saveri",
+   "type": "kriti",
+   "composer": "Ghanam Sinayya",
+   "page": 1420,
+   "catalogue_id": 100042
+  },
+  {
+   "title": "Namoralimpa",
+   "raga": "Kambhoji",
+   "type": "kriti",
+   "composer": "Tallapakkam Chinnayya",
+   "page": 1424,
+   "catalogue_id": 100043
+  },
+  {
+   "title": "Maya Nivanchana",
+   "raga": "Kambhoji",
+   "type": "kriti",
+   "composer": "Giriraja Kavi",
+   "page": 1428,
+   "catalogue_id": 100044
+  },
+  {
+   "title": "Tyagadhipa",
+   "raga": "Punnagavarali",
+   "type": "kriti",
+   "composer": "Svayamprakasa Yatindra",
+   "page": 1430,
+   "catalogue_id": 100045
+  },
+  {
+   "title": "Tavaka Kara",
+   "raga": "Kalyani",
+   "type": "kriti",
+   "composer": "Akkul Swamigal",
+   "page": 1432,
+   "catalogue_id": 100046
+  },
+  {
+   "title": "Jaya Jaya",
+   "raga": "Bhairavi",
+   "type": "tarangam",
+   "composer": "Narayana Tirtha",
+   "page": 1436,
+   "catalogue_id": 100047
+  },
+  {
+   "title": "E Virahamedula",
+   "raga": "Nilambari",
+   "type": "varnam (chauka)",
+   "composer": "Traditional",
+   "page": 1441,
+   "catalogue_id": 100048
+  },
+  {
+   "title": "Alugane",
+   "raga": "Kannada",
+   "type": "varnam (chauka)",
+   "composer": "Traditional",
+   "page": 1445,
+   "catalogue_id": 100049
+  },
+  {
+   "title": "Sri Kamalamba",
+   "raga": "Manohari",
+   "type": "varnam (chauka)",
+   "composer": "Ramaswami Dikshitar",
+   "page": 1448,
+   "catalogue_id": 100050
+  },
+  {
+   "title": "Chala Nammina",
+   "raga": "Yadukulakambhoji",
+   "type": "varnam (chauka)",
+   "composer": "Panchapagesa Bhagavatar",
+   "page": 1450,
+   "catalogue_id": 100051
+  },
+  {
+   "title": "Jagadananda Karaka",
+   "raga": "Nata",
+   "type": "kriti",
+   "composer": "Tyagaraja",
+   "page": 1453,
+   "catalogue_id": 1011
+  },
+  {
+   "title": "Dudukugala",
+   "raga": "Gaula",
+   "type": "kriti",
+   "composer": "Tyagaraja",
+   "page": 1459,
+   "catalogue_id": 1004
+  },
+  {
+   "title": "Endaro Mahanubhavulu",
+   "raga": "Shri",
+   "type": "kriti",
+   "composer": "Tyagaraja",
+   "page": 1462,
+   "catalogue_id": 1006
+  },
+  {
+   "title": "Sadhinchene",
+   "raga": "Arabhi",
+   "type": "kriti",
+   "composer": "Tyagaraja",
+   "page": 1469,
+   "catalogue_id": 1033
+  },
+  {
+   "title": "Swami Vanajaksha",
+   "raga": "Ritigaula",
+   "type": "varnam (tana)",
+   "composer": "Veena Kuppayyar",
+   "page": 1474,
+   "catalogue_id": 100052
+  },
+  {
+   "title": "Aa Maruva",
+   "raga": "Narayanagaula",
+   "type": "varnam (tana)",
+   "composer": "Veena Kuppayyar",
+   "page": 1478,
+   "catalogue_id": 100053
+  },
+  {
+   "title": "Nisari Mandre",
+   "raga": "Kedaragaula",
+   "type": "varnam (tana)",
+   "composer": "Govindasamayya",
+   "page": 1482,
+   "catalogue_id": 100054
+  },
+  {
+   "title": "Inta Aluga",
+   "raga": "Natakuranji",
+   "type": "varnam (tana)",
+   "composer": "Kuvanasamayya",
+   "page": 1488,
+   "catalogue_id": 100055
+  },
+  {
+   "title": "Nive Dikkani",
+   "raga": "Saveri",
+   "type": "varnam (tana)",
+   "composer": "Tirunelveli Venku Bhagavatar",
+   "page": 1492,
+   "catalogue_id": 100056
+  },
+  {
+   "title": "Samini Rammana",
+   "raga": "Anandabhairavi",
+   "type": "varnam (tana)",
+   "composer": "Syama Sastri",
+   "page": 1498,
+   "catalogue_id": 8830
+  },
+  {
+   "title": "Sarasijamukhiro",
+   "raga": "Arabhi",
+   "type": "varnam (tana)",
+   "composer": "Veena Kuppayyar",
+   "page": 1505,
+   "catalogue_id": 100057
+  },
+  {
+   "title": "Inta Chalamu",
+   "raga": "Begada",
+   "type": "varnam (tana)",
+   "composer": "Veena Kuppayyar",
+   "page": 1508,
+   "catalogue_id": 4316
+  },
+  {
+   "title": "Inta Priyamuga",
+   "raga": "Begada",
+   "type": "varnam (tana)",
+   "composer": "Tiruvarur Ayyaswami Nattuvanar",
+   "page": 1511,
+   "catalogue_id": 100058
+  },
+  {
+   "title": "Vadaraga Bove",
+   "raga": "Kambhoji",
+   "type": "padam",
+   "composer": "Kshetrajna",
+   "page": 1517,
+   "catalogue_id": 100059
+  },
+  {
+   "title": "Tondara Vidamu",
+   "raga": "Saindhavi",
+   "type": "padam",
+   "composer": "Kshetrajna",
+   "page": 1520,
+   "catalogue_id": 100060
+  }
+ ]
+}
