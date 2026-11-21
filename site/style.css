@@ -124,3 +124,6 @@ textarea{font:inherit;line-height:1.5}
 .seg button.on[data-v="fix"]{background:var(--gold-soft);border-color:var(--gold)}
 .row.rv{grid-template-columns:28px 1fr}
 .row.rv .fix{margin-top:8px}
+.mainbtn{grid-column:1/-1;justify-self:start;padding:5px 12px;font-size:.85rem;border-radius:999px;background:#fff}
+.mainbtn.on{background:var(--gold-soft);border-color:var(--gold);font-weight:600}
+.star{color:var(--gold);font-size:1.05em}

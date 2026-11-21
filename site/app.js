@@ -36,6 +36,11 @@ const TALA_STD = { adi: "Adi", rupak: "Rupakam", rupaka: "Rupakam", capu: "Chapu
   kcapu: "Khanda Chapu", kandacapu: "Khanda Chapu", ata: "Ata", at: "Ata", jampa: "Jhampa", jamp: "Jhampa", tripu: "Triputa", triput: "Triputa",
   ek: "Eka", eka: "Eka", tisraek: "Tisra Eka", kandaek: "Khanda Eka", desadi: "Desadi", madyadi: "Madhyadi" };
 const stdTala = t => (t ? TALA_STD[key(t)] || t.trim() : "");
+const isMain = it => /\bmain\b/i.test(it.notes || "");
+const setMain = (it, on) => {
+  const rest = (it.notes || "").replace(/\bmain\b\s*[;,]?\s*/ig, "").replace(/^[;,\s]+|[;,\s]+$/g, "");
+  it.notes = on ? (rest ? "main; " + rest : "main") : rest;
+};
 const TYPES_NO_SONG = new Set(["tani", "viruttam", "mangalam"]);
 
 // ---------- data ----------
@@ -257,7 +262,7 @@ async function viewConcert(id) {
     const act = cons.locked ? "Were you there? Confirm or correct" : "Were you there? Share your list";
     body = `<div class="card"><div class="actions" style="margin:0 0 10px">${lvl}<a class="btn" href="#/submit/${encodeURIComponent(id)}">${act}</a></div>
       <table><tr><th>#</th><th>Song</th><th>Raga</th><th>Tala</th><th>Composer</th></tr>
-      ${cons.songs.map(s => `<tr><td>${s.pos}</td><td><b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}${s.notes ? `<div class="sub">${esc(s.notes)}</div>` : ""}</td><td>${esc(s.raga)}</td><td>${esc(s.tala)}</td><td>${esc(s.composer)}</td></tr>`).join("")}</table></div>`;
+      ${cons.songs.map(s => `<tr><td>${s.pos}</td><td>${isMain(s) ? '<span class="star" title="Main piece">★</span> ' : ""}<b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}${s.notes ? `<div class="sub">${esc(s.notes)}</div>` : ""}</td><td>${esc(s.raga)}</td><td>${esc(s.tala)}</td><td>${esc(s.composer)}</td></tr>`).join("")}</table></div>`;
   }
   app.innerHTML = head + body;
 }
@@ -508,7 +513,7 @@ function stepReview(S) {
   const ol = $("#rv");
   songs.forEach((s, i) => {
     const r = S.review[i], li = document.createElement("li");
-    li.className = "row rv"; li.innerHTML = `<div class="row-num">${i + 1}</div><div class="row-body"><b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}
+    li.className = "row rv"; li.innerHTML = `<div class="row-num">${i + 1}</div><div class="row-body">${isMain(s) ? '<span class="pill">★ Main piece</span><br>' : ""}<b>${esc(s.title)}</b>${s.type !== "kriti" ? ` <span class="pill grey">${esc(s.type)}</span>` : ""}
       <div class="sub">${dots(s.raga, s.tala, s.composer)}</div>
       <div class="seg" role="group"><button data-v="ok">✓ Heard</button><button data-v="no">✕ Not sung</button><button data-v="fix">✎ Different</button></div>
       <input class="fix" type="text" placeholder="What was actually sung? e.g. Nagumomu - Abheri" hidden></div>`;
@@ -558,7 +563,7 @@ function drawRows(S) {
     const q = li.querySelector(".q"), sug = li.querySelector(".suggest"), st = li.querySelector(".status");
     const song = it.song_id ? D.byId.get(it.song_id) : null;
     q.value = song ? song.title : it.title || "";
-    for (const f of ["raga", "tala", "notes"]) { const inp = li.querySelector("." + f); inp.value = it[f] || ""; inp.oninput = () => { it[f] = inp.value; it.edited = true; if (f === "raga") renderStatus(); }; }
+    for (const f of ["raga", "tala", "notes"]) { const inp = li.querySelector("." + f); inp.value = it[f] || ""; inp.oninput = () => { it[f] = inp.value; it.edited = true; if (f === "raga") renderStatus(); if (f === "notes") paintMain(); }; }
     const ty = li.querySelector(".type"); ty.value = it.type || "kriti"; ty.onchange = () => { it.type = ty.value; it.edited = true; renderStatus(); };
     const choose = s => {
       it.song_id = s.id; it.title = s.title; it.raga = s.raga; it.tala = s.tala || it.tala; it.composer = s.composer; it.edited = true; it.auto = false;
@@ -591,6 +596,10 @@ function drawRows(S) {
     renderStatus();
     li.querySelector(".up").onclick = () => { if (i) { [S.items[i - 1], S.items[i]] = [S.items[i], S.items[i - 1]]; drawRows(S); } };
     li.querySelector(".down").onclick = () => { if (i < S.items.length - 1) { [S.items[i + 1], S.items[i]] = [S.items[i], S.items[i + 1]]; drawRows(S); } };
+    const mb = li.querySelector(".mainbtn");
+    const paintMain = () => { const on = isMain(it); mb.classList.toggle("on", on); mb.setAttribute("aria-pressed", on); mb.textContent = on ? "★ Main piece" : "☆ Main piece"; li.querySelector(".notes").value = it.notes || ""; };
+    mb.onclick = () => { const on = !isMain(it); S.items.forEach(x => setMain(x, false)); setMain(it, on); it.edited = true; drawRows(S); };
+    paintMain();
     li.querySelector(".del").onclick = () => { S.items.splice(i, 1); drawRows(S); };
     ol.append(li);
   });
