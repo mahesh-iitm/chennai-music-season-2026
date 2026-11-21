@@ -2,6 +2,18 @@
  "season": "2026-27",
  "concerts": [
   {
+   "id": "minnaminni-2026-11-15-1800",
+   "sabha_id": "minnaminni",
+   "date": "2026-11-15",
+   "time": "18:00",
+   "artist": "J B Sruthi Sagar",
+   "accompanists": "Sruti Sarathy and B Sivaraman (accompanist)",
+   "category": "",
+   "venue": "Medai – The Stage, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-11-20-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-11-20",
@@ -230,6 +242,18 @@
    "source": "schedule"
   },
   {
+   "id": "gems-of-margazhi-2026-11-27-1800",
+   "sabha_id": "gems-of-margazhi",
+   "date": "2026-11-27",
+   "time": "18:00",
+   "artist": "Saindhavi & Sai Vignesh",
+   "accompanists": "",
+   "category": "bhajan",
+   "venue": "M S Subbulakshmi Auditorium, Tharamani",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-11-27-1845",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-11-27",
@@ -302,6 +326,18 @@
    "source": "schedule"
   },
   {
+   "id": "gems-of-margazhi-2026-11-29-1800",
+   "sabha_id": "gems-of-margazhi",
+   "date": "2026-11-29",
+   "time": "18:00",
+   "artist": "IndoSoul by Karthick Iyer",
+   "accompanists": "",
+   "category": "",
+   "venue": "M S Subbulakshmi Auditorium, Tharamani",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-11-29-1845",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-11-29",
@@ -338,6 +374,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-01-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-01",
+   "time": "16:00",
+   "artist": "R. Ashwathnarayanan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-01-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-01",
@@ -347,6 +395,18 @@
    "category": "vocal",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-01-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-01",
+   "time": "18:30",
+   "artist": "Akkarai Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -386,6 +446,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-02-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-02",
+   "time": "16:30",
+   "artist": "R. Ashwath Narayanan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-02-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-02",
@@ -410,6 +482,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-02-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-02",
+   "time": "18:45",
+   "artist": "N Vijay Siva",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-03-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-03",
@@ -419,6 +503,18 @@
    "category": "flute",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-03-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-03",
+   "time": "16:30",
+   "artist": "Gayathri Venkataraghavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -470,6 +566,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-04-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-04",
+   "time": "16:30",
+   "artist": "S. Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-04-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-04",
@@ -494,6 +602,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-04-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-04",
+   "time": "18:45",
+   "artist": "Abhishek Raghuram",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-05-1030",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-05",
@@ -503,6 +623,18 @@
    "category": "violin (duo)",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-05-1600",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-05",
+   "time": "16:00",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -542,6 +674,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-05-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-05",
+   "time": "18:45",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-06-1030",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-06",
@@ -551,6 +695,18 @@
    "category": "devotional",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-06-1600",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-06",
+   "time": "16:00",
+   "artist": "Ranjani and Gayatri",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -602,6 +758,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-07-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-07",
+   "time": "16:30",
+   "artist": "K. Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-07-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-07",
@@ -626,6 +794,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-07-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-07",
+   "time": "18:45",
+   "artist": "Trichur Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-08-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-08",
@@ -635,6 +815,18 @@
    "category": "violin (solo)",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-08-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-08",
+   "time": "16:30",
+   "artist": "Sikkil C. Gurucharan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -662,6 +854,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-08-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-08",
+   "time": "18:45",
+   "artist": "Malladi Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-09-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-09",
@@ -671,6 +875,18 @@
    "category": "vocal",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-09-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-09",
+   "time": "16:30",
+   "artist": "Dr.K. Gayatri",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -698,6 +914,18 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-09-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-09",
+   "time": "18:45",
+   "artist": "Kunnakudi M. Balamuralikrishna",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-10-1630",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-10",
@@ -707,6 +935,18 @@
    "category": "flute",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-10-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-10",
+   "time": "16:30",
+   "artist": "Vignesh Ishwar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -722,6 +962,18 @@
    "source": "schedule"
   },
   {
+   "id": "thyaga-brahma-gana-2026-12-10-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-10",
+   "time": "18:30",
+   "artist": "G. Ravikiran",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-10-1845",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-10",
@@ -731,6 +983,18 @@
    "category": "vocal",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-10-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-10",
+   "time": "18:45",
+   "artist": "Shashank Subrahmanyam",
+   "accompanists": "",
+   "category": "",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -746,6 +1010,30 @@
    "source": "schedule"
   },
   {
+   "id": "kartik-fine-arts-2026-12-11-1600",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-11",
+   "time": "16:00",
+   "artist": "Mysore brothers",
+   "accompanists": "",
+   "category": "",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-11-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-11",
+   "time": "16:30",
+   "artist": "Charumathi Raghuraman",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM, Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-11-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-11",
@@ -758,6 +1046,18 @@
    "source": "schedule"
   },
   {
+   "id": "thyaga-brahma-gana-2026-12-11-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-11",
+   "time": "18:30",
+   "artist": "Sikkil C Gurucharan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-11-1845",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-11",
@@ -767,6 +1067,18 @@
    "category": "vocal",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-11-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-11",
+   "time": "18:45",
+   "artist": "Nirmala Rajasekar",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM, Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -794,6 +1106,30 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-12-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-12",
+   "time": "16:30",
+   "artist": "J.A. Jayanth and Mylai Karthikeyan",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-12-1630",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-12",
+   "time": "16:30",
+   "artist": "Dr.N.J. Nandini",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-12-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-12",
@@ -806,6 +1142,18 @@
    "source": "schedule"
   },
   {
+   "id": "thyaga-brahma-gana-2026-12-12-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-12",
+   "time": "18:30",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharatiya-vidya-bhavan-2026-12-12-1845",
    "sabha_id": "bharatiya-vidya-bhavan",
    "date": "2026-12-12",
@@ -815,6 +1163,30 @@
    "category": "vocal",
    "venue": "Bhavan's Obul Reddy Auditorium, Mylapore",
    "notes": "All are welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-12-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-12",
+   "time": "18:45",
+   "artist": "Abhishek Raghuram and Sruti Sagar",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "kartik-fine-arts-2026-12-12-1845",
+   "sabha_id": "kartik-fine-arts",
+   "date": "2026-12-12",
+   "time": "18:45",
+   "artist": "Dr. Sudha Ragunathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -866,6 +1238,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-13-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-13",
+   "time": "16:30",
+   "artist": "R.K. Shriramkumar & V.V.S.Murari",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-13-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-13",
@@ -875,6 +1259,30 @@
    "category": "vocal",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-13-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-13",
+   "time": "18:30",
+   "artist": "Ranjani & Gayatri",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-13-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-13",
+   "time": "18:45",
+   "artist": "Sid Sriram",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -914,6 +1322,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-14-1600",
+   "sabha_id": "carnatica",
+   "date": "2026-12-14",
+   "time": "16:00",
+   "artist": "Ashwath Narayanan",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2026-12-14-1600",
    "sabha_id": "krishna-gana-sabha",
    "date": "2026-12-14",
@@ -950,6 +1370,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-14-1830",
+   "sabha_id": "carnatica",
+   "date": "2026-12-14",
+   "time": "18:30",
+   "artist": "Rajhesh Vaidya",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-14-1830",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-14",
@@ -959,6 +1391,18 @@
    "category": "violin duet",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-14-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-14",
+   "time": "18:30",
+   "artist": "Sanjay Subrahmanyan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -998,6 +1442,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-15-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-15",
+   "time": "16:00",
+   "artist": "Anugrah Lakshmanan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-15-1600",
    "sabha_id": "charsur",
    "date": "2026-12-15",
@@ -1034,6 +1490,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-15-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-15",
+   "time": "16:30",
+   "artist": "Nagai R. Muralidharan",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-15-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-15",
@@ -1043,6 +1511,18 @@
    "category": "nadaswaram",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-15-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-15",
+   "time": "18:30",
+   "artist": "Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1067,6 +1547,30 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-15-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-15",
+   "time": "18:30",
+   "artist": "Gayathri Venkataraghavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-15-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-15",
+   "time": "18:45",
+   "artist": "Palghat Ramprasad",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1154,6 +1658,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-16-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-16",
+   "time": "16:00",
+   "artist": "Padmashree Srinivasan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-16-1600",
    "sabha_id": "charsur",
    "date": "2026-12-16",
@@ -1190,6 +1706,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-16-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-16",
+   "time": "16:30",
+   "artist": "Prince Rama Varma",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-16-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-16",
@@ -1199,6 +1727,18 @@
    "category": "vocal",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-16-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-16",
+   "time": "18:30",
+   "artist": "K S Vishnudev",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1223,6 +1763,30 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-16-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-16",
+   "time": "18:30",
+   "artist": "Kunnakkudi M Balamuralikrishna",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-16-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-16",
+   "time": "18:45",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1310,6 +1874,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-17-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-17",
+   "time": "16:00",
+   "artist": "Swarathmika Srikanth",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-17-1600",
    "sabha_id": "charsur",
    "date": "2026-12-17",
@@ -1358,6 +1934,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-17-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-17",
+   "time": "16:30",
+   "artist": "K.S. Vishnudev",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-17-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-17",
@@ -1367,6 +1955,18 @@
    "category": "flute-sitar jugalbandi",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-17-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-17",
+   "time": "18:30",
+   "artist": "Amrutha Venkatesh",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1415,6 +2015,30 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-17-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-17",
+   "time": "18:30",
+   "artist": "K. Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-17-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-17",
+   "time": "18:45",
+   "artist": "Vignesh Ishwar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1502,6 +2126,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-18-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-18",
+   "time": "16:00",
+   "artist": "Veena Venkatramani",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-18-1600",
    "sabha_id": "charsur",
    "date": "2026-12-18",
@@ -1538,6 +2174,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-18-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-18",
+   "time": "16:00",
+   "artist": "Gayathri Venkataraghavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-18-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-18",
@@ -1550,6 +2198,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-18-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-18",
+   "time": "16:30",
+   "artist": "S. Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-18-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-18",
@@ -1559,6 +2219,18 @@
    "category": "vocal",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-18-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-18",
+   "time": "18:30",
+   "artist": "Aravind Soundararajan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1607,6 +2279,30 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-18-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-18",
+   "time": "18:30",
+   "artist": "Trichur Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-18-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-18",
+   "time": "18:45",
+   "artist": "Anil Srinivasan & Sikkil C. Gurucharan with Madhan Karky",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1682,6 +2378,18 @@
    "source": "schedule"
   },
   {
+   "id": "tamil-cultural-academy-2026-12-19-1400",
+   "sabha_id": "tamil-cultural-academy",
+   "date": "2026-12-19",
+   "time": "14:00",
+   "artist": "Spoorthi Rao- Tribute to the Female Trinity",
+   "accompanists": "",
+   "category": "",
+   "venue": "Image Auditorium, Raja Annamalaipuram",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-19-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-19",
@@ -1691,6 +2399,18 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-19-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-19",
+   "time": "16:00",
+   "artist": "Aditya Madhavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1730,6 +2450,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-19-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-19",
+   "time": "16:00",
+   "artist": "Mambalam Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-19-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-19",
@@ -1742,6 +2474,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-19-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-19",
+   "time": "16:30",
+   "artist": "U.Ve. Dushyant Sridhar and R.P. Shravan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-19-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-19",
@@ -1751,6 +2495,18 @@
    "category": "keerthanam - sankeerthanam",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-19-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-19",
+   "time": "18:30",
+   "artist": "Akkarai Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1778,6 +2534,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-19-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-19",
+   "time": "18:30",
+   "artist": "Sikkil C. Gurucharan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-19-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-19",
@@ -1790,6 +2558,30 @@
    "source": "schedule"
   },
   {
+   "id": "thyaga-brahma-gana-2026-12-19-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-19",
+   "time": "18:30",
+   "artist": "Ramana Balachandhran",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-19-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-19",
+   "time": "18:45",
+   "artist": "Kunnakudi M. Balamuralikrishna",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "music-academy-2026-12-19-1845",
    "sabha_id": "music-academy",
    "date": "2026-12-19",
@@ -1798,6 +2590,18 @@
    "accompanists": "Mysore V.Srikanth (violin), Trichy B.Harikumar (mridangam), H.Prasanna (ghatam)",
    "category": "vocal",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "tamil-cultural-academy-2026-12-19-1900",
+   "sabha_id": "tamil-cultural-academy",
+   "date": "2026-12-19",
+   "time": "19:00",
+   "artist": "Mega Isai Vizha - Perumalin Perumai",
+   "accompanists": "",
+   "category": "",
+   "venue": "Image Auditorium, Raja Annamalaipuram",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -1874,6 +2678,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-20-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-20",
+   "time": "16:00",
+   "artist": "Bhavya Hari",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-20-1600",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-20",
@@ -1922,6 +2738,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-20-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-20",
+   "time": "16:00",
+   "artist": "Ramnath Venkat Bagavath",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-20-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-20",
@@ -1931,6 +2759,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "kalakshetra-2026-12-20-1800",
+   "sabha_id": "kalakshetra",
+   "date": "2026-12-20",
+   "time": "18:00",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Rukmini Arangam, Kalakshetra",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -1958,6 +2798,30 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-20-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "artist": "Savita Sreeram",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-20-1830",
+   "sabha_id": "carnatica",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "artist": "Ramana Balachandhran",
+   "accompanists": "",
+   "category": "",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-20-1830",
    "sabha_id": "charsur",
    "date": "2026-12-20",
@@ -1970,6 +2834,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-20-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "artist": "Dr. Jayanthi Kumaresh",
+   "accompanists": "",
+   "category": "veena",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-20-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-20",
@@ -1979,6 +2855,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-20-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "artist": "Palghat R Ramprasad",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2066,6 +2954,18 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-21-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-21",
+   "time": "14:30",
+   "artist": "Ashwath Narayanan",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-21-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-21",
@@ -2075,6 +2975,18 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-21-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-21",
+   "time": "16:00",
+   "artist": "Vishruthi Girish",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2114,6 +3026,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-21-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-21",
+   "time": "16:00",
+   "artist": "Dr. Brinda Manickavasagan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-21-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-21",
@@ -2126,6 +3050,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-21-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-21",
+   "time": "16:30",
+   "artist": "Amrutha Venkatesh",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-21-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-21",
@@ -2135,6 +3071,18 @@
    "category": "vocal",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-21-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-21",
+   "time": "18:30",
+   "artist": "J B Sruthi Sagar",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2162,6 +3110,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-21-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-21",
+   "time": "18:30",
+   "artist": "Nagai Muralidharan & Dr. Badrinarayanan",
+   "accompanists": "",
+   "category": "violin",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-21-1830",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-21",
@@ -2186,6 +3146,18 @@
    "source": "schedule"
   },
   {
+   "id": "thyaga-brahma-gana-2026-12-21-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-21",
+   "time": "18:30",
+   "artist": "S. Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "music-academy-2026-12-21-1845",
    "sabha_id": "music-academy",
    "date": "2026-12-21",
@@ -2194,6 +3166,18 @@
    "accompanists": "V.Sanjeev (violin), Sumesh S. Narayanan (mridangam), K.V.Gopalakrishnan (kanjira)",
    "category": "vocal",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-21-1900",
+   "sabha_id": "carnatica",
+   "date": "2026-12-21",
+   "time": "19:00",
+   "artist": "Subhashree Thanikachalam",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -2258,6 +3242,18 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-22-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-22",
+   "time": "14:30",
+   "artist": "Sayee Rakshith and Chandrasekara Sharma",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-22-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-22",
@@ -2267,6 +3263,18 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-22-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-22",
+   "time": "16:00",
+   "artist": "Rakshita Ramesh",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2306,6 +3314,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-22-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-22",
+   "time": "16:00",
+   "artist": "Carnatica Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-22-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-22",
@@ -2318,6 +3338,18 @@
    "source": "schedule"
   },
   {
+   "id": "carnatica-2026-12-22-1630",
+   "sabha_id": "carnatica",
+   "date": "2026-12-22",
+   "time": "16:30",
+   "artist": "Papanasam Ashok Ramani",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-22-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-22",
@@ -2327,6 +3359,18 @@
    "category": "vocal",
    "venue": "Online (PaalamTV / YouTube)",
    "notes": "Streamed on PaalamTV / mudhrabhaskar YouTube",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-22-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-22",
+   "time": "18:30",
+   "artist": "Bangalore Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2363,6 +3407,30 @@
    "category": "veena",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-22-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-22",
+   "time": "18:30",
+   "artist": "N. Vijay Siva",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "carnatica-2026-12-22-1845",
+   "sabha_id": "carnatica",
+   "date": "2026-12-22",
+   "time": "18:45",
+   "artist": "K. Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2438,6 +3506,18 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-23-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-23",
+   "time": "14:30",
+   "artist": "Sumesh Narayanan",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-23-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-23",
@@ -2486,6 +3566,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-23-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-23",
+   "time": "16:00",
+   "artist": "Isai Payanam – Classical meets Film – Dr. Charulatha Mani",
+   "accompanists": "",
+   "category": "",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-23-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-23",
@@ -2495,6 +3587,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-23-1800",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-23",
+   "time": "18:00",
+   "artist": "R Lakshmipriya",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2510,6 +3614,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-23-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-23",
+   "time": "18:30",
+   "artist": "Mysuru Chandankumar",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-23-1830",
    "sabha_id": "charsur",
    "date": "2026-12-23",
@@ -2519,6 +3635,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-23-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-23",
+   "time": "18:30",
+   "artist": "Malladi Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -2618,6 +3746,18 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-24-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-24",
+   "time": "14:30",
+   "artist": "G Ravikiran",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Thiruvanmiyur",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-24-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-24",
@@ -2627,6 +3767,18 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-24-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-24",
+   "time": "16:00",
+   "artist": "Venkatanagarajan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2666,6 +3818,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-24-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-24",
+   "time": "16:00",
+   "artist": "Vignesh Ishwar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-24-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-24",
@@ -2690,6 +3854,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-24-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-24",
+   "time": "18:30",
+   "artist": "Mylai Karthikeyan",
+   "accompanists": "",
+   "category": "",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-24-1830",
    "sabha_id": "charsur",
    "date": "2026-12-24",
@@ -2699,6 +3875,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-24-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-24",
+   "time": "18:30",
+   "artist": "Nisha Rajagopalan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -2723,6 +3911,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-24-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-24",
+   "time": "18:30",
+   "artist": "K.S.Vishnudev",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -2822,6 +4022,30 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-25-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-25",
+   "time": "14:30",
+   "artist": "S Adityanarayanan and Sruti Sarathy",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-25-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-25",
+   "time": "16:00",
+   "artist": "Dr. V Subashri",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-25-1600",
    "sabha_id": "charsur",
    "date": "2026-12-25",
@@ -2854,6 +4078,18 @@
    "accompanists": "Charulatha Ramanujam (violin), Vijay B.Natesan (mridangam), C.P.Vyasavittala (kanjira)",
    "category": "vocal",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-25-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-25",
+   "time": "16:00",
+   "artist": "S.M. Vilasini",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -2906,6 +4142,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-25-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-25",
+   "time": "18:30",
+   "artist": "Anahita and Apoorva",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-25-1830",
    "sabha_id": "charsur",
    "date": "2026-12-25",
@@ -2918,6 +4166,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-25-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-25",
+   "time": "18:30",
+   "artist": "Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-25-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-25",
@@ -2927,6 +4187,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-25-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-25",
+   "time": "18:30",
+   "artist": "Rajhesh Vaidhya & U Rajesh",
+   "accompanists": "",
+   "category": "",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3002,6 +4274,18 @@
    "source": "schedule"
   },
   {
+   "id": "beachville-2026-12-26-1430",
+   "sabha_id": "beachville",
+   "date": "2026-12-26",
+   "time": "14:30",
+   "artist": "Aishwarya Vidhya Raghunath & V Anirudh Athreya",
+   "accompanists": "",
+   "category": "",
+   "venue": "Beachville Coffee Roasters, Alwarpet",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-26-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-26",
@@ -3011,6 +4295,18 @@
    "category": "violin",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-26-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-26",
+   "time": "16:00",
+   "artist": "Archana and Samani",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3046,6 +4342,18 @@
    "accompanists": "K.U.Jayachandra Rao (mridangam), Trichy S.Krishnaswamy (ghatam)",
    "category": "veena",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-26-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-26",
+   "time": "16:00",
+   "artist": "Rithvik Raja",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -3086,6 +4394,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-26-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-26",
+   "time": "18:30",
+   "artist": "Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-26-1830",
    "sabha_id": "charsur",
    "date": "2026-12-26",
@@ -3095,6 +4415,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-26-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-26",
+   "time": "18:30",
+   "artist": "Dr. Pantula Rama",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -3119,6 +4451,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-26-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-26",
+   "time": "18:30",
+   "artist": "S.Mahathi",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3242,6 +4586,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-27-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-27",
+   "time": "16:00",
+   "artist": "Jayashree Vaidyanathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-27-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-27",
@@ -3262,6 +4618,18 @@
    "accompanists": "",
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "kalakshetra-2026-12-27-1800",
+   "sabha_id": "kalakshetra",
+   "date": "2026-12-27",
+   "time": "18:00",
+   "artist": "Ranjani & Gayatri",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Rukmini Arangam, Kalakshetra",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -3290,6 +4658,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-27-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-27",
+   "time": "18:30",
+   "artist": "Vivek Sadasivam",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-27-1830",
    "sabha_id": "charsur",
    "date": "2026-12-27",
@@ -3302,6 +4682,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-27-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-27",
+   "time": "18:30",
+   "artist": "Palakkad Dr. R. Ramaprasad",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-27-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-27",
@@ -3311,6 +4703,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-27-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-27",
+   "time": "18:30",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3386,6 +4790,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-28-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-28",
+   "time": "16:00",
+   "artist": "Prarthana Sai Narasimhan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-28-1600",
    "sabha_id": "charsur",
    "date": "2026-12-28",
@@ -3418,6 +4834,18 @@
    "accompanists": "Embar S.Kannan (violin), Sumesh S. Narayanan (mridangam), Krishna Sriram (ghatam)",
    "category": "vocal",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-28-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-28",
+   "time": "16:00",
+   "artist": "R. Suryaprakash",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -3458,6 +4886,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-28-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-28",
+   "time": "18:30",
+   "artist": "Amritha Murali",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-28-1830",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-28",
@@ -3479,6 +4919,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-28-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-28",
+   "time": "18:30",
+   "artist": "Malladi Brothers",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3578,6 +5030,18 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2026-12-29-1530",
+   "sabha_id": "live4you",
+   "date": "2026-12-29",
+   "time": "15:30",
+   "artist": "Mylai Karthikeyan, Vishwas Hari & Charulatha Chandrasekhar",
+   "accompanists": "",
+   "category": "",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-29-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-29",
@@ -3626,6 +5090,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2026-12-29-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-29",
+   "time": "16:00",
+   "artist": "Chinmaya Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2026-12-29-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2026-12-29",
@@ -3638,6 +5114,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-29-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Prasanna Venkataraman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-29-1830",
    "sabha_id": "charsur",
    "date": "2026-12-29",
@@ -3647,6 +5135,30 @@
    "category": "veena",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "live4you-2026-12-29-1830",
+   "sabha_id": "live4you",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-29-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "S. Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -3671,6 +5183,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-29-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Akkarai Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3782,6 +5306,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-30-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-30",
+   "time": "16:00",
+   "artist": "Weslyan B Balasubramanian and Tiruvarur Girish",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-30-1600",
    "sabha_id": "charsur",
    "date": "2026-12-30",
@@ -3806,6 +5342,18 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2026-12-30-1600",
+   "sabha_id": "live4you",
+   "date": "2026-12-30",
+   "time": "16:00",
+   "artist": "Pandit Jayateerth Mevundi",
+   "accompanists": "",
+   "category": "hindustani vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "music-academy-2026-12-30-1600",
    "sabha_id": "music-academy",
    "date": "2026-12-30",
@@ -3814,6 +5362,18 @@
    "accompanists": "Patri Satishkumar (mridangam), Alathur T.Rajaganesh (kanjira)",
    "category": "violin duet",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-30-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-30",
+   "time": "16:00",
+   "artist": "Maharajapuram Ganesh Viswanathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -3851,6 +5411,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "live4you-2026-12-30-1830",
+   "sabha_id": "live4you",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "Trichur Brothers",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-30-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "Dr. Nithyashree Mahadevan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -3962,6 +5546,18 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2026-12-31-1530",
+   "sabha_id": "live4you",
+   "date": "2026-12-31",
+   "time": "15:30",
+   "artist": "Spoorthi Rao",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "narada-gana-sabha-2026-12-31-1530",
    "sabha_id": "narada-gana-sabha",
    "date": "2026-12-31",
@@ -3971,6 +5567,18 @@
    "category": "concert (type not listed)",
    "venue": "Narada Gana Sabha, TTK Road",
    "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "anujan-sri-dayaa-2026-12-31-1600",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-31",
+   "time": "16:00",
+   "artist": "Abhirama Bode",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -3994,6 +5602,18 @@
    "accompanists": "Delhi S.Sairam (mridangam), N.Guruprasad (ghatam)",
    "category": "violin duet",
    "venue": "Music Academy main hall, TTK Road",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-31-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-31",
+   "time": "16:00",
+   "artist": "Kruthi Vittal",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -4022,6 +5642,18 @@
    "source": "schedule"
   },
   {
+   "id": "anujan-sri-dayaa-2026-12-31-1830",
+   "sabha_id": "anujan-sri-dayaa",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "Gayathri Venkataraghavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Sri Ramanujar Millenium Hall, Mylapore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-31-1830",
    "sabha_id": "charsur",
    "date": "2026-12-31",
@@ -4031,6 +5663,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "live4you-2026-12-31-1830",
+   "sabha_id": "live4you",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "Pandit Venkatesh Kumar",
+   "accompanists": "",
+   "category": "hindustani vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2026-12-31-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "Papanasam Ashok Ramani",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
    "source": "schedule"
   },
   {
@@ -4055,6 +5711,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2026-12-31-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "Abhishek Raghuram",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -4166,6 +5834,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2027-01-01-1600",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2027-01-01",
+   "time": "16:00",
+   "artist": "R. Ashwathnarayanan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2027-01-01-1600",
    "sabha_id": "parthasarathy-swami",
    "date": "2027-01-01",
@@ -4190,6 +5870,18 @@
    "source": "schedule"
   },
   {
+   "id": "mylapore-fine-arts-2027-01-01-1830",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2027-01-01",
+   "time": "18:30",
+   "artist": "Akkarai Sisters",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed; Evening concert; exact time to be confirmed (source lists 4 pm)",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2027-01-01-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2027-01-01",
@@ -4199,6 +5891,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2027-01-01-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2027-01-01",
+   "time": "18:30",
+   "artist": "Nirmala Rajasekhar",
+   "accompanists": "",
+   "category": "",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -4223,6 +5927,18 @@
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "All Are Welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "live4you-2027-01-02-1530",
+   "sabha_id": "live4you",
+   "date": "2027-01-02",
+   "time": "15:30",
+   "artist": "Anahita and Apoorva",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -4262,6 +5978,18 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2027-01-02-1830",
+   "sabha_id": "live4you",
+   "date": "2027-01-02",
+   "time": "18:30",
+   "artist": "Ranjani Gayatri",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "parthasarathy-swami-2027-01-02-1830",
    "sabha_id": "parthasarathy-swami",
    "date": "2027-01-02",
@@ -4271,6 +5999,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2027-01-02-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2027-01-02",
+   "time": "18:30",
+   "artist": "Dr. Jayanthi Kumaresh & R. Kumaresh",
+   "accompanists": "",
+   "category": "",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -4298,6 +6038,18 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2027-01-03-1530",
+   "sabha_id": "live4you",
+   "date": "2027-01-03",
+   "time": "15:30",
+   "artist": "Anirudh Subramaniam",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2027-01-03-1600",
    "sabha_id": "krishna-gana-sabha",
    "date": "2027-01-03",
@@ -4322,6 +6074,42 @@
    "source": "schedule"
   },
   {
+   "id": "live4you-2027-01-03-1830",
+   "sabha_id": "live4you",
+   "date": "2027-01-03",
+   "time": "18:30",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "carnatic vocal",
+   "venue": "Museum Theatre, Egmore",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2027-01-03-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-03",
+   "time": "18:30",
+   "artist": "Abhishek Raghuram and S S Shashank",
+   "accompanists": "",
+   "category": "",
+   "venue": "Narada Gana Sabha",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2027-01-03-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2027-01-03",
+   "time": "18:30",
+   "artist": "Sid Sriram",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2027-01-03-1900",
    "sabha_id": "bharat-kalachar",
    "date": "2027-01-03",
@@ -4330,6 +6118,18 @@
    "accompanists": "S Hariharan (mridangam), Anirudh Athreya (kanjira)",
    "category": "veenai",
    "venue": "YGP Auditorium, T. Nagar",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2027-01-05-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-05",
+   "time": "18:30",
+   "artist": "Harish Sivaramakrishnan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Narada Gana Sabha",
    "notes": "Ticketed",
    "source": "schedule"
   },
@@ -4355,6 +6155,30 @@
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "All Are Welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "chennaiyil-sangeeth-utsav-2027-01-09-1830",
+   "sabha_id": "chennaiyil-sangeeth-utsav",
+   "date": "2027-01-09",
+   "time": "18:30",
+   "artist": "Spoorthi Rao",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "RK Convention Centre, ECR",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "thyaga-brahma-gana-2027-01-09-1830",
+   "sabha_id": "thyaga-brahma-gana",
+   "date": "2027-01-09",
+   "time": "18:30",
+   "artist": "Sudha Ragunathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vani Mahal",
+   "notes": "Ticketed",
    "source": "schedule"
   },
   {
@@ -4394,6 +6218,78 @@
    "source": "schedule"
   },
   {
+   "id": "chennaiyil-sangeeth-utsav-2027-01-10-1830",
+   "sabha_id": "chennaiyil-sangeeth-utsav",
+   "date": "2027-01-10",
+   "time": "18:30",
+   "artist": "Sikkil Gurucharan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "RK Convention Centre, ECR",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "chennaiyil-sangeeth-utsav-2027-01-12-1830",
+   "sabha_id": "chennaiyil-sangeeth-utsav",
+   "date": "2027-01-12",
+   "time": "18:30",
+   "artist": "Rajhesh Vaidhya",
+   "accompanists": "",
+   "category": "",
+   "venue": "RK Convention Centre, ECR",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "chennaiyil-sangeeth-utsav-2027-01-13-1830",
+   "sabha_id": "chennaiyil-sangeeth-utsav",
+   "date": "2027-01-13",
+   "time": "18:30",
+   "artist": "Sudha Ragunathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "RK Convention Centre, ECR",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2027-01-14-1745",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2027-01-14",
+   "time": "17:45",
+   "artist": "Kum. Anaga Ganesh",
+   "accompanists": "",
+   "category": "",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "chennaiyil-sangeeth-utsav-2027-01-14-1830",
+   "sabha_id": "chennaiyil-sangeeth-utsav",
+   "date": "2027-01-14",
+   "time": "18:30",
+   "artist": "Subhasree Thanikachalam",
+   "accompanists": "",
+   "category": "",
+   "venue": "RK Convention Centre, ECR",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2027-01-15-1745",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2027-01-15",
+   "time": "17:45",
+   "artist": "Kum. Meera Rajaraman",
+   "accompanists": "",
+   "category": "",
+   "venue": "Mylapore Fine Arts Club (Regd)",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2027-01-16-1030",
    "sabha_id": "bharat-kalachar",
    "date": "2027-01-16",
@@ -4426,6 +6322,18 @@
    "accompanists": "",
    "category": "eternal fusion",
    "venue": "YGP Auditorium, T. Nagar",
+   "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "mylapore-fine-arts-2027-01-16-1745",
+   "sabha_id": "mylapore-fine-arts",
+   "date": "2027-01-16",
+   "time": "17:45",
+   "artist": "Kum. Vidyalakshmi Vidyanath",
+   "accompanists": "",
+   "category": "",
+   "venue": "Mylapore Fine Arts Club (Regd)",
    "notes": "Ticketed",
    "source": "schedule"
   },

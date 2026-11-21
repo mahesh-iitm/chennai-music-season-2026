@@ -1,26 +1,151 @@
 {
-  "season": "2026-27",
-  "note": "Top Chennai sabhas seeded for the December Season. Edit names/venues freely; 'id' is used in concert ids and must stay stable once concerts exist.",
-  "sabhas": [
-    {"id": "music-academy",          "name": "The Music Academy",                     "area": "TTK Road, Alwarpet"},
-    {"id": "narada-gana-sabha",      "name": "Narada Gana Sabha",                     "area": "TTK Road, Alwarpet"},
-    {"id": "krishna-gana-sabha",     "name": "Sri Krishna Gana Sabha",                "area": "T. Nagar"},
-    {"id": "parthasarathy-swami",    "name": "Sri Parthasarathy Swami Sabha",         "area": "Mylapore"},
-    {"id": "mylapore-fine-arts",     "name": "Mylapore Fine Arts Club",               "area": "Mylapore"},
-    {"id": "brahma-gana-sabha",      "name": "Brahma Gana Sabha",                     "area": "Mylapore"},
-    {"id": "kartik-fine-arts",       "name": "Kartik Fine Arts",                      "area": "Alwarpet"},
-    {"id": "indian-fine-arts",       "name": "The Indian Fine Arts Society",          "area": "T. Nagar"},
-    {"id": "tamil-isai-sangam",      "name": "Tamil Isai Sangam",                     "area": "Raja Annamalai Mandram, George Town"},
-    {"id": "bharatiya-vidya-bhavan", "name": "Bharatiya Vidya Bhavan",                "area": "Mylapore"},
-    {"id": "hamsadhwani",            "name": "Hamsadhwani",                           "area": "Adyar"},
-    {"id": "naada-inbam",            "name": "Naada Inbam",                           "area": "Ragasudha Hall, Mylapore"},
-    {"id": "thyaga-brahma-gana",     "name": "Sri Thyaga Brahma Gana Sabha (Vani Mahal)", "area": "T. Nagar"},
-    {"id": "rasika-ranjani-sabha",   "name": "Rasika Ranjani Sabha",                  "area": "Mylapore"},
-    {"id": "chennai-fine-arts",      "name": "Chennai Fine Arts",                     "area": "Srinivasa Sastri Hall, Luz"},
-    {"id": "kalarasana",             "name": "Kalarasana",                            "area": ""},
-    {"id": "mudhra",                 "name": "Mudhra",                                "area": ""},
-    {"id": "bharat-kalachar",        "name": "Bharat Kalachar",                       "area": "YGP Auditorium, T. Nagar"},
-    {"id": "charsur",                "name": "Charsur Arts Foundation",               "area": ""},
-    {"id": "nungambakkam-cultural",  "name": "Nungambakkam Cultural Academy",         "area": "Nungambakkam"}
-  ]
+ "season": "2026-27",
+ "note": "Top Chennai sabhas seeded for the December Season. Edit names/venues freely; 'id' is used in concert ids and must stay stable once concerts exist.",
+ "sabhas": [
+  {
+   "id": "music-academy",
+   "name": "The Music Academy",
+   "area": "TTK Road, Alwarpet"
+  },
+  {
+   "id": "narada-gana-sabha",
+   "name": "Narada Gana Sabha",
+   "area": "TTK Road, Alwarpet"
+  },
+  {
+   "id": "krishna-gana-sabha",
+   "name": "Sri Krishna Gana Sabha",
+   "area": "T. Nagar"
+  },
+  {
+   "id": "parthasarathy-swami",
+   "name": "Sri Parthasarathy Swami Sabha",
+   "area": "Mylapore"
+  },
+  {
+   "id": "mylapore-fine-arts",
+   "name": "Mylapore Fine Arts Club",
+   "area": "Mylapore"
+  },
+  {
+   "id": "brahma-gana-sabha",
+   "name": "Brahma Gana Sabha",
+   "area": "Mylapore"
+  },
+  {
+   "id": "kartik-fine-arts",
+   "name": "Kartik Fine Arts",
+   "area": "Alwarpet"
+  },
+  {
+   "id": "indian-fine-arts",
+   "name": "The Indian Fine Arts Society",
+   "area": "T. Nagar"
+  },
+  {
+   "id": "tamil-isai-sangam",
+   "name": "Tamil Isai Sangam",
+   "area": "Raja Annamalai Mandram, George Town"
+  },
+  {
+   "id": "bharatiya-vidya-bhavan",
+   "name": "Bharatiya Vidya Bhavan",
+   "area": "Mylapore"
+  },
+  {
+   "id": "hamsadhwani",
+   "name": "Hamsadhwani",
+   "area": "Adyar"
+  },
+  {
+   "id": "naada-inbam",
+   "name": "Naada Inbam",
+   "area": "Ragasudha Hall, Mylapore"
+  },
+  {
+   "id": "thyaga-brahma-gana",
+   "name": "Sri Thyaga Brahma Gana Sabha (Vani Mahal)",
+   "area": "T. Nagar"
+  },
+  {
+   "id": "rasika-ranjani-sabha",
+   "name": "Rasika Ranjani Sabha",
+   "area": "Mylapore"
+  },
+  {
+   "id": "chennai-fine-arts",
+   "name": "Chennai Fine Arts",
+   "area": "Srinivasa Sastri Hall, Luz"
+  },
+  {
+   "id": "kalarasana",
+   "name": "Kalarasana",
+   "area": ""
+  },
+  {
+   "id": "mudhra",
+   "name": "Mudhra",
+   "area": ""
+  },
+  {
+   "id": "bharat-kalachar",
+   "name": "Bharat Kalachar",
+   "area": "YGP Auditorium, T. Nagar"
+  },
+  {
+   "id": "charsur",
+   "name": "Charsur Arts Foundation",
+   "area": ""
+  },
+  {
+   "id": "nungambakkam-cultural",
+   "name": "Nungambakkam Cultural Academy",
+   "area": "Nungambakkam"
+  },
+  {
+   "id": "carnatica",
+   "name": "Carnatica",
+   "area": "Sri Sankara Vidyashramam, Thiruvanmiyur"
+  },
+  {
+   "id": "anujan-sri-dayaa",
+   "name": "Anujan Broadcasts & Sri Dayaa Trust",
+   "area": "Sri Ramanujar Millennium Hall, Mylapore"
+  },
+  {
+   "id": "live4you",
+   "name": "Live4You (Jyothirgamaya)",
+   "area": "Museum Theatre, Egmore"
+  },
+  {
+   "id": "kalakshetra",
+   "name": "Kalakshetra",
+   "area": "Rukmini Arangam, Thiruvanmiyur"
+  },
+  {
+   "id": "beachville",
+   "name": "Beachville Coffee Roasters",
+   "area": "Alwarpet"
+  },
+  {
+   "id": "chennaiyil-sangeeth-utsav",
+   "name": "Chennaiyil Sangeeth Utsav",
+   "area": "RK Convention Centre, ECR"
+  },
+  {
+   "id": "gems-of-margazhi",
+   "name": "Gems of Margazhi (Meenu Subbiah)",
+   "area": "M S Subbulakshmi Auditorium, Tharamani"
+  },
+  {
+   "id": "minnaminni",
+   "name": "Minnaminni (Melange Fest)",
+   "area": "Medai The Stage, Alwarpet"
+  },
+  {
+   "id": "tamil-cultural-academy",
+   "name": "Tamil Cultural Academy",
+   "area": "Image Auditorium, R. A. Puram"
+  }
+ ]
 }
