@@ -16,6 +16,7 @@ Notes on the NatyaNetwork data:
 - Vani Mahal concerts are listed there under the MDnD organiser account "Swaminathan" (venue Vani Mahal, 10 Dec - 16 Jan); loaded as Sri Thyaga Brahma Gana Sabha.
 - Mylapore Fine Arts Club: the source gives both daily concerts as 4 pm. The second (senior) artist is put at 18:30 and marked "exact time to be confirmed".
 - Left out: dramas (Kathadi Ramamurthy, Y. Gee. Mahendra), a storytelling session, dance productions, students' performances, Natya Kala Conference sessions.
+| Brahma Gana Sabha (4), Indian Fine Arts Society (1), Tamil Isai Sangam (1), Hamsadhwani (1), Chennai Fine Arts (1) | (respective).csv | Partial: individual concerts from artists' calendars and listings, compiled 21 Nov 2026 (sources noted per row). Full programmes not yet published. | 21 Nov 2026 |
 
 Music concerts only: dance, drama, award functions, talks and lec-dems are left out.
 Schedules change; re-check each source before the season and edit the CSV.

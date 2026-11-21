@@ -914,6 +914,18 @@
    "source": "schedule"
   },
   {
+   "id": "hamsadhwani-2026-12-09-1845",
+   "sabha_id": "hamsadhwani",
+   "date": "2026-12-09",
+   "time": "18:45",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Indira Nagar Youth Hostel, Adyar",
+   "notes": "Margazhi Maha Utsavam; free admission; source: sandeepnarayan.in",
+   "source": "schedule"
+  },
+  {
    "id": "kartik-fine-arts-2026-12-09-1845",
    "sabha_id": "kartik-fine-arts",
    "date": "2026-12-09",
@@ -1247,6 +1259,18 @@
    "category": "",
    "venue": "SRI SANKARA VIDHYASHRAMAM MAT. HR.SEC.SCHOOL AUDITORIUM Thiruvanmiyur",
    "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "brahma-gana-sabha-2026-12-13-1800",
+   "sabha_id": "brahma-gana-sabha",
+   "date": "2026-12-13",
+   "time": "18:00",
+   "artist": "Sanjay Subrahmanyan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Rasika Ranjani Sabha (Sundareswarar Hall), Mylapore",
+   "notes": "Source: artist calendar (sanjaysub.com)",
    "source": "schedule"
   },
   {
@@ -2315,6 +2339,18 @@
    "category": "vocal",
    "venue": "Music Academy main hall, TTK Road",
    "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "indian-fine-arts-2026-12-18-1900",
+   "sabha_id": "indian-fine-arts",
+   "date": "2026-12-18",
+   "time": "19:00",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Ethiraja Kalyana Nilayam, Alwarpet",
+   "notes": "Source: artist calendar (sandeepnarayan.in)",
    "source": "schedule"
   },
   {
@@ -5138,6 +5174,18 @@
    "source": "schedule"
   },
   {
+   "id": "chennai-fine-arts-2026-12-29-1830",
+   "sabha_id": "chennai-fine-arts",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Palghat Ramprasad",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Mylapore (auditorium to be confirmed)",
+   "notes": "Annual Music Festival 21-30 Dec; free admission; source: ragarasa.in",
+   "source": "schedule"
+  },
+  {
    "id": "live4you-2026-12-29-1830",
    "sabha_id": "live4you",
    "date": "2026-12-29",
@@ -5402,6 +5450,18 @@
    "source": "schedule"
   },
   {
+   "id": "brahma-gana-sabha-2026-12-30-1830",
+   "sabha_id": "brahma-gana-sabha",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "Ranjani & Gayatri",
+   "accompanists": "",
+   "category": "vocal duet",
+   "venue": "Rasika Ranjani Sabha (Sundareswarar Hall), Mylapore",
+   "notes": "Time to be confirmed; source: nothokpit.com",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-30-1830",
    "sabha_id": "charsur",
    "date": "2026-12-30",
@@ -5459,6 +5519,18 @@
    "category": "vocal",
    "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
    "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "tamil-isai-sangam-2026-12-30-1830",
+   "sabha_id": "tamil-isai-sangam",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "Sanjay Subrahmanyan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Raja Annamalai Mandram",
+   "notes": "Source: artist calendar (sanjaysub.com); details awaited",
    "source": "schedule"
   },
   {
@@ -5642,6 +5714,18 @@
    "source": "schedule"
   },
   {
+   "id": "brahma-gana-sabha-2026-12-31-1815",
+   "sabha_id": "brahma-gana-sabha",
+   "date": "2026-12-31",
+   "time": "18:15",
+   "artist": "Sandeep Narayan",
+   "accompanists": "B. Ananthakrishnan (violin), Thiruvarur Bhakthavatsalam (mridangam), Anirudh Athreya (kanjira)",
+   "category": "vocal",
+   "venue": "Rasika Ranjani Sabha (Sundareswarar Hall), Mylapore",
+   "notes": "Source: artist calendar (sandeepnarayan.in)",
+   "source": "schedule"
+  },
+  {
    "id": "anujan-sri-dayaa-2026-12-31-1830",
    "sabha_id": "anujan-sri-dayaa",
    "date": "2026-12-31",
@@ -5747,6 +5831,18 @@
    "category": "violin duet",
    "venue": "Music Academy main hall, TTK Road",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "brahma-gana-sabha-2027-01-01-0930",
+   "sabha_id": "brahma-gana-sabha",
+   "date": "2027-01-01",
+   "time": "09:30",
+   "artist": "Sanjay Subrahmanyan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Rasika Ranjani Sabha (Sundareswarar Hall), Mylapore",
+   "notes": "Time per artist calendar; another listing says 6:30 pm, recheck",
    "source": "schedule"
   },
   {
