@@ -157,7 +157,7 @@ function viewSeason() {
       <div class="actions"><a class="btn primary" href="#/submit">Share a concert's song list</a><a class="btn" href="#/concerts">Browse concerts</a></div></div>
     <div class="card"><h3>How it works</h3><ol class="sub" style="padding-left:18px;margin:0">
       <li>Pick the sabha, date and concert.</li><li>Take or upload a photo of your notes, or paste them as text.</li>
-      <li>Check what we read against the Karnatik song list and confirm.</li><li>Lists from different rasikas are combined by majority vote every night.</li></ol></div>
+      <li>Check what we read against the Karnatik song list and confirm.</li></ol></div>
   </section>`;
   if (!t || !t.submissions) {
     app.innerHTML = hero + `<div class="card empty"><h2>The season's first lists are yet to come in</h2><p>${D.concerts.length ? `${D.concerts.length} concerts are loaded from sabha schedules so far.` : "Sabha schedules are being loaded as they are published."} Once rasikas start sharing, this page fills with the season's ragas, krithis and rarities, updated every night.</p></div>`;
