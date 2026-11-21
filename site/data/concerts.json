@@ -842,6 +842,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-13-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-13",
+   "time": "15:30",
+   "artist": "A. Kanyakumari",
+   "accompanists": "",
+   "category": "violin",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Inauguration first; Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2026-12-13-1600",
    "sabha_id": "krishna-gana-sabha",
    "date": "2026-12-13",
@@ -890,6 +902,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-14-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-14",
+   "time": "15:30",
+   "artist": "Amrutha Venkatesh",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2026-12-14-1600",
    "sabha_id": "krishna-gana-sabha",
    "date": "2026-12-14",
@@ -926,6 +950,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-14-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-14",
+   "time": "18:30",
+   "artist": "Lalgudi Duo",
+   "accompanists": "",
+   "category": "violin duet",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2026-12-15-1100",
    "sabha_id": "krishna-gana-sabha",
    "date": "2026-12-15",
@@ -947,6 +983,18 @@
    "category": "vocal",
    "venue": "Dr. Nalli Gana Vihar, T. Nagar",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-15-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-15",
+   "time": "15:30",
+   "artist": "Ravi Kiran G",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
    "source": "schedule"
   },
   {
@@ -1007,6 +1055,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-15-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-15",
+   "time": "18:30",
+   "artist": "Saketharaman",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
    "source": "schedule"
   },
   {
@@ -1082,6 +1142,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-16-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-16",
+   "time": "15:30",
+   "artist": "Gayatri K",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-16-1600",
    "sabha_id": "charsur",
    "date": "2026-12-16",
@@ -1139,6 +1211,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-16-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-16",
+   "time": "18:30",
+   "artist": "Unnikrishnan & Uthra",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
    "source": "schedule"
   },
   {
@@ -1214,6 +1298,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-17-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-17",
+   "time": "15:30",
+   "artist": "Nirmala Rajashekar",
+   "accompanists": "",
+   "category": "veena",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-17-1600",
    "sabha_id": "charsur",
    "date": "2026-12-17",
@@ -1250,6 +1346,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-17-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-17",
+   "time": "16:00",
+   "artist": "Dr. Renganatha Sharma",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-17-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-17",
@@ -1283,6 +1391,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-17-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-17",
+   "time": "18:30",
+   "artist": "Nisha Rajagopal",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-17-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-17",
+   "time": "18:30",
+   "artist": "Gayathri Venkataraghavan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -1358,6 +1490,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-18-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-18",
+   "time": "15:30",
+   "artist": "Mahathi",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-18-1600",
    "sabha_id": "charsur",
    "date": "2026-12-18",
@@ -1394,6 +1538,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-18-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-18",
+   "time": "16:00",
+   "artist": "Prince Rama Varma",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-18-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-18",
@@ -1427,6 +1583,30 @@
    "category": "violin solo",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-18-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-18",
+   "time": "18:30",
+   "artist": "Sowmya",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-18-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-18",
+   "time": "18:30",
+   "artist": "N. Vijay Siva",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -1502,6 +1682,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-19-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-19",
+   "time": "15:30",
+   "artist": "Amrita Murali",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-19-1600",
    "sabha_id": "charsur",
    "date": "2026-12-19",
@@ -1538,6 +1730,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-19-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-19",
+   "time": "16:00",
+   "artist": "Dr. Sriram Parasuram",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-19-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-19",
@@ -1571,6 +1775,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-19-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-19",
+   "time": "18:30",
+   "artist": "Sudha Ragunathan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -1646,6 +1862,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-20-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-20",
+   "time": "15:30",
+   "artist": "Ghatam Ensemble",
+   "accompanists": "",
+   "category": "ghatam",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-20-1600",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-20",
@@ -1694,6 +1922,30 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-20-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-20",
+   "time": "16:00",
+   "artist": "Carnatica Brothers (K.N.Shashikiran & P. Ganesh)",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-20-1800",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-20",
+   "time": "18:00",
+   "artist": "Abhishek Raghuram",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-20-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-20",
@@ -1715,6 +1967,18 @@
    "category": "flute",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-20-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-20",
+   "time": "18:30",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -1802,6 +2066,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-21-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-21",
+   "time": "15:30",
+   "artist": "Vignesh Ishwar",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-21-1600",
    "sabha_id": "charsur",
    "date": "2026-12-21",
@@ -1838,6 +2114,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-21-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-21",
+   "time": "16:00",
+   "artist": "Ashok Ramani",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-21-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-21",
@@ -1871,6 +2159,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-21-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-21",
+   "time": "18:30",
+   "artist": "Kunnakudi Balamurali Krishna",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-21-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-21",
+   "time": "18:30",
+   "artist": "Trichur Brothers (Srikrishna Mohan & Ramkumar Mohan)",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -1946,6 +2258,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-22-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-22",
+   "time": "15:30",
+   "artist": "Dushyanth Sridhar",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-22-1600",
    "sabha_id": "charsur",
    "date": "2026-12-22",
@@ -1982,6 +2306,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-22-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-22",
+   "time": "16:00",
+   "artist": "Amritha Murali",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-22-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-22",
@@ -2003,6 +2339,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-22-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-22",
+   "time": "18:30",
+   "artist": "Palghat Ramprasad",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-22-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-22",
+   "time": "18:30",
+   "artist": "Ramana Balachandhran",
+   "accompanists": "",
+   "category": "veena",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2078,6 +2438,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-23-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-23",
+   "time": "15:30",
+   "artist": "Gayatri Venkatraghavan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-23-1600",
    "sabha_id": "charsur",
    "date": "2026-12-23",
@@ -2114,6 +2486,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-23-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-23",
+   "time": "16:00",
+   "artist": "Nisha Rajagopalan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-23-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-23",
@@ -2135,6 +2519,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-23-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-23",
+   "time": "18:30",
+   "artist": "Sikkil Gurucharan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-23-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-23",
+   "time": "18:30",
+   "artist": "P. Unnikrishnan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2210,6 +2618,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-24-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-24",
+   "time": "15:30",
+   "artist": "Ganesh Kumaresh",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-24-1600",
    "sabha_id": "charsur",
    "date": "2026-12-24",
@@ -2246,6 +2666,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-24-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-24",
+   "time": "16:00",
+   "artist": "Ashwath Narayanan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "mudhra-2026-12-24-1815",
    "sabha_id": "mudhra",
    "date": "2026-12-24",
@@ -2267,6 +2699,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-24-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-24",
+   "time": "18:30",
+   "artist": "Ramakrishnan Murthy",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-24-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-24",
+   "time": "18:30",
+   "artist": "Palghat Ramaprasad",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2402,6 +2858,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-25-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-25",
+   "time": "16:00",
+   "artist": "S. Mahathi",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-25-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-25",
@@ -2411,6 +2879,18 @@
    "category": "devotionals",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-25-1800",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-25",
+   "time": "18:00",
+   "artist": "Ranjani & Gayatri",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
    "source": "schedule"
   },
   {
@@ -2435,6 +2915,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-25-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-25",
+   "time": "18:30",
+   "artist": "Sikkil C. Gurucharan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2510,6 +3002,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-26-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-26",
+   "time": "15:30",
+   "artist": "Akkarai Sisters",
+   "accompanists": "",
+   "category": "violin",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-26-1600",
    "sabha_id": "charsur",
    "date": "2026-12-26",
@@ -2546,6 +3050,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-26-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-26",
+   "time": "16:00",
+   "artist": "Vignesh Ishwar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-26-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-26",
@@ -2579,6 +3095,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-26-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-26",
+   "time": "18:30",
+   "artist": "Trichur Brothers",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-26-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-26",
+   "time": "18:30",
+   "artist": "Malladi Brothers (Shriramkumar & Ravikumar)",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2654,6 +3194,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-27-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-27",
+   "time": "15:30",
+   "artist": "Kanjira Quartet",
+   "accompanists": "",
+   "category": "kanjira",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-27-1600",
    "sabha_id": "charsur",
    "date": "2026-12-27",
@@ -2690,6 +3242,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-27-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-27",
+   "time": "16:00",
+   "artist": "DR. N.J. Nandini",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-27-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-27",
@@ -2699,6 +3263,18 @@
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "Ticketed",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-27-1800",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-27",
+   "time": "18:00",
+   "artist": "Sandeep Narayanan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
    "source": "schedule"
   },
   {
@@ -2723,6 +3299,18 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "Image lists 27 Dec 4:00PM for both this and Vignesh Ishwar; assumed 6:30PM",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-27-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-27",
+   "time": "18:30",
+   "artist": "Sid Sriram",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2786,6 +3374,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-28-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-28",
+   "time": "15:30",
+   "artist": "Bharat Sundar",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-28-1600",
    "sabha_id": "charsur",
    "date": "2026-12-28",
@@ -2822,6 +3422,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-28-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-28",
+   "time": "16:00",
+   "artist": "Sriranjani Tapasya Santhanagopalan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-28-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-28",
@@ -2843,6 +3455,30 @@
    "category": "veena",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-28-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-28",
+   "time": "18:30",
+   "artist": "Ashwath Narayanan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-28-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-28",
+   "time": "18:30",
+   "artist": "S. Saketharaman",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -2942,6 +3578,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-29-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-29",
+   "time": "15:30",
+   "artist": "Malladi Trio",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-29-1600",
    "sabha_id": "charsur",
    "date": "2026-12-29",
@@ -2978,6 +3626,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-29-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-29",
+   "time": "16:00",
+   "artist": "Amrutha Venkatesh",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-29-1830",
    "sabha_id": "charsur",
    "date": "2026-12-29",
@@ -2987,6 +3647,30 @@
    "category": "veena",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-29-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Ramana Balachandhran",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-29-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-29",
+   "time": "18:30",
+   "artist": "Sandeep Narayan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -3086,6 +3770,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-30-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-30",
+   "time": "15:30",
+   "artist": "Rithvik Raja",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "charsur-2026-12-30-1600",
    "sabha_id": "charsur",
    "date": "2026-12-30",
@@ -3122,6 +3818,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-30-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-30",
+   "time": "16:00",
+   "artist": "Dr. K. Gayatri",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-30-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-30",
@@ -3143,6 +3851,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-30-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "Sudha Raghunathan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-30-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-30",
+   "time": "18:30",
+   "artist": "K. Bharat Sundar",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -3230,6 +3962,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2026-12-31-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-31",
+   "time": "15:30",
+   "artist": "Sivasri Skandaprasad",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "krishna-gana-sabha-2026-12-31-1600",
    "sabha_id": "krishna-gana-sabha",
    "date": "2026-12-31",
@@ -3254,6 +3998,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2026-12-31-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-31",
+   "time": "16:00",
+   "artist": "Neyveli R. Santhanagopalan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2026-12-31-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2026-12-31",
@@ -3275,6 +4031,30 @@
    "category": "vocal",
    "venue": "My Bungalow, 40 Eldams Road, Teynampet",
    "notes": "",
+   "source": "schedule"
+  },
+  {
+   "id": "narada-gana-sabha-2026-12-31-1830",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "Sriranjani Santhanagopalan",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2026-12-31-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "O.S.Arun",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -3338,6 +4118,18 @@
    "source": "schedule"
   },
   {
+   "id": "narada-gana-sabha-2027-01-01-1530",
+   "sabha_id": "narada-gana-sabha",
+   "date": "2027-01-01",
+   "time": "15:30",
+   "artist": "Vishaka Hari",
+   "accompanists": "",
+   "category": "concert (type not listed)",
+   "venue": "Narada Gana Sabha, TTK Road",
+   "notes": "Ticketed: Season pass (All Season / Core Season)",
+   "source": "schedule"
+  },
+  {
    "id": "music-academy-2027-01-01-1545",
    "sabha_id": "music-academy",
    "date": "2027-01-01",
@@ -3374,6 +4166,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2027-01-01-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-01",
+   "time": "16:00",
+   "artist": "Dr. Gayathri Girish",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2027-01-01-1730",
    "sabha_id": "bharat-kalachar",
    "date": "2027-01-01",
@@ -3383,6 +4187,18 @@
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "All Are Welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2027-01-01-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-01",
+   "time": "18:30",
+   "artist": "Dr. Nithyasree Mahadevan",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {
@@ -3422,6 +4238,18 @@
    "source": "schedule"
   },
   {
+   "id": "parthasarathy-swami-2027-01-02-1600",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-02",
+   "time": "16:00",
+   "artist": "U Rajesh (Mandolin) and Anil Srinivasan",
+   "accompanists": "",
+   "category": "piano",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
+   "source": "schedule"
+  },
+  {
    "id": "bharat-kalachar-2027-01-02-1630",
    "sabha_id": "bharat-kalachar",
    "date": "2027-01-02",
@@ -3431,6 +4259,18 @@
    "category": "vocal",
    "venue": "YGP Auditorium, T. Nagar",
    "notes": "All Are Welcome",
+   "source": "schedule"
+  },
+  {
+   "id": "parthasarathy-swami-2027-01-02-1830",
+   "sabha_id": "parthasarathy-swami",
+   "date": "2027-01-02",
+   "time": "18:30",
+   "artist": "Kunnakudi M Balamuralikrishna",
+   "accompanists": "",
+   "category": "vocal",
+   "venue": "Vidya Bharathi Kalyana Mandapam, Mylapore",
+   "notes": "Ticketed: ₹200–1000",
    "source": "schedule"
   },
   {

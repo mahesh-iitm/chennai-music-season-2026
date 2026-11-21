@@ -8,6 +8,8 @@
 | Bharat Kalachar | bharat-kalachar.csv | https://www.bharatkalachar.com/38-bharat-kalachar.html | 21 Nov 2026 |
 | Charsur Arts Foundation | charsur.csv | https://www.indian-heritage.org/musicseason/2627/charsur1.html (transcribed from image) | 21 Nov 2026 |
 | Mudhra | mudhra.csv | https://www.indian-heritage.org/musicseason/2627/mudhra.html (transcribed from image; 2-27 Dec are streamed online) | 21 Nov 2026 |
+| Narada Gana Sabha | narada-gana-sabha.csv | https://natyanetwork.com/margazhi/sabhas?s=narada-gana-sabha (from the sabha's MDnD listing) | 21 Nov 2026 |
+| Sri Parthasarathy Swami Sabha | parthasarathy-swami.csv | https://natyanetwork.com/margazhi/sabhas?s=parthasarathy-swami-sabha (from the sabha's MDnD listing) | 21 Nov 2026 |
 
 Music concerts only: dance, drama, award functions, talks and lec-dems are left out.
 Schedules change; re-check each source before the season and edit the CSV.
