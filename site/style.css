@@ -110,3 +110,6 @@ th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;l
 .cam video{display:block;width:100%;max-height:420px;object-fit:contain}
 textarea{font:inherit;line-height:1.5}
 @media (max-width:720px){.choices{grid-template-columns:1fr}.choice{flex-direction:row;align-items:center;gap:12px}.choice small{display:block}}
+.invocation{text-align:center;padding:8px 12px 6px;background:var(--maroon);color:#f7e6c2;line-height:1.3}
+.invocation .dev{display:block;font-family:"Noto Serif Devanagari",serif;font-size:1.05rem;letter-spacing:.04em}
+.invocation .lat{display:block;font-size:.72rem;letter-spacing:.12em;opacity:.8}
