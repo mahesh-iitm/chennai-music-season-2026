@@ -149,7 +149,9 @@ function bars(rows, field = "renditions", n = 15) {
 }
 function viewSeason() {
   const st = D.stats, t = st?.totals;
-  const hero = `<section class="hero">
+  const hero = `<figure class="banner"><img src="img/trinity.jpg" srcset="img/trinity-800.jpg 800w, img/trinity.jpg 1200w" sizes="(max-width: 1100px) 100vw, 1040px" width="1200" height="675"
+      alt="Painting of the Carnatic Trinity: Muthuswami Dikshitar with veena, Tyagaraja and Syama Sastri with tamburas"><figcaption>Painting: S. Rajam</figcaption></figure>
+  <section class="hero">
     <div><h1>What is Chennai singing this Margazhi?</h1>
       <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. Lists from several rasikas are cross-checked, and the whole Season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
       <div class="actions"><a class="btn primary" href="#/submit">Share a concert's song list</a><a class="btn" href="#/concerts">Browse concerts</a></div></div>

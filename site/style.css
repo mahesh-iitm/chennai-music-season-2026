@@ -113,3 +113,7 @@ textarea{font:inherit;line-height:1.5}
 .invocation{text-align:center;padding:8px 12px 6px;background:var(--maroon);color:#f7e6c2;line-height:1.3}
 .invocation .dev{display:block;font-family:"Noto Serif Devanagari",serif;font-size:1.05rem;letter-spacing:.04em}
 .invocation .lat{display:block;font-size:.72rem;letter-spacing:.12em;opacity:.8}
+.banner{position:relative;margin:0 0 20px;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:#2a1a16}
+.banner img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.banner figcaption{position:absolute;right:10px;bottom:8px;font-size:.72rem;color:#fff;background:rgba(0,0,0,.45);padding:2px 8px;border-radius:999px}
+@media (min-width:721px){.banner img{aspect-ratio:21/9;object-position:center 35%}}
