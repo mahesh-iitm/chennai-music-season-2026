@@ -1,0 +1,342 @@
+{
+ "generated_at": "2026-11-21T10:57:14+00:00",
+ "totals": {
+  "concerts_scheduled": 0,
+  "concerts_with_lists": 0,
+  "concerts_with_consensus": 0,
+  "submissions": 0,
+  "renditions": 0,
+  "distinct_songs": 0,
+  "distinct_ragas": 0
+ },
+ "top_ragas": [],
+ "top_songs": [],
+ "top_composers": [],
+ "talas": [],
+ "main_piece_ragas": [],
+ "sung_once": [],
+ "ragas_not_heard": [
+  {
+   "name": "Shankarabharanam",
+   "songs_in_karnatik": 299
+  },
+  {
+   "name": "Kambhoji",
+   "songs_in_karnatik": 228
+  },
+  {
+   "name": "Kalyani",
+   "songs_in_karnatik": 225
+  },
+  {
+   "name": "Todi",
+   "songs_in_karnatik": 206
+  },
+  {
+   "name": "Mohanam",
+   "songs_in_karnatik": 173
+  },
+  {
+   "name": "Bhairavi",
+   "songs_in_karnatik": 160
+  },
+  {
+   "name": "Anandabhairavi",
+   "songs_in_karnatik": 157
+  },
+  {
+   "name": "Madhyamavati",
+   "songs_in_karnatik": 138
+  },
+  {
+   "name": "Bilahari",
+   "songs_in_karnatik": 135
+  },
+  {
+   "name": "Kamavardhani",
+   "songs_in_karnatik": 131
+  },
+  {
+   "name": "Saveri",
+   "songs_in_karnatik": 123
+  },
+  {
+   "name": "Khamas",
+   "songs_in_karnatik": 121
+  },
+  {
+   "name": "Kedaragaula",
+   "songs_in_karnatik": 120
+  },
+  {
+   "name": "Mukhari",
+   "songs_in_karnatik": 119
+  },
+  {
+   "name": "Dhanyasi",
+   "songs_in_karnatik": 117
+  },
+  {
+   "name": "Kharaharapriya",
+   "songs_in_karnatik": 115
+  },
+  {
+   "name": "Arabhi",
+   "songs_in_karnatik": 111
+  },
+  {
+   "name": "Saurashtram",
+   "songs_in_karnatik": 107
+  },
+  {
+   "name": "Nadanamakriya",
+   "songs_in_karnatik": 105
+  },
+  {
+   "name": "Kapi",
+   "songs_in_karnatik": 101
+  },
+  {
+   "name": "Behag",
+   "songs_in_karnatik": 95
+  },
+  {
+   "name": "Athana",
+   "songs_in_karnatik": 94
+  },
+  {
+   "name": "Begada",
+   "songs_in_karnatik": 91
+  },
+  {
+   "name": "Surati",
+   "songs_in_karnatik": 90
+  },
+  {
+   "name": "Yadukulakambhoji",
+   "songs_in_karnatik": 82
+  },
+  {
+   "name": "Shahana",
+   "songs_in_karnatik": 72
+  },
+  {
+   "name": "Chenjurutti",
+   "songs_in_karnatik": 69
+  },
+  {
+   "name": "Purvikalyani",
+   "songs_in_karnatik": 66
+  },
+  {
+   "name": "Sindhubhairavi",
+   "songs_in_karnatik": 64
+  },
+  {
+   "name": "Hamsadhvani",
+   "songs_in_karnatik": 62
+  },
+  {
+   "name": "Shri",
+   "songs_in_karnatik": 62
+  },
+  {
+   "name": "Punnagavarali",
+   "songs_in_karnatik": 62
+  },
+  {
+   "name": "Nilambari",
+   "songs_in_karnatik": 58
+  },
+  {
+   "name": "Kanada",
+   "songs_in_karnatik": 58
+  },
+  {
+   "name": "Hindolam",
+   "songs_in_karnatik": 58
+  },
+  {
+   "name": "Abhogi",
+   "songs_in_karnatik": 57
+  },
+  {
+   "name": "Shanmukhapriya",
+   "songs_in_karnatik": 55
+  },
+  {
+   "name": "Shriranjani",
+   "songs_in_karnatik": 54
+  },
+  {
+   "name": "Simhendramadhyamam",
+   "songs_in_karnatik": 53
+  },
+  {
+   "name": "Ritigaula",
+   "songs_in_karnatik": 53
+  },
+  {
+   "name": "Vasanta",
+   "songs_in_karnatik": 52
+  },
+  {
+   "name": "Nata",
+   "songs_in_karnatik": 51
+  },
+  {
+   "name": "Mayamalavagaula",
+   "songs_in_karnatik": 51
+  },
+  {
+   "name": "Huseni",
+   "songs_in_karnatik": 50
+  },
+  {
+   "name": "Kedara",
+   "songs_in_karnatik": 50
+  },
+  {
+   "name": "Shuddhasaveri",
+   "songs_in_karnatik": 50
+  },
+  {
+   "name": "Devagandhari",
+   "songs_in_karnatik": 50
+  },
+  {
+   "name": "Kiravani",
+   "songs_in_karnatik": 49
+  },
+  {
+   "name": "Chakravakam",
+   "songs_in_karnatik": 49
+  },
+  {
+   "name": "Varali",
+   "songs_in_karnatik": 47
+  },
+  {
+   "name": "Darbar",
+   "songs_in_karnatik": 45
+  },
+  {
+   "name": "Purvi",
+   "songs_in_karnatik": 43
+  },
+  {
+   "name": "Natakuranji",
+   "songs_in_karnatik": 42
+  },
+  {
+   "name": "Saranga",
+   "songs_in_karnatik": 41
+  },
+  {
+   "name": "Devamanohari",
+   "songs_in_karnatik": 41
+  },
+  {
+   "name": "Kuntalavarali",
+   "songs_in_karnatik": 40
+  },
+  {
+   "name": "Harikambhoji",
+   "songs_in_karnatik": 40
+  },
+  {
+   "name": "Yamunakalyani",
+   "songs_in_karnatik": 37
+  },
+  {
+   "name": "Shuddhadhanyasi",
+   "songs_in_karnatik": 35
+  },
+  {
+   "name": "Paraju",
+   "songs_in_karnatik": 34
+  },
+  {
+   "name": "Hamsanandi",
+   "songs_in_karnatik": 33
+  },
+  {
+   "name": "Asaveri",
+   "songs_in_karnatik": 32
+  },
+  {
+   "name": "Manirangu",
+   "songs_in_karnatik": 31
+  },
+  {
+   "name": "Sarasvati",
+   "songs_in_karnatik": 30
+  },
+  {
+   "name": "Gaula",
+   "songs_in_karnatik": 30
+  },
+  {
+   "name": "Shurutti",
+   "songs_in_karnatik": 30
+  },
+  {
+   "name": "Bhupala",
+   "songs_in_karnatik": 29
+  },
+  {
+   "name": "Sama",
+   "songs_in_karnatik": 28
+  },
+  {
+   "name": "Nattai",
+   "songs_in_karnatik": 27
+  },
+  {
+   "name": "Bauli",
+   "songs_in_karnatik": 27
+  },
+  {
+   "name": "Gaurimanohari",
+   "songs_in_karnatik": 26
+  },
+  {
+   "name": "Mand",
+   "songs_in_karnatik": 25
+  },
+  {
+   "name": "Ranjani",
+   "songs_in_karnatik": 25
+  },
+  {
+   "name": "Kannada",
+   "songs_in_karnatik": 25
+  },
+  {
+   "name": "Purnachandrika",
+   "songs_in_karnatik": 24
+  },
+  {
+   "name": "Revagupti",
+   "songs_in_karnatik": 23
+  },
+  {
+   "name": "Hamirkalyani",
+   "songs_in_karnatik": 23
+  },
+  {
+   "name": "Malayamaruta",
+   "songs_in_karnatik": 23
+  },
+  {
+   "name": "Ramapriya",
+   "songs_in_karnatik": 23
+  },
+  {
+   "name": "Dharmavati",
+   "songs_in_karnatik": 22
+  }
+ ],
+ "lists_by_day": {},
+ "artists": []
+}
