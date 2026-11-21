@@ -124,7 +124,7 @@ function autoPick(item) {
 }
 
 // ---------- routing ----------
-const routes = { "": viewSeason, "concerts": viewConcerts, "concert": viewConcert, "submit": viewSubmit, "about": viewAbout };
+const routes = { "": viewSeason, "daily": viewDaily, "concerts": viewConcerts, "concert": viewConcert, "submit": viewSubmit, "about": viewAbout };
 function go() {
   const [, name = "", arg] = (location.hash || "#/").split("/");
   document.querySelectorAll("nav a").forEach(a => a.classList.toggle("active", a.dataset.nav === (name || "season")));
@@ -184,18 +184,53 @@ function viewSeason() {
   <p class="sub">Updated ${new Date(st.generated_at).toLocaleString("en-IN")}. A song counts once at least half the rasikas at that concert listed it.</p>`;
 }
 
+const istDate = (plus = 0) => new Date(Date.now() + 5.5 * 3600e3 + plus * 864e5).toISOString().slice(0, 10);
+
+// ---------- Daily summary ----------
+function subscribeCard() {
+  const wa = (CFG.WHATSAPP_NUMBER || "").replace(/\D/g, ""), tg = CFG.TELEGRAM_URL || "";
+  if (!wa && !tg) return `<div class="card"><h3>Morning summary on your phone</h3><p class="sub">WhatsApp and Telegram summaries are coming soon.</p></div>`;
+  return `<div class="card"><h3>Get this summary every morning</h3>
+    <p class="sub">A short note at 7:30 am through the Season: yesterday's concerts, most-heard ragas, main pieces and rare gems.</p>
+    <div class="actions">
+      ${wa ? `<a class="btn primary" href="https://wa.me/${wa}?text=${encodeURIComponent("JOIN")}" rel="noopener">Subscribe on WhatsApp</a>` : ""}
+      ${tg ? `<a class="btn" href="${esc(tg)}" rel="noopener">Join the Telegram channel</a>` : ""}
+    </div>
+    ${wa ? `<p class="sub">WhatsApp opens with <b>JOIN</b> typed in: just press send. Reply <b>STOP</b> any time to unsubscribe.</p>` : ""}</div>`;
+}
+async function viewDaily(day) {
+  app.innerHTML = `<p class="loading">Loading…</p>`;
+  const idx = await getJSON("data/digest/index.json", { days: [] });
+  const d = await getJSON(`data/digest/${day || "latest"}.json`, null);
+  if (!d) { app.innerHTML = `<h1>Daily summary</h1><div class="card empty"><h2>The first summary arrives the morning after the first song lists are shared.</h2></div>` + subscribeCard(); return; }
+  const pick = idx.days.length > 1 ? `<select id="dd" style="max-width:220px">${idx.days.map(x => `<option value="${x}" ${x === d.date ? "selected" : ""}>${fmtDate(x)}</option>`).join("")}</select>` : "";
+  app.innerHTML = `<div class="actions" style="justify-content:space-between;margin:0"><h1 style="margin:0">${esc(fmtDate(d.date))}</h1>${pick}</div>
+  <p class="lede">What was sung in Chennai, from the song lists rasikas shared.</p>
+  <div class="kpis"><div class="kpi"><b>${d.concerts_with_lists}</b><span>concerts with lists</span></div><div class="kpi"><b>${d.sabhas}</b><span>sabhas</span></div>
+    <div class="kpi"><b>${d.songs}</b><span>songs</span></div><div class="kpi"><b>${d.next_day.concerts}</b><span>concerts on ${esc(fmtDate(d.next_day.date))}</span></div></div>
+  <div class="grid">
+    <section class="card"><h2>Most-heard ragas</h2>${bars(d.top_ragas.map(r => ({ name: r.name, renditions: r.count })))}</section>
+    <section class="card"><h2>Main pieces</h2>${d.main_pieces.length ? `<ul class="list">${d.main_pieces.map(m => `<li><a href="#/concert/${encodeURIComponent(m.concert_id)}"><b>${esc(m.artist)}</b></a><div class="sub">${dots(m.raga, m.title, m.sabha)}</div></li>`).join("")}</ul>` : `<p class="sub">No main pieces marked in the lists.</p>`}</section>
+    <section class="card"><h2>Rare gems</h2><p class="sub">Heard for the first time this Season.</p>${d.rare_gems.length ? `<ul class="list">${d.rare_gems.map(g => `<li><b>${esc(g.title)}</b><div class="sub">${dots(g.raga, g.composer)} · <a href="#/concert/${encodeURIComponent(g.concert_id)}">${esc(g.artist)}</a></div></li>`).join("")}</ul>` : `<p class="sub">None today.</p>`}</section>
+  </div>` + subscribeCard();
+  const dd = $("#dd"); if (dd) dd.onchange = () => { location.hash = "#/daily/" + dd.value; };
+}
+
 // ---------- Concerts ----------
 function viewConcerts() {
-  const f = mem.filter || (mem.filter = { sabha: "", q: "", only: false });
+  const f = mem.filter || (mem.filter = { sabha: "", q: "", only: false, day: "" });
   const draw = () => {
-    const q = key(f.q);
-    const list = D.concerts.filter(c => (!f.sabha || c.sabha_id === f.sabha) && (!q || key(c.artist).includes(q)) && (!f.only || nLists(c.id)));
+    const q = key(f.q), want = f.day === "today" ? istDate(0) : f.day === "tomorrow" ? istDate(1) : "";
+    document.querySelectorAll("[data-day]").forEach(b => b.classList.toggle("primary", b.dataset.day === f.day));
+    const list = D.concerts.filter(c => (!f.sabha || c.sabha_id === f.sabha) && (!q || key(c.artist).includes(q)) && (!f.only || nLists(c.id)) && (!want || c.date === want));
     const byDay = {}; list.forEach(c => (byDay[c.date] = byDay[c.date] || []).push(c));
     $("#clist").innerHTML = list.length ? Object.entries(byDay).map(([d, cs]) => `<div class="day"><h3>${fmtDate(d)}</h3>${cs.map(c =>
       `<div class="concert"><div><a href="#/concert/${encodeURIComponent(c.id)}">${esc(c.artist)}</a><div class="sub">${fmtTime(c.time)} · ${esc(sabhaName(c.sabha_id))}${c.source === "rasika" ? " · added by a rasika" : ""}</div></div>${listsPill(c.id)}</div>`).join("")}</div>`).join("")
       : `<div class="empty">${D.concerts.length ? "No concerts match." : "Sabha schedules will appear here as they are published. You can still share a list: choose your sabha and add the concert."}</div>`;
   };
-  app.innerHTML = `<h1>Concerts</h1><div class="filters">
+  app.innerHTML = `<h1>Concerts</h1>
+    <div class="actions" style="margin:0 0 12px"><button data-day="">All</button><button data-day="today">Today</button><button data-day="tomorrow">Tomorrow</button></div>
+    <div class="filters">
     <select id="fs"><option value="">All sabhas</option>${D.sabhas.map(s => `<option value="${s.id}">${esc(s.name)}</option>`).join("")}</select>
     <input id="fq" placeholder="Search artist" value="${esc(f.q)}">
     <label style="display:flex;gap:6px;align-items:center;flex:0 0 auto"><input type="checkbox" id="fo" style="width:auto"> with lists only</label></div><div id="clist" class="card"></div>`;
@@ -203,6 +238,7 @@ function viewConcerts() {
   $("#fs").onchange = e => { f.sabha = e.target.value; draw(); };
   $("#fq").oninput = e => { f.q = e.target.value; draw(); };
   $("#fo").onchange = e => { f.only = e.target.checked; draw(); };
+  document.querySelectorAll("[data-day]").forEach(b => b.onclick = () => { f.day = b.dataset.day; draw(); });
   draw();
 }
 function viewConcert(id) {

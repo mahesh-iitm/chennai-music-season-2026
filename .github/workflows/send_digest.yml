@@ -1,0 +1,41 @@
+name: Morning summary to WhatsApp and Telegram
+
+on:
+  schedule:
+    - cron: "0 2 * * *"      # 07:30 IST every morning
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send the latest digest even if it was already sent"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: { group: aggregate, cancel-in-progress: false }
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Send yesterday's summary
+        env:
+          EXPORT_URL: ${{ secrets.EXPORT_URL }}
+          EXPORT_TOKEN: ${{ secrets.EXPORT_TOKEN }}
+          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+          WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
+          WHATSAPP_TEMPLATE: ${{ vars.WHATSAPP_TEMPLATE }}
+          WHATSAPP_LANG: ${{ vars.WHATSAPP_LANG }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_digest.py ${{ inputs.force && '--force' || '' }}
+      - name: Record what was sent
+        run: |
+          git config user.name "season-bot"
+          git config user.email "season-bot@users.noreply.github.com"
+          git add data/digest_sent.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Morning summary sent" && git push)

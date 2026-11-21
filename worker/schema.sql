@@ -31,3 +31,12 @@ CREATE TABLE IF NOT EXISTS usage (
   count INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (day, key)
 );
+
+-- Created automatically by the Worker on first use; listed here for reference.
+CREATE TABLE IF NOT EXISTS subscribers (
+  wa_id      TEXT PRIMARY KEY,   -- WhatsApp number, digits only
+  name       TEXT,
+  status     TEXT NOT NULL,      -- active | stopped
+  joined_at  TEXT,
+  updated_at TEXT
+);

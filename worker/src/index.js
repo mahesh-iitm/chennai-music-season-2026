@@ -19,7 +19,7 @@ const MAX_IMAGE_B64 = 7_000_000;   // ~5 MB image
 const MAX_ITEMS = 60;
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const cors = corsHeaders(request, env);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
@@ -34,6 +34,9 @@ export default {
         case "GET /api/concert-additions": res = await listAdditions(env); break;
         case "GET /api/counts":            res = await counts(env); break;
         case "GET /api/export":            res = await exportAll(request, env); break;
+        case "GET /api/subscribers":       res = await listSubscribers(request, env); break;
+        case "GET /api/whatsapp/webhook":  return verifyWebhook(url, env);
+        case "POST /api/whatsapp/webhook": return await whatsappWebhook(request, env, ctx);
         default:                           res = json({ error: "not found" }, 404);
       }
       for (const [k, v] of Object.entries(cors)) res.headers.set(k, v);
@@ -201,4 +204,70 @@ async function exportAll(request, env) {
     submissions: subs.map(s => ({ id: s.id, concert_id: s.concert_id, rasika: s.client_id, created_at: s.created_at, used_photo: !!s.used_photo, items: JSON.parse(s.items_json) })),
     added_concerts: added,
   });
+}
+
+// ---------- WhatsApp nightly summary: sign-up by message ----------
+// Rasikas tap a wa.me link that opens WhatsApp with "JOIN" typed in. Sending it
+// proves they own the number and are opting in. "STOP" unsubscribes.
+async function ensureSubscribers(env) {
+  await env.DB.prepare(`CREATE TABLE IF NOT EXISTS subscribers (
+    wa_id TEXT PRIMARY KEY, name TEXT, status TEXT NOT NULL, joined_at TEXT, updated_at TEXT)`).run();
+}
+function verifyWebhook(url, env) {
+  const ok = url.searchParams.get("hub.mode") === "subscribe" && env.WHATSAPP_VERIFY_TOKEN &&
+             url.searchParams.get("hub.verify_token") === env.WHATSAPP_VERIFY_TOKEN;
+  return new Response(ok ? url.searchParams.get("hub.challenge") || "" : "forbidden", { status: ok ? 200 : 403 });
+}
+async function hmacHex(secret, raw) {
+  const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", k, raw);
+  return [...new Uint8Array(sig)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+async function whatsappWebhook(request, env, ctx) {
+  const raw = await request.arrayBuffer();
+  if (env.WHATSAPP_APP_SECRET) {
+    const got = (request.headers.get("x-hub-signature-256") || "").replace(/^sha256=/, "");
+    if (got !== await hmacHex(env.WHATSAPP_APP_SECRET, raw)) return new Response("bad signature", { status: 401 });
+  }
+  let body; try { body = JSON.parse(new TextDecoder().decode(raw)); } catch { return new Response("ok"); }
+  const work = [];
+  for (const e of body.entry || []) for (const ch of e.changes || []) {
+    const v = ch.value || {};
+    const names = Object.fromEntries((v.contacts || []).map(c => [c.wa_id, c.profile?.name || ""]));
+    for (const m of v.messages || []) {
+      const text = (m.text?.body || m.button?.text || m.interactive?.button_reply?.title || "").trim().toUpperCase();
+      work.push(handleCommand(env, m.from, names[m.from] || "", text));
+    }
+  }
+  ctx.waitUntil(Promise.all(work).catch(err => console.log("webhook error", err)));
+  return new Response("ok");                       // Meta expects a fast 200
+}
+const JOIN = /^(JOIN|START|SUBSCRIBE|YES)\b/, STOP = /^(STOP|UNSUBSCRIBE|CANCEL|END|QUIT)\b/;
+async function handleCommand(env, waId, name, text) {
+  if (!/^\d{8,15}$/.test(waId)) return;
+  await ensureSubscribers(env);
+  const now = new Date().toISOString();
+  let reply = null;
+  if (JOIN.test(text)) {
+    await env.DB.prepare(`INSERT INTO subscribers(wa_id,name,status,joined_at,updated_at) VALUES(?,?,'active',?,?)
+      ON CONFLICT(wa_id) DO UPDATE SET status='active', name=excluded.name, updated_at=excluded.updated_at`).bind(waId, name.slice(0, 60), now, now).run();
+    reply = "Welcome! 🎶 You'll get the Margazhi Song Lists summary every morning of the Season: what was sung where, the most-heard ragas and rare gems. Reply STOP any time to unsubscribe.";
+  } else if (STOP.test(text)) {
+    await env.DB.prepare("UPDATE subscribers SET status='stopped', updated_at=? WHERE wa_id=?").bind(now, waId).run();
+    reply = "You're unsubscribed from the Margazhi Song Lists summary. Reply JOIN to subscribe again.";
+  }
+  if (reply && env.WHATSAPP_TOKEN && env.WHATSAPP_PHONE_ID) {
+    const r = await fetch(`https://graph.facebook.com/${env.GRAPH_VERSION || "v23.0"}/${env.WHATSAPP_PHONE_ID}/messages`, {
+      method: "POST", headers: { authorization: `Bearer ${env.WHATSAPP_TOKEN}`, "content-type": "application/json" },
+      body: JSON.stringify({ messaging_product: "whatsapp", to: waId, type: "text", text: { body: reply } }),
+    });
+    if (!r.ok) console.log("reply failed", r.status, await r.text());
+  }
+}
+async function listSubscribers(request, env) {
+  const auth = request.headers.get("authorization") || "";
+  if (!env.EXPORT_TOKEN || auth !== `Bearer ${env.EXPORT_TOKEN}`) fail("unauthorised", 401);
+  await ensureSubscribers(env);
+  const { results } = await env.DB.prepare("SELECT wa_id FROM subscribers WHERE status='active'").all();
+  return json({ subscribers: results.map(r => r.wa_id) });
 }

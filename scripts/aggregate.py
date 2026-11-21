@@ -11,7 +11,7 @@ Writes
   open-data/submissions.json     every confirmed submission, anonymised (the open dataset)
   open-data/consensus.csv        one row per agreed song per concert
 """
-import argparse, collections, csv, hashlib, json, math, os, re, statistics, urllib.request
+import argparse, collections, sys, csv, hashlib, json, math, os, re, statistics, urllib.request
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -194,7 +194,9 @@ def season_stats(consensus, concerts, songs, ragas_in_db):
     }
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--input"); args = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--input")
+    ap.add_argument("--digest-date", help="YYYY-MM-DD to summarise (default: yesterday, IST)")
+    args = ap.parse_args()
     exp = load_export(args)
     sj = json.loads((SITE / "songs.json").read_text())
     songs = {r[0]: dict(zip(sj["fields"], r)) for r in sj["songs"]}
@@ -232,6 +234,15 @@ def main():
             for s in c["songs"]:
                 w.writerow([cid, m.get("date", ""), m.get("time", ""), m.get("sabha_id", ""), m.get("artist", ""), c["n_rasikas"], s["pos"], s["song_id"] or "",
                             s["title"], s["raga"], s["tala"], s["composer"], s["type"], s["notes"], s["votes"], s["support"]])
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import digest as dg
+    sabha_names = {x["id"]: x["name"] for x in json.loads((SITE / "sabhas.json").read_text())["sabhas"]}
+    day = args.digest_date or dg.ist_yesterday()
+    d = dg.build(day, consensus, concerts, sabha_names)
+    if d["concerts_with_lists"]:
+        dg.write(SITE, d); print(f"digest for {day}: {d['concerts_with_lists']} concerts, {d['songs']} songs")
+    else:
+        print(f"no lists for {day}; digest not written")
     t = stats["totals"]
     print(f"{t['submissions']} submissions, {t['concerts_with_lists']} concerts, {t['renditions']} renditions, {t['distinct_songs']} songs, {t['distinct_ragas']} ragas")
 

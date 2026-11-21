@@ -13,10 +13,15 @@ SUBMIT_PER_IP_LIMIT = "30"
 [[d1_databases]]
 binding = "DB"
 database_name = "cms2026"
-database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+database_id = "f245da0d-6669-4158-a52f-50d58417feb4"
 
 # Secrets (set with `npx wrangler secret put NAME`, never commit them):
 #   ANTHROPIC_API_KEY   - your Anthropic API key
 #   EXPORT_TOKEN        - long random string; same value goes in the GitHub repo secret
 #   IP_SALT             - long random string
 #   TURNSTILE_SECRET    - optional, Cloudflare Turnstile bot check
+# WhatsApp summary (optional):
+#   WHATSAPP_TOKEN        - permanent access token (System User) from Meta Business
+#   WHATSAPP_PHONE_ID     - Phone number ID from the WhatsApp > API Setup page
+#   WHATSAPP_APP_SECRET   - App secret (App settings > Basic), to check webhook signatures
+#   WHATSAPP_VERIFY_TOKEN - any random string; the same one is typed into Meta's webhook form

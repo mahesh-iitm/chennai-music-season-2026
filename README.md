@@ -96,6 +96,44 @@ Concerts that aren't in a schedule can be added by any rasika from the site. The
 npx wrangler d1 execute cms2026 --remote --command "UPDATE added_concerts SET hidden=1 WHERE id='...'"
 ```
 
+## Morning summary on WhatsApp and Telegram
+
+The nightly vote also writes a digest of the previous day (`site/data/digest/`), shown on the site's **Daily** page. At 07:30 IST the **Morning summary** workflow sends it to WhatsApp subscribers and posts it to a Telegram channel. Each channel stays off until its secrets are set, and a day is never sent twice (`data/digest_sent.json`).
+
+### Telegram (free, about 5 minutes)
+
+1. In Telegram, message **@BotFather**, send `/newbot`, and follow the prompts. Copy the bot token it gives you.
+2. Create a **public channel**, for example `@margazhisonglists`. Add your bot to the channel as an **administrator** with permission to post.
+3. GitHub repo secrets: `TELEGRAM_BOT_TOKEN` = the token, `TELEGRAM_CHAT_ID` = `@margazhisonglists`.
+4. In `site/config.js`, set `TELEGRAM_URL: "https://t.me/margazhisonglists"`.
+
+### WhatsApp (Meta WhatsApp Cloud API)
+
+Rasikas subscribe by tapping **Subscribe on WhatsApp** on the Daily page. WhatsApp opens with `JOIN` typed in, and sending it subscribes them (this also proves they own the number). `STOP` unsubscribes.
+
+1. **Meta app.** At developers.facebook.com, create an app (type **Business**), add the **WhatsApp** product, and connect a Meta Business portfolio.
+2. **Phone number.** Under WhatsApp → API Setup, add a phone number that is **not** already on WhatsApp or WhatsApp Business. Note its **Phone number ID**. Meta's free test number works for trials with up to 5 recipients.
+3. **Permanent token.** In Business Settings, go to Users → System users → Add, assign the app and the WhatsApp account, and generate a token with `whatsapp_business_messaging` and `whatsapp_business_management`.
+4. **Message template.** Under WhatsApp Manager → Message templates, create one named `margazhi_daily`, language **English**. Meta will most likely class it as Marketing. Body:
+   ```
+   Margazhi Song Lists · {{1}}
+   Yesterday: {{2}}
+   Top ragas: {{3}}
+   Main pieces: {{4}}
+   Rare gem: {{5}}
+   Today: {{6}}
+   Full lists: https://mahesh-iitm.github.io/chennai-music-season-2026/#/daily
+   Reply STOP to unsubscribe.
+   ```
+   Sample values for review: `Sun 20 Dec` · `8 concerts at 4 sabhas, 49 songs` · `Bhairavi (7), Todi (6), Kalyani (5)` · `T. M. Krishna: Todi; Sanjay Subrahmanyan: Kambhoji` · `Viriboni (Bhairavi) by A. S. Murali` · `12 concerts at 5 sabhas`. Approval usually takes minutes to a day.
+5. **Cloudflare Worker secrets** (Settings → Variables and Secrets): `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_ID`, `WHATSAPP_APP_SECRET` (Meta app → App settings → Basic), and `WHATSAPP_VERIFY_TOKEN` (any random string).
+6. **Webhook.** In the Meta app's WhatsApp → Configuration page, set the Callback URL to `https://<your-worker>.workers.dev/api/whatsapp/webhook` and the Verify token to the same `WHATSAPP_VERIFY_TOKEN`. Click Verify, then subscribe to the **messages** field.
+7. **GitHub repo secrets:** `WHATSAPP_TOKEN` and `WHATSAPP_PHONE_ID`. If your template name or language differ, add repo *variables* `WHATSAPP_TEMPLATE` / `WHATSAPP_LANG`.
+8. In `site/config.js`, set `WHATSAPP_NUMBER` to the business number, digits only with the country code (e.g. `919876543210`).
+9. **Test.** Send `JOIN` to the number from your phone; a welcome reply should arrive. Then run **Morning summary** from the Actions tab with *force* ticked.
+
+**Cost.** Each delivered summary is a paid template message, about ₹0.86 per subscriber per day in India for marketing templates (Meta's rate card). The welcome and unsubscribe replies answer the rasika's own message and cost little or nothing.
+
 ## How the vote works
 
 - Each browser gets a random id. If a rasika shares again for the same concert, the new list replaces their old one, so nobody votes twice.
