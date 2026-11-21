@@ -100,3 +100,13 @@ th{font-weight:600;color:var(--muted);font-size:.8rem;text-transform:uppercase;l
   .row-tools{grid-column:1/-1;flex-direction:row;justify-content:flex-end}
   nav a{padding:7px 9px;font-size:.88rem}
 }
+.choices{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.choice{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;padding:14px;border-radius:12px;background:#fffaf0;border:1px solid var(--line)}
+.choice .ic{font-size:1.6rem;line-height:1}
+.choice b{font-size:1rem}
+.choice small{display:block;color:var(--muted);font-weight:400}
+.choice.on{border-color:var(--maroon);box-shadow:0 0 0 2px var(--gold-soft)}
+.cam{margin-top:12px;border-radius:12px;overflow:hidden;background:#000}
+.cam video{display:block;width:100%;max-height:420px;object-fit:contain}
+textarea{font:inherit;line-height:1.5}
+@media (max-width:720px){.choices{grid-template-columns:1fr}.choice{flex-direction:row;align-items:center;gap:12px}.choice small{display:block}}

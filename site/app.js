@@ -154,7 +154,7 @@ function viewSeason() {
       <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. Lists from several rasikas are cross-checked, and the whole Season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
       <div class="actions"><a class="btn primary" href="#/submit">Share a concert's song list</a><a class="btn" href="#/concerts">Browse concerts</a></div></div>
     <div class="card"><h3>How it works</h3><ol class="sub" style="padding-left:18px;margin:0">
-      <li>Pick the sabha, date and concert.</li><li>Snap your notes. We read the handwriting.</li>
+      <li>Pick the sabha, date and concert.</li><li>Take or upload a photo of your notes, or paste them as text.</li>
       <li>Check what we read against the Karnatik song list and confirm.</li><li>Lists from different rasikas are combined by majority vote every night.</li></ol></div>
   </section>`;
   if (!t || !t.submissions) {
@@ -275,7 +275,7 @@ function viewSubmit(preset) {
   stepConcert(S);
 }
 function steps(n) {
-  return `<div class="steps">${["Concert", "Photo", "Check", "Done"].map((s, i) => `<span class="${i + 1 === n ? "on" : i + 1 < n ? "done" : ""}">${i + 1}. ${s}</span>`).join("")}</div>`;
+  return `<div class="steps">${["Concert", "List", "Check", "Done"].map((s, i) => `<span class="${i + 1 === n ? "on" : i + 1 < n ? "done" : ""}">${i + 1}. ${s}</span>`).join("")}</div>`;
 }
 function stepConcert(S) {
   const c0 = S.concert;
@@ -334,38 +334,148 @@ async function post(path, body) {
 function concertLine(c) { return `<p class="sub"><b>${esc(c.artist)}</b> · ${fmtDate(c.date)}, ${fmtTime(c.time)} · ${esc(sabhaName(c.sabha_id))} <button class="link" id="chg">change</button></p>`; }
 function stepPhoto(S) {
   app.innerHTML = `<h1>Share a song list</h1>${steps(2)}${concertLine(S.concert)}<div class="card">
-    <label class="drop" id="drop"><input type="file" id="file" accept="image/*" capture="environment" hidden>
-      <div id="prev"><b>Tap to take or choose a photo of your notes</b><div class="sub">Song, raga, tala, whatever you wrote down. Any language is fine.</div></div></label>
-    <div id="ts"></div><div id="pmsg"></div>
-    <div class="actions"><button class="primary" id="read" disabled>Read my notes</button><button id="type">Type the list instead</button></div></div>`;
+    <h3 style="margin-top:0">How would you like to share the list?</h3>
+    <div class="choices">
+      <button class="choice" id="c-cam"><span class="ic">📷</span><span><b>Take a photo</b><small>of your handwritten notes</small></span></button>
+      <button class="choice" id="c-up"><span class="ic">🖼️</span><span><b>Upload a photo</b><small>JPG or PNG from your phone or computer</small></span></button>
+      <button class="choice" id="c-txt"><span class="ic">📋</span><span><b>Paste text</b><small>from your notes app, WhatsApp or a text file</small></span></button>
+    </div>
+    <input type="file" id="f-cam" accept="image/*" capture="environment" hidden>
+    <input type="file" id="f-up" accept="image/jpeg,image/png,image/webp,image/heic,image/*" hidden>
+    <div id="panel"></div><div id="ts"></div><div id="pmsg"></div>
+    <p class="sub" style="margin-bottom:0">Or <button class="link" id="type">type the songs in one by one</button>.</p></div>`;
   $("#chg").onclick = () => stepConcert(S);
-  let blob = null, tsToken = "";
+  const panel = $("#panel"), msg = h => { $("#pmsg").innerHTML = h; };
+  let blob = null, tsToken = "", stream = null;
+  const stopCam = () => { if (stream) { stream.getTracks().forEach(t => t.stop()); stream = null; } };
+  const mark = id => document.querySelectorAll(".choice").forEach(b => b.classList.toggle("on", b.id === id));
   if (CFG.TURNSTILE_SITEKEY && API) {
     window.onTs = t => { tsToken = t; };
-    if (!window.turnstile) { const s = document.createElement("script"); s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=renderTs"; s.async = true; document.head.append(s); }
+    if (!window.turnstile) { const sc = document.createElement("script"); sc.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=renderTs"; sc.async = true; document.head.append(sc); }
     window.renderTs = () => window.turnstile.render("#ts", { sitekey: CFG.TURNSTILE_SITEKEY, callback: window.onTs });
     if (window.turnstile) window.renderTs();
   }
-  $("#file").onchange = async e => {
-    const f = e.target.files[0]; if (!f) return;
-    $("#pmsg").innerHTML = "";
-    try { blob = await shrink(f); } catch { $("#pmsg").innerHTML = `<div class="notice err">Couldn't open that image. Try a JPEG or PNG photo.</div>`; return; }
-    $("#prev").innerHTML = `<img src="${URL.createObjectURL(blob)}" alt="Your notes"><span class="sub">Tap to choose a different photo</span>`;
-    $("#read").disabled = false;
+
+  // --- photo (camera or upload) ---
+  const usePhoto = async (file, source) => {
+    stopCam(); msg("");
+    try { blob = await shrink(file); } catch { msg(`<div class="notice err">Couldn't open that image. Please use a JPG or PNG photo.</div>`); return; }
+    S.source = source;
+    panel.innerHTML = `<div class="drop" style="cursor:default"><img src="${URL.createObjectURL(blob)}" alt="Your notes"></div>
+      <div class="actions"><button class="primary" id="read">Read my notes</button><button id="again">${source === "camera" ? "Retake" : "Choose another photo"}</button></div>`;
+    $("#again").onclick = () => (source === "camera" ? $("#c-cam") : $("#c-up")).click();
+    $("#read").onclick = () => readPhoto();
   };
-  $("#type").onclick = () => { S.items = [blankItem()]; S.ocr = null; S.usedPhoto = false; loadSongs().then(() => stepCheck(S)); };
-  $("#read").onclick = async () => {
-    if (!API) { $("#pmsg").innerHTML = `<div class="notice err">The site isn't connected to its handwriting reader yet. You can type the list instead.</div>`; return; }
+  $("#f-cam").onchange = e => { const f = e.target.files[0]; e.target.value = ""; if (f) usePhoto(f, "camera"); };
+  $("#f-up").onchange = e => { const f = e.target.files[0]; e.target.value = ""; if (f) usePhoto(f, "upload"); };
+  $("#c-up").onclick = () => { mark("c-up"); stopCam(); $("#f-up").click(); };
+  $("#c-cam").onclick = async () => {
+    mark("c-cam"); msg("");
+    // phones and tablets: the phone's own camera app gives the sharpest picture
+    if (matchMedia("(pointer: coarse)").matches || !navigator.mediaDevices?.getUserMedia) { $("#f-cam").click(); return; }
+    // computers: live webcam preview inside the page
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment", width: { ideal: 1920 } }, audio: false });
+    } catch { msg(`<div class="notice err">Couldn't open the camera. Allow camera access, or use Upload a photo instead.</div>`); return; }
+    panel.innerHTML = `<div class="cam"><video id="vid" autoplay playsinline muted></video></div>
+      <div class="actions"><button class="primary" id="snap">Capture</button><button id="camx">Cancel</button></div>
+      <p class="sub">Hold the page flat and fill the frame. Good light helps.</p>`;
+    $("#vid").srcObject = stream;
+    $("#camx").onclick = () => { stopCam(); panel.innerHTML = ""; mark(""); };
+    $("#snap").onclick = () => {
+      const v = $("#vid"), cv = document.createElement("canvas"); cv.width = v.videoWidth; cv.height = v.videoHeight;
+      cv.getContext("2d").drawImage(v, 0, 0); cv.toBlob(b => usePhoto(b, "camera"), "image/jpeg", 0.92);
+    };
+  };
+  // drag a photo or text file onto the card (computers)
+  const card = app.querySelector(".card");
+  card.addEventListener("dragover", e => { e.preventDefault(); });
+  card.addEventListener("drop", e => {
+    e.preventDefault(); const f = e.dataTransfer.files[0]; if (!f) return;
+    if (f.type.startsWith("image/")) { mark("c-up"); usePhoto(f, "upload"); }
+    else if (f.type.startsWith("text/") || /\.txt$/i.test(f.name)) { mark("c-txt"); f.text().then(t => showText(t)); }
+  });
+  const readPhoto = async () => {
+    if (!API) { msg(`<div class="notice err">The handwriting reader isn't connected yet. You can paste or type the list instead.</div>`); return; }
     const btn = $("#read"); btn.disabled = true; btn.textContent = "Reading your handwriting…";
     try {
       const b64 = await toB64(blob);
       const [res] = await Promise.all([post("/api/ocr", { image: b64, media_type: "image/jpeg", turnstile: tsToken, concert_id: S.concert.id }), loadSongs()]);
-      if (!res.items?.length) { $("#pmsg").innerHTML = `<div class="notice err">We couldn't find a song list in that photo${res.unreadable ? ` (${esc(res.unreadable)})` : ""}. Try a sharper, well-lit photo, or type the list.</div>`; btn.disabled = false; btn.textContent = "Read my notes"; return; }
+      if (!res.items?.length) { msg(`<div class="notice err">We couldn't find a song list in that photo${res.unreadable ? ` (${esc(res.unreadable)})` : ""}. Try a sharper, well-lit photo, or paste the list as text.</div>`); btn.disabled = false; btn.textContent = "Read my notes"; return; }
       S.ocr = res.items; S.header = res.header || {}; S.usedPhoto = true; S.unreadable = res.unreadable || "";
       S.items = res.items.map(it => { const m = autoPick(it); return { ...it, raga: m ? m.raga : stdRaga(it.raga), tala: m ? m.tala || stdTala(it.tala) : stdTala(it.tala), song_id: m ? m.id : null, auto: !!m }; });
       stepCheck(S);
-    } catch (e) { $("#pmsg").innerHTML = `<div class="notice err">${esc(e.message)}</div>`; btn.disabled = false; btn.textContent = "Read my notes"; if (window.turnstile) window.turnstile.reset(); }
+    } catch (e) { msg(`<div class="notice err">${esc(e.message)}</div>`); btn.disabled = false; btn.textContent = "Read my notes"; if (window.turnstile) window.turnstile.reset(); }
   };
+
+  // --- text ---
+  const showText = (prefill = "") => {
+    stopCam(); msg(""); mark("c-txt");
+    panel.innerHTML = `<label for="txt" class="field" style="margin-top:12px"><b style="color:var(--ink)">Paste your list</b>, one song per line</label>
+      <textarea id="txt" rows="10" placeholder="1. Vatapi Ganapatim - Hamsadhwani - Adi&#10;2. Endaro Mahanubhavulu - Sri&#10;3. Nidhi chala sukhama - Kalyani (main)&#10;Tani&#10;RTP in Todi&#10;Mangalam"></textarea>
+      <div class="actions"><button class="primary" id="readtxt">Read my list</button>
+        <label class="btn" style="color:var(--ink)">Open a text file<input type="file" id="f-txt" accept=".txt,text/plain" hidden></label></div>
+      <p class="sub">Song, raga, tala and composer in any order, separated by dashes, commas or brackets. Write "main", "RTP" or "Tani" where it applies.</p>`;
+    const ta = $("#txt"); ta.value = prefill; ta.focus();
+    $("#f-txt").onchange = async e => { const f = e.target.files[0]; if (f) ta.value = await f.text(); };
+    $("#readtxt").onclick = async () => {
+      if (!ta.value.trim()) { msg(`<div class="notice err">Paste your song list first.</div>`); return; }
+      await loadSongs();
+      const items = parseList(ta.value);
+      if (!items.length) { msg(`<div class="notice err">We couldn't find any songs in that text.</div>`); return; }
+      S.items = items; S.ocr = null; S.usedPhoto = false; S.source = "text"; S.header = null; S.unreadable = "";
+      stepCheck(S);
+    };
+  };
+  $("#c-txt").onclick = () => showText($("#txt")?.value || "");
+  $("#type").onclick = () => { stopCam(); S.items = [blankItem()]; S.ocr = null; S.usedPhoto = false; S.source = "typed"; loadSongs().then(() => stepCheck(S)); };
+  window.addEventListener("hashchange", stopCam, { once: true });
+}
+
+// Turn pasted text into list items: one song per line, fields in any order.
+const TYPE_WORDS = [[/\b(r\.?\s?t\.?\s?p|ragam[\s-]+tanam[\s-]+pallavi|pallavi)\b/i, "rtp"], [/\b(tani|thani)(\s*avartanam)?\b/i, "tani"],
+  [/\b(viruttam|virutham|slokam|shlokam|sloka)\b/i, "viruttam"], [/\b(thillana|tillana)\b/i, "thillana"], [/\bjavali\b/i, "javali"],
+  [/\bpadam\b/i, "padam"], [/\b(mangalam)\b/i, "mangalam"], [/\b(varnam|varna)\b/i, "varnam"], [/\b(bhajan|abhang)\b/i, "bhajan"], [/\btukkada\b/i, "tukkada"]];
+let composerKeys = null;
+function parseList(text) {
+  if (!composerKeys) composerKeys = new Map(D.songs.filter(s => s.composer).map(s => [key(s.composer).slice(0, 7), s.composer]));
+  const isRaga = p => { const k = key(p); return k.length >= 2 && (D.ragaByKey.has(k) || !!RAGA_ABBR[k]); };
+  const isTala = p => !!TALA_STD[key(p)];
+  const isComposer = p => { const k = key(p); return k.length >= 5 && composerKeys.has(k.slice(0, 7)); };
+  const out = [];
+  for (let line of text.split(/\r?\n/)) {
+    const written = line.trim();
+    line = written.replace(/^\s*(\d{1,2}[.)\]:-]?|[-*•·]+)\s+/, "").replace(/[\u{1F300}-\u{1FAFF}]/gu, "").trim();
+    if (!line || line.length > 200) continue;
+    const it = { ...blankItem(), written };
+    for (const [re, t] of TYPE_WORDS) if (re.test(line)) { it.type = t; break; }
+    if (/\bmain\b/i.test(line)) { it.notes = "main"; line = line.replace(/\bmain\s*[:-]?/i, " "); }
+    let parts = line.split(/\s+[-–—|]\s+|\s*[,;|\t]\s*|\s*[()[\]]\s*|\s{2,}|\s+\/\s+|\s+-|-\s+/).map(x => x.trim()).filter(Boolean);
+    if (it.type === "rtp" || it.type === "tani") {                // "RTP in Todi", "Tani"
+      it.title = it.type === "rtp" ? "Ragam Tanam Pallavi" : "Tani Avartanam";
+      for (const p of line.replace(/\b(in|rtp|r\.?t\.?p|ragam|tanam|pallavi|tani|thani|avartanam)\b/gi, " ").split(/[\s,()-]+/).filter(Boolean))
+        if (!it.raga && isRaga(p)) it.raga = stdRaga(p); else if (!it.tala && isTala(p)) it.tala = stdTala(p);
+      out.push(it); continue;
+    }
+    const rest = [];
+    for (const p of parts) {
+      if (!it.title && !isRaga(p) && !isTala(p)) { it.title = p; continue; }
+      if (!it.raga && isRaga(p)) it.raga = stdRaga(p);
+      else if (!it.tala && isTala(p)) it.tala = stdTala(p);
+      else if (!it.composer && isComposer(p)) it.composer = composerKeys.get(key(p).slice(0, 7));
+      else if (!it.title) it.title = p;
+      else rest.push(p);
+    }
+    if (!it.title && it.raga && it.type !== "kriti") it.title = it.type;   // e.g. "Viruttam - Behag"
+    if (rest.length) it.notes = [it.notes, ...rest].filter(Boolean).join("; ");
+    if (!it.title && !it.raga) continue;
+    // header lines such as "TMK @ Music Academy, 15 Dec" or accompanist lists are not songs
+    if (!it.raga && it.type === "kriti" && /@|\b(sabha|academy|concert|accompan\w*|violin|mridang\w*|ghatam|kanjira|morsing|dec|jan)\b|\b\d{1,2}[./-]\d{1,2}\b/i.test(written)) continue;
+    const m = autoPick(it);
+    if (m) Object.assign(it, { song_id: m.id, raga: m.raga, tala: m.tala || it.tala, composer: m.composer, auto: true });
+    out.push(it);
+  }
+  return out.slice(0, 60);
 }
 function blankItem() { return { written: "", title: "", raga: "", tala: "", composer: "", type: "kriti", notes: "", song_id: null }; }
 async function shrink(file, max = 1600) {
