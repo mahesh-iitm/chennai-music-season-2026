@@ -1,0 +1,81 @@
+{
+ "fields": [
+  "id",
+  "title",
+  "raga",
+  "tala",
+  "composer",
+  "language",
+  "orig",
+  "source",
+  "link"
+ ],
+ "songs": [
+  [
+   100001,
+   "Eppadi Manam",
+   "Huseni",
+   "Misra Chapu",
+   "Arunachala Kavi",
+   "",
+   "Eppadi Manam",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/eppadi-manam-huseni.htm"
+  ],
+  [
+   100002,
+   "Karuna Cheivan Entu",
+   "Shri",
+   "Adi",
+   "Irayimman Thampi",
+   "",
+   "Karuna CheivAn Entu",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/karunaicheivanenthu.htm"
+  ],
+  [
+   100003,
+   "Kausaleya Sri",
+   "Gaurimanohari",
+   "Adi",
+   "V. V. Srivatsan",
+   "",
+   "Kausaleya Sri",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/kausaleya-sri-gowrimanohari.htm"
+  ],
+  [
+   100004,
+   "Lalithe",
+   "Yadukulakambhoji",
+   "Rupakam",
+   "Chengalvaraya Sastri",
+   "",
+   "Lalithe",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/lalithemaampahi.htm"
+  ],
+  [
+   100005,
+   "Neemathisalaka",
+   "Anandabhairavi",
+   "Adi",
+   "Kavi Matrubhutayya",
+   "",
+   "Neemathisalaka",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/neemathisalaka.htm"
+  ],
+  [
+   100006,
+   "Sevikka Vendum Ayya",
+   "Andolika",
+   "Adi",
+   "Muthu Thandavar",
+   "",
+   "Sevikka Vendum Ayya",
+   "shivkumar.org",
+   "https://www.shivkumar.org/music/sevikka-vendum-andolika.htm"
+  ]
+ ]
+}

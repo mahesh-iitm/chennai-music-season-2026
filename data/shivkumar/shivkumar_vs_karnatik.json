@@ -1,0 +1,3046 @@
+{
+ "source": "https://www.shivkumar.org/music/ (416 entries, checked 21 Nov 2026)",
+ "note": "karnatik_id null = not in the karnatik.com catalogue; those songs were added to songs.json",
+ "songs": [
+  {
+   "shivkumar_title": "Aazhi Mazhai Kanna (Thiruppavai Pasuram #04)",
+   "raga": "Varali",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-04-AazhiMazhaiKanna-Varali.htm",
+   "karnatik_id": 9374
+  },
+  {
+   "shivkumar_title": "Abhayambikaya",
+   "raga": "Kedaragowla",
+   "tala": "Khanda Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/abhayambikaya.htm",
+   "karnatik_id": 5619
+  },
+  {
+   "shivkumar_title": "Ada Modi",
+   "raga": "Charukesi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/adamodi.htm",
+   "karnatik_id": 1359
+  },
+  {
+   "shivkumar_title": "Adigi Sukhamu",
+   "raga": "Madhyamavathi",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/adigi-sukhamu-madhyamavathi.htm",
+   "karnatik_id": 1374
+  },
+  {
+   "shivkumar_title": "AkhilAndEsvari RakshamAm",
+   "raga": "Dwijavanthi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/akhilandesvari.htm",
+   "karnatik_id": 1481
+  },
+  {
+   "shivkumar_title": "Alai Payudhe",
+   "raga": "Kanada",
+   "tala": "Adi",
+   "composer": "OothukaDu Venkata Subbaiyer",
+   "notation": "https://www.shivkumar.org/music/alaipayudhe.htm",
+   "karnatik_id": 1000
+  },
+  {
+   "shivkumar_title": "AlakallAdaga",
+   "raga": "Madhyamavathi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/alakalladaga.htm",
+   "karnatik_id": 1377
+  },
+  {
+   "shivkumar_title": "Alamelu Manga Nee",
+   "raga": "Kalyani",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/AlameluMangaNee.pdf",
+   "karnatik_id": 3562
+  },
+  {
+   "shivkumar_title": "Amba Neelayatakshi",
+   "raga": "Neelambari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ambaneelayatakshi.htm",
+   "karnatik_id": 3309
+  },
+  {
+   "shivkumar_title": "Amba Vani",
+   "raga": "Keeravani",
+   "tala": "Adi (deshadi)",
+   "composer": "Mutthaiah Bhagavatar",
+   "notation": "https://www.shivkumar.org/music/ambavani-keeravani.htm",
+   "karnatik_id": 1756
+  },
+  {
+   "shivkumar_title": "amparamE thaNNIrE (Thiruppavai Pasuram #17)",
+   "raga": "Kalyani",
+   "tala": "Khanda Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-17-AmparamE-Kalyani.htm",
+   "karnatik_id": 2770
+  },
+  {
+   "shivkumar_title": "Ananda Natana Prakasam",
+   "raga": "Kedaram",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/anandanatana-kedaram.htm",
+   "karnatik_id": 1420
+  },
+  {
+   "shivkumar_title": "Andavane",
+   "raga": "Shanmukhapriya",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/andavane.htm",
+   "karnatik_id": 6186
+  },
+  {
+   "shivkumar_title": "Angaarakamaashrayaami",
+   "raga": "Surutti",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/angaraka.htm",
+   "karnatik_id": 5633
+  },
+  {
+   "shivkumar_title": "AngkaN Maa NyAlathu (Thiruppavai Pasuram #22)",
+   "raga": "Yamuna Kalyani",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-22-AngkanMaa-YamunaKalyani.htm",
+   "karnatik_id": 9371
+  },
+  {
+   "shivkumar_title": "Annapurne",
+   "raga": "Sama",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/annapurne.htm",
+   "karnatik_id": 5634
+  },
+  {
+   "shivkumar_title": "Anru Ivvulagam (Thiruppavai Pasuram #24)",
+   "raga": "Sindhu Bhairavi",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-24-anru-Ivvulagam-SindhuBhairavi.htm",
+   "karnatik_id": 9373
+  },
+  {
+   "shivkumar_title": "Antaranga Bhakti",
+   "raga": "Shadvidhamargini",
+   "tala": "DeshAdi",
+   "composer": "Koteeshwara Iyer",
+   "notation": "https://www.shivkumar.org/music/antarangabhakti.htm",
+   "karnatik_id": 1832
+  },
+  {
+   "shivkumar_title": "Anupama Gunambudhi",
+   "raga": "Atana",
+   "tala": "Khanda Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/anupamagunambudhi.htm",
+   "karnatik_id": 1385
+  },
+  {
+   "shivkumar_title": "Aparadhamula Norva Samayamu",
+   "raga": "Rasali",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/aparadhamula-rasali.htm",
+   "karnatik_id": 1387
+  },
+  {
+   "shivkumar_title": "Apparamabhakthi",
+   "raga": "Panthuvarali",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/apparamabhakthi.htm",
+   "karnatik_id": 1388
+  },
+  {
+   "shivkumar_title": "Aragimpave",
+   "raga": "Thodi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/aragimpave.htm",
+   "karnatik_id": 1389
+  },
+  {
+   "shivkumar_title": "ardhanArIshvaram",
+   "raga": "Kumudakriya",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ardhanaareeshwaram.htm",
+   "karnatik_id": 5635
+  },
+  {
+   "shivkumar_title": "Arul Seyya Vendum",
+   "raga": "Rasikapriya",
+   "tala": "Adi",
+   "composer": "Kotishvara Iyer",
+   "notation": "https://www.shivkumar.org/music/arul-seyya-rasikapriya.htm",
+   "karnatik_id": 1317
+  },
+  {
+   "shivkumar_title": "Arunaachala Naatham",
+   "raga": "Saaranga",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/arunaachala.htm",
+   "karnatik_id": 5636
+  },
+  {
+   "shivkumar_title": "Balagopala",
+   "raga": "Bhairavi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/balagopala.htm",
+   "karnatik_id": 5640
+  },
+  {
+   "shivkumar_title": "Balakrishnan",
+   "raga": "Dhanyasi",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/balakrishnan.htm",
+   "karnatik_id": 6202
+  },
+  {
+   "shivkumar_title": "Balasubramanyam Bhajeham",
+   "raga": "Surutti",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/balasubramanyam.htm",
+   "karnatik_id": 3567
+  },
+  {
+   "shivkumar_title": "Balasubramanyam Padame",
+   "raga": "Vishnupriya",
+   "tala": "Adi",
+   "composer": "Thanjavur Shankara Iyer",
+   "notation": "https://www.shivkumar.org/music/balasubramanyam-vishnupriya.htm",
+   "karnatik_id": 6204
+  },
+  {
+   "shivkumar_title": "Bantu rIti",
+   "raga": "Hamsanadam",
+   "tala": "DeshAdi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/bantureethi.htm",
+   "karnatik_id": 1003
+  },
+  {
+   "shivkumar_title": "Bhajana Seya Rada",
+   "raga": "Dharmavathi",
+   "tala": "Rupakam",
+   "composer": "Mysore Vasudevaacharya",
+   "notation": "https://www.shivkumar.org/music/bhajanaseyarada.htm",
+   "karnatik_id": 4493
+  },
+  {
+   "shivkumar_title": "Bhajare Re Manasa",
+   "raga": "Abheri (Karnataka Devagandhari)",
+   "tala": "Adi (2 kalai)",
+   "composer": "Mysore Vasudevaacharya",
+   "notation": "https://www.shivkumar.org/music/bhajare-re-manasa.htm",
+   "karnatik_id": 1256
+  },
+  {
+   "shivkumar_title": "Bhajare Gopalam",
+   "raga": "Hindolam",
+   "tala": "Adi",
+   "composer": "Sadasiva Brahmendra",
+   "notation": "https://www.shivkumar.org/music/BhajareGopalam.pdf",
+   "karnatik_id": 1054
+  },
+  {
+   "shivkumar_title": "Bhakthi Biccha",
+   "raga": "Shankarabharanam",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/bhakthibiccha.htm",
+   "karnatik_id": 1804
+  },
+  {
+   "shivkumar_title": "Bhavamulona",
+   "raga": "Shuddha Dhanyasi",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/bhavamulona.htm",
+   "karnatik_id": 1444
+  },
+  {
+   "shivkumar_title": "Bhavanuta",
+   "raga": "Mohanam",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/bhavanuta.htm",
+   "karnatik_id": 1301
+  },
+  {
+   "shivkumar_title": "Bhavayami Raghuramam",
+   "raga": "Ragamalika",
+   "tala": "Rupakam",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/bhavayami.htm",
+   "karnatik_id": 6706
+  },
+  {
+   "shivkumar_title": "Brahma Kadigina",
+   "raga": "Mukhari",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/brahmakadigina.htm",
+   "karnatik_id": 1572
+  },
+  {
+   "shivkumar_title": "Brochevarevare",
+   "raga": "Sri Ranjani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/brochevarevare.htm",
+   "karnatik_id": 1183
+  },
+  {
+   "shivkumar_title": "brochevArevarurA",
+   "raga": "Khamas",
+   "tala": "Adi (2 kalai)",
+   "composer": "Mysore Vasudevacharya",
+   "notation": "https://www.shivkumar.org/music/brochevarevarura-khamas.htm",
+   "karnatik_id": 1305
+  },
+  {
+   "shivkumar_title": "Brovabharama",
+   "raga": "Bahudari",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/brovabarama.htm",
+   "karnatik_id": 1002
+  },
+  {
+   "shivkumar_title": "Budhamashrayami (Navagraha Krithi)",
+   "raga": "Nata Kuranji",
+   "tala": "Misra Jhampa",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/budhamashrayami.htm",
+   "karnatik_id": 5664
+  },
+  {
+   "shivkumar_title": "ceDE buddhi mAnurA",
+   "raga": "Atana",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/cedebuddhi-atana.htm",
+   "karnatik_id": 2237
+  },
+  {
+   "shivkumar_title": "Chakkani Raja",
+   "raga": "Kharaharapriya",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/Chakkaniraja.htm",
+   "karnatik_id": 2230
+  },
+  {
+   "shivkumar_title": "Chandram Bhaja (Navagraha Krithi)",
+   "raga": "Asaveri",
+   "tala": "Matya Talam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/chandrambhaja.htm",
+   "karnatik_id": 1425
+  },
+  {
+   "shivkumar_title": "Chetashree",
+   "raga": "Dwijavanthi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/chetashree.htm",
+   "karnatik_id": 5667
+  },
+  {
+   "shivkumar_title": "Chintayamaa",
+   "raga": "Bhairavi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/chintayamaam.htm",
+   "karnatik_id": 5672
+  },
+  {
+   "shivkumar_title": "Dakshinamurthe",
+   "raga": "Shankarabharanam",
+   "tala": "Misra Jhampa (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/dakshinamurthe.htm",
+   "karnatik_id": 1090
+  },
+  {
+   "shivkumar_title": "Darithapuleka",
+   "raga": "Saveri",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/darithapuleka.htm",
+   "karnatik_id": 2248
+  },
+  {
+   "shivkumar_title": "dArini telusukOnti",
+   "raga": "Shuddha Saveri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/darinitelusukonti.htm",
+   "karnatik_id": 1448
+  },
+  {
+   "shivkumar_title": "Dasharatha Nandana",
+   "raga": "Asaveri",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dasharatha-nandana.htm",
+   "karnatik_id": 2250
+  },
+  {
+   "shivkumar_title": "DAsharathi Ni Runamu",
+   "raga": "Thodi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dasarathi-thodi.htm",
+   "karnatik_id": 2251
+  },
+  {
+   "shivkumar_title": "Dayaleni",
+   "raga": "Nayaki",
+   "tala": "Khanda Ekam or Misra Jhampa (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dayaleni.htm",
+   "karnatik_id": 2253
+  },
+  {
+   "shivkumar_title": "Dehi Tava Pada",
+   "raga": "Sahana",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dehitavapada-sahana.htm",
+   "karnatik_id": 2256
+  },
+  {
+   "shivkumar_title": "Deva Deva",
+   "raga": "Mayamalavagowlai",
+   "tala": "Rupakam",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/devadeva.htm",
+   "karnatik_id": 1176
+  },
+  {
+   "shivkumar_title": "Devi Neeye Thunai",
+   "raga": "Keeravani",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/devineeyethunai.htm",
+   "karnatik_id": 6233
+  },
+  {
+   "shivkumar_title": "Dharma Samvarddhani",
+   "raga": "Madhyamavathi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/dharmasamvarddhani.htm",
+   "karnatik_id": 1354
+  },
+  {
+   "shivkumar_title": "Dheem Dheem (Thillana)",
+   "raga": "Revathi",
+   "tala": "Misra Chapu",
+   "composer": "Lalgudi Jayaraman",
+   "notation": "https://www.shivkumar.org/music/revathi-lalgudi-thillana.htm",
+   "karnatik_id": 9136
+  },
+  {
+   "shivkumar_title": "Dinamani Vamsha",
+   "raga": "Hari Kambodhi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dinamanivamsha.htm",
+   "karnatik_id": 2265
+  },
+  {
+   "shivkumar_title": "Divakara Thanujam",
+   "raga": "Yadukula Khambodhi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/divakarathanujam.htm",
+   "karnatik_id": 5680
+  },
+  {
+   "shivkumar_title": "Dorakuna Ituvanti",
+   "raga": "Bilahari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dorakuna.htm",
+   "karnatik_id": 2267
+  },
+  {
+   "shivkumar_title": "Dudukugala",
+   "raga": "Gowlai",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dudukugala-new.htm",
+   "karnatik_id": 1004
+  },
+  {
+   "shivkumar_title": "Durmargachara",
+   "raga": "Ranjani",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/durmargachara-new.htm",
+   "karnatik_id": 1186
+  },
+  {
+   "shivkumar_title": "Durusuga",
+   "raga": "Saveri",
+   "tala": "Adi",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/durusuga-saveri.htm",
+   "karnatik_id": 1051
+  },
+  {
+   "shivkumar_title": "Dwaitamu Sukhama",
+   "raga": "Reethigowlai",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/dwaitamu.htm",
+   "karnatik_id": 2268
+  },
+  {
+   "shivkumar_title": "Eduta Nilachite",
+   "raga": "Shankarabharanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/edutanilachite.htm",
+   "karnatik_id": 2271
+  },
+  {
+   "shivkumar_title": "Ee Vasudha",
+   "raga": "Sahana",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/eevasudha.htm",
+   "karnatik_id": 2369
+  },
+  {
+   "shivkumar_title": "Ekkalathilum",
+   "raga": "Nata Kuranji",
+   "tala": "Rupakam",
+   "composer": "Ramaswami Sivan",
+   "notation": "https://www.shivkumar.org/music/ekkalathilum-natakuranji.htm",
+   "karnatik_id": 1200
+  },
+  {
+   "shivkumar_title": "Ela Nee Daya Raadu",
+   "raga": "Atana",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/elaneedayaradu.htm",
+   "karnatik_id": 1403
+  },
+  {
+   "shivkumar_title": "EllE Ilang KiliyE (Thiruppavai Pasuram #15)",
+   "raga": "Begada",
+   "tala": "Rupakam",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-15-ElleIlangKiliye-Begada.htm",
+   "karnatik_id": 9375
+  },
+  {
+   "shivkumar_title": "Emaanadicchevo",
+   "raga": "Sahana",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/emaanadicchevo.htm",
+   "karnatik_id": 2275
+  },
+  {
+   "shivkumar_title": "Emanine",
+   "raga": "Mukhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Subbaraya Shastry",
+   "notation": "https://www.shivkumar.org/music/emanine.htm",
+   "karnatik_id": 8921
+  },
+  {
+   "shivkumar_title": "Emi JesithE",
+   "raga": "Thodi",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/emijesithe.htm",
+   "karnatik_id": 2283
+  },
+  {
+   "shivkumar_title": "Enna Thavam",
+   "raga": "Kapi",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/ennathavam-kapi.htm",
+   "karnatik_id": 6259
+  },
+  {
+   "shivkumar_title": "Enati Nomu",
+   "raga": "Bhairavi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/enatinomu.htm",
+   "karnatik_id": 1736
+  },
+  {
+   "shivkumar_title": "Endaro Mahanu Bhavulu",
+   "raga": "Sri",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/endaromahanubhavulu-new.htm",
+   "karnatik_id": 1006
+  },
+  {
+   "shivkumar_title": "Enduku Nirdaya",
+   "raga": "Hari Kambodhi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/endukunirdaya.htm",
+   "karnatik_id": 2292
+  },
+  {
+   "shivkumar_title": "Enduku Peddala",
+   "raga": "Shankarabharanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/endukupeddala.htm",
+   "karnatik_id": 2293
+  },
+  {
+   "shivkumar_title": "Endundi Vedalithivo",
+   "raga": "Durbar",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/endundi.htm",
+   "karnatik_id": 2294
+  },
+  {
+   "shivkumar_title": "Enna Thavam Seidanai",
+   "raga": "Kapi",
+   "tala": "Adi",
+   "composer": "Papanasam Sivam",
+   "notation": "https://www.shivkumar.org/music/enna-thavam-kapi.htm",
+   "karnatik_id": 6259
+  },
+  {
+   "shivkumar_title": "Entani Ne",
+   "raga": "Mukhari",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/entanine.htm",
+   "karnatik_id": 2304
+  },
+  {
+   "shivkumar_title": "Entarani",
+   "raga": "Hari Kambodhi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/entaranitana.htm",
+   "karnatik_id": 2308
+  },
+  {
+   "shivkumar_title": "Eppadi Manam",
+   "raga": "Huseni",
+   "tala": "Misra Chapu",
+   "composer": "Arunachala Kavi",
+   "notation": "https://www.shivkumar.org/music/eppadi-manam-huseni.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Eppo VaruvarO",
+   "raga": "Jonpuri",
+   "tala": "Deshadi",
+   "composer": "Gopalakrishna Bharati",
+   "notation": "https://www.shivkumar.org/music/eppovaruvaro.htm",
+   "karnatik_id": 1323
+  },
+  {
+   "shivkumar_title": "Eti Janmamidi",
+   "raga": "Varali",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/etijanmamidi.htm",
+   "karnatik_id": 2314
+  },
+  {
+   "shivkumar_title": "Eti Yochanalu",
+   "raga": "Kiranavali",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/etiyochana.htm",
+   "karnatik_id": 2315
+  },
+  {
+   "shivkumar_title": "Etrra Kalangkal (Thiruppavai Pasuram #21)",
+   "raga": "Nadanamakriya",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-21-EtrraKalangal-Nadanamakriya.htm",
+   "karnatik_id": 9376
+  },
+  {
+   "shivkumar_title": "Evari Maata",
+   "raga": "Kambodhi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/evarimaata.htm",
+   "karnatik_id": 2324
+  },
+  {
+   "shivkumar_title": "Evarura Ninnu Vina",
+   "raga": "Mohanam",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/evarura-mohanam.htm",
+   "karnatik_id": 2328
+  },
+  {
+   "shivkumar_title": "Evvare Ramaiah",
+   "raga": "Gangeya Bhushani",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/evvareramaiah.htm",
+   "karnatik_id": 2332
+  },
+  {
+   "shivkumar_title": "Gaanamurthe",
+   "raga": "Ganamurthi",
+   "tala": "DeshAdi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ganamurthe.htm",
+   "karnatik_id": 1119
+  },
+  {
+   "shivkumar_title": "Gajananayutham",
+   "raga": "Chakravakam",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/gajananayutham.htm",
+   "karnatik_id": 1723
+  },
+  {
+   "shivkumar_title": "Gajavadana",
+   "raga": "Sri Ranjani",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/gajavadana.htm",
+   "karnatik_id": 1840
+  },
+  {
+   "shivkumar_title": "Gajavadana",
+   "raga": "Thodi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Kumara Ettendra",
+   "notation": "https://www.shivkumar.org/music/gajavadana-thodi.htm",
+   "karnatik_id": 1840
+  },
+  {
+   "shivkumar_title": "Gana RajEna RakshitOham",
+   "raga": "Arabhi",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ganarajena-rakshitoham.htm",
+   "karnatik_id": 5695
+  },
+  {
+   "shivkumar_title": "Geetha Vadya",
+   "raga": "Natakapriya",
+   "tala": "Adi",
+   "composer": "Thanjavur Shankara Iyer",
+   "notation": "https://www.shivkumar.org/music/geethavadya.htm",
+   "karnatik_id": 2950
+  },
+  {
+   "shivkumar_title": "Gitarthamu",
+   "raga": "Surutti",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/gitarthamu.htm",
+   "karnatik_id": 2341
+  },
+  {
+   "shivkumar_title": "Govardhana Girisham",
+   "raga": "Hindolam",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/govardhana.htm",
+   "karnatik_id": 5704
+  },
+  {
+   "shivkumar_title": "guNijanAdinuta",
+   "raga": "Gurjari",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/gunijanadi-gurjari.htm",
+   "karnatik_id": 5708
+  },
+  {
+   "shivkumar_title": "Guruleka",
+   "raga": "Gowri Manohari",
+   "tala": "Khanda Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/guruleka.htm",
+   "karnatik_id": 2343
+  },
+  {
+   "shivkumar_title": "Guruvayurappane",
+   "raga": "Reethigowlai",
+   "tala": "Adi",
+   "composer": "Ambujam Krishna",
+   "notation": "https://www.shivkumar.org/music/guruvayurappane.htm",
+   "karnatik_id": 1167
+  },
+  {
+   "shivkumar_title": "Hariharaputram",
+   "raga": "Vasanta",
+   "tala": "Khanda Ekam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/hariharaputram.htm",
+   "karnatik_id": 5714
+  },
+  {
+   "shivkumar_title": "Himadri Suthe PAhimAm",
+   "raga": "Kalyani",
+   "tala": "Rupakam",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/himadrisuthe.htm",
+   "karnatik_id": 1009
+  },
+  {
+   "shivkumar_title": "Hiranmayeem",
+   "raga": "Lalitha",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/hiranmayeem.htm",
+   "karnatik_id": 5722
+  },
+  {
+   "shivkumar_title": "Idadhu Padam Thooki",
+   "raga": "Khamas",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/idadhu-padham-khamas.htm",
+   "karnatik_id": 6277
+  },
+  {
+   "shivkumar_title": "IntakannAnanda",
+   "raga": "Bilahari",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/inthakannananda-bilahari.htm",
+   "karnatik_id": 2362
+  },
+  {
+   "shivkumar_title": "Inta Saukhyamani nE",
+   "raga": "KApi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/intasaukhyamani-kapi.htm",
+   "karnatik_id": 1612
+  },
+  {
+   "shivkumar_title": "Ivan yArO ariyEn",
+   "raga": "Kambodhi (Khamboji)",
+   "tala": "Misra Chapu",
+   "composer": "Kavi Kunjara Bharathi",
+   "notation": "https://www.shivkumar.org/music/ivanyaaro.htm",
+   "karnatik_id": 1220
+  },
+  {
+   "shivkumar_title": "Jagadananda Karaka",
+   "raga": "Nattai",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/jagadananda-new.htm",
+   "karnatik_id": 1011
+  },
+  {
+   "shivkumar_title": "Jalandhara Supitasthe",
+   "raga": "Valaji",
+   "tala": "Rupakam",
+   "composer": "Muthaiah Bhagavathar. Learnt From Recording of: Hyderabad Brothers",
+   "notation": "https://www.shivkumar.org/music/jaalandara-valaji.htm",
+   "karnatik_id": 6069
+  },
+  {
+   "shivkumar_title": "Janaki Ramana",
+   "raga": "Shuddha Seemanthini",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/janakiramana.htm",
+   "karnatik_id": 1404
+  },
+  {
+   "shivkumar_title": "Jaanaki Pathe",
+   "raga": "Kharaharapriya",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/janakipathe.htm",
+   "karnatik_id": 6289
+  },
+  {
+   "shivkumar_title": "Janani Ninnu Vina",
+   "raga": "Reethigowlai",
+   "tala": "Misra Chapu (Triputa)",
+   "composer": "Subbaraya Shastry",
+   "notation": "https://www.shivkumar.org/music/janani.htm",
+   "karnatik_id": 1085
+  },
+  {
+   "shivkumar_title": "Janani Maamava",
+   "raga": "Bhairavi",
+   "tala": "Misra Chapu (Triputa)",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/jananimaamava.htm",
+   "karnatik_id": 6769
+  },
+  {
+   "shivkumar_title": "Jnana Mosaga Raadaa",
+   "raga": "Purvi Kalyani",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/jnanamosagarada.htm",
+   "karnatik_id": 2377
+  },
+  {
+   "shivkumar_title": "Kaa vaa vaa",
+   "raga": "Varali",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/kaavaavaa.htm",
+   "karnatik_id": 1124
+  },
+  {
+   "shivkumar_title": "Kaarubaaru",
+   "raga": "Mukhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/karubaru.htm",
+   "karnatik_id": 2394
+  },
+  {
+   "shivkumar_title": "Kaddanuvariki",
+   "raga": "Thodi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/kaddanuvariki.htm",
+   "karnatik_id": 2380
+  },
+  {
+   "shivkumar_title": "Kalaharana Melaraa",
+   "raga": "Shuddha Saveri",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/kalaharana.htm",
+   "karnatik_id": 1061
+  },
+  {
+   "shivkumar_title": "Kaligiyunte",
+   "raga": "Keeravani",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/kaligiyunte-new.htm",
+   "karnatik_id": 1514
+  },
+  {
+   "shivkumar_title": "Kamakshi (Swarajati)",
+   "raga": "Bhairavi",
+   "tala": "Misra Chapu",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/kaamakshi.htm",
+   "karnatik_id": 1080
+  },
+  {
+   "shivkumar_title": "Kamakshi Sri Varalakshmi",
+   "raga": "Bilahari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/kamakshi-bilahari.htm",
+   "karnatik_id": 5737
+  },
+  {
+   "shivkumar_title": "Kamakshi (Swarajati)",
+   "raga": "Yadukula Khambodhi",
+   "tala": "Misra Chapu",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/kamakshi-yk.htm",
+   "karnatik_id": 3004
+  },
+  {
+   "shivkumar_title": "Kamalambambike",
+   "raga": "Thodi",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam Dhyana Krithi )",
+   "notation": "https://www.shivkumar.org/music/kamalambike.htm",
+   "karnatik_id": 5743
+  },
+  {
+   "shivkumar_title": "Kamalamba Samrakshatu",
+   "raga": "Ananda Bhairavi",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar ( Navavarnam #1 )",
+   "notation": "https://www.shivkumar.org/music/kamalambasamrakshatu.htm",
+   "karnatik_id": 5739
+  },
+  {
+   "shivkumar_title": "Kamalambam Bhajare",
+   "raga": "Kalyani",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #2 )",
+   "notation": "https://www.shivkumar.org/music/kamalambambhajare.htm",
+   "karnatik_id": 5740
+  },
+  {
+   "shivkumar_title": "Sri Kamalaambikayaa Kataakshitoham",
+   "raga": "Shankarabharanam",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #3 )",
+   "notation": "https://www.shivkumar.org/music/srikamalambikaya-shankarabharanam.htm",
+   "karnatik_id": 5933
+  },
+  {
+   "shivkumar_title": "Kamalaambikayai",
+   "raga": "Kambodhi",
+   "tala": "Khanda Jati Ata talam",
+   "composer": "Dikshitar ( Navavarnam #4 )",
+   "notation": "https://www.shivkumar.org/music/kamalambikayai-kambodhi.htm",
+   "karnatik_id": 5741
+  },
+  {
+   "shivkumar_title": "Shree Kamalaambikaayaah Param Nahire",
+   "raga": "Bhairavi",
+   "tala": "Misra Jati Jhampa Talam (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #5 )",
+   "notation": "https://www.shivkumar.org/music/kamalambikayah-bhairavi.htm",
+   "karnatik_id": 5934
+  },
+  {
+   "shivkumar_title": "Kamalaambikaayaastava Bhaktoham",
+   "raga": "Punnagavarali",
+   "tala": "Thrisra Eka Talam (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #6 )",
+   "notation": "https://www.shivkumar.org/music/kamalambikayastava-punnaga.htm",
+   "karnatik_id": 5742
+  },
+  {
+   "shivkumar_title": "Sri Kamalambikayam Bhaktim Karomi",
+   "raga": "Sahana",
+   "tala": "Thrisra Triputa (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #7 )",
+   "notation": "https://www.shivkumar.org/music/kamalambikayam-sahana.htm",
+   "karnatik_id": 5935
+  },
+  {
+   "shivkumar_title": "Shree Kamalaambike Avaava",
+   "raga": "Ghanta",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #8 )",
+   "notation": "https://www.shivkumar.org/music/srikamalambike-avava-ghanta.htm",
+   "karnatik_id": 5936
+  },
+  {
+   "shivkumar_title": "Shree Kamalamba Jayati",
+   "raga": "Ahiri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam #9 )",
+   "notation": "https://www.shivkumar.org/music/kamalamba-jayati-ahiri.htm",
+   "karnatik_id": 5932
+  },
+  {
+   "shivkumar_title": "Shree Kamalaambike Shive",
+   "raga": "Sri Ragam",
+   "tala": "Khanda Ekam (2 kalai)",
+   "composer": "Dikshitar ( Navavarnam Mangala Krithi )",
+   "notation": "https://www.shivkumar.org/music/kamalambike-shive-sriragam.htm",
+   "karnatik_id": 8928
+  },
+  {
+   "shivkumar_title": "Kanaithillan Katrrerumai (Thiruppavai Pasuram #12)",
+   "raga": "Kedaragowlai",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-12-KanaithiIlan-Kedaragowla.htm",
+   "karnatik_id": 9377
+  },
+  {
+   "shivkumar_title": "KanaKanaRuchira",
+   "raga": "Varali",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/kanakanaruchira-new.htm",
+   "karnatik_id": 1018
+  },
+  {
+   "shivkumar_title": "Kanchadalayatakshi",
+   "raga": "Kamala Manohari",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/kanchadalayatakshi.htm",
+   "karnatik_id": 1057
+  },
+  {
+   "shivkumar_title": "Kanugonu",
+   "raga": "NAyaki",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/kanugonu-nayaki.htm",
+   "karnatik_id": 2392
+  },
+  {
+   "shivkumar_title": "Kapali",
+   "raga": "Mohanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/kapali.htm",
+   "karnatik_id": 6336
+  },
+  {
+   "shivkumar_title": "Karavaigal Pin Cendru (Thiruppavai Pasuram #28)",
+   "raga": "Khamboji (Kambodhi)",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-28-KaravaigalPinSenru-Khamboji.htm",
+   "karnatik_id": 9378
+  },
+  {
+   "shivkumar_title": "Karikalabha Mukham",
+   "raga": "Saveri",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/karikalabha.htm",
+   "karnatik_id": 5748
+  },
+  {
+   "shivkumar_title": "Karpagame",
+   "raga": "Madhyamavathi",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/karpagame.htm",
+   "karnatik_id": 1056
+  },
+  {
+   "shivkumar_title": "Karuna CheivAn Entu",
+   "raga": "Sri Ragam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Irayimman Thampi",
+   "notation": "https://www.shivkumar.org/music/karunaicheivanenthu.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Katru Karuvai (Thiruppavai Pasuram #11)",
+   "raga": "Huseni",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-11-KatruKaravai-Huseni.htm",
+   "karnatik_id": 9380
+  },
+  {
+   "shivkumar_title": "Kausaleya Sri",
+   "raga": "Gowri Manohari",
+   "tala": "Adi (2 kalai)",
+   "composer": "V V Srivatsan",
+   "notation": "https://www.shivkumar.org/music/kausaleya-sri-gowrimanohari.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Kisu Kisu Enru (Thiruppavai Pasuram #07)",
+   "raga": "Bhairavi",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-07-KisuKisuEnru-Bhairavi.htm",
+   "karnatik_id": 9381
+  },
+  {
+   "shivkumar_title": "Kizh Vanam (Thiruppavai Pasuram #08)",
+   "raga": "Dhanyasi",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-08-KizhVanam-Dhanyasi.htm",
+   "karnatik_id": 9382
+  },
+  {
+   "shivkumar_title": "Kodanda Ramam",
+   "raga": "Kokilaaravam",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/kodandaramam.htm",
+   "karnatik_id": 5753
+  },
+  {
+   "shivkumar_title": "Koluvaiyunnade",
+   "raga": "Devagandhari",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/koluvaiyunnade.htm",
+   "karnatik_id": 2404
+  },
+  {
+   "shivkumar_title": "Koluvamaregada",
+   "raga": "Thodi",
+   "tala": "Adi (2 Kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/koluvamaregada.htm",
+   "karnatik_id": 2405
+  },
+  {
+   "shivkumar_title": "Korinavaramu",
+   "raga": "Ramapriya",
+   "tala": "Rupakam",
+   "composer": "Patnam Subramanya Iyer",
+   "notation": "https://www.shivkumar.org/music/korinavaramu.htm",
+   "karnatik_id": 4005
+  },
+  {
+   "shivkumar_title": "Krishna Nee Begane Baro",
+   "raga": "Yamuna Kalyani",
+   "tala": "Misra Chapu",
+   "composer": "Vyasaradi",
+   "notation": "https://www.shivkumar.org/music/krishnaneebegane.htm",
+   "karnatik_id": 1298
+  },
+  {
+   "shivkumar_title": "Krupaya Paalaya",
+   "raga": "Charukesi",
+   "tala": "Misra Chapu",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/krupayapalaya.htm",
+   "karnatik_id": 6804
+  },
+  {
+   "shivkumar_title": "Ksheerasagara",
+   "raga": "Devagandhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ksheerasagara.htm",
+   "karnatik_id": 1430
+  },
+  {
+   "shivkumar_title": "Ksheerasagara",
+   "raga": "Mayamalavagowlai",
+   "tala": "Chaturashra Dhruvam (2 kalai)",
+   "composer": "Jayachaamaraaja Wodeyaar. Learnt From Recording of: M.S. Subbulakshmi",
+   "notation": "https://www.shivkumar.org/music/ksheerasaagara-maya.htm",
+   "karnatik_id": 1454
+  },
+  {
+   "shivkumar_title": "Ksheenamai",
+   "raga": "Mukhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ksheenamai.htm",
+   "karnatik_id": 2411
+  },
+  {
+   "shivkumar_title": "Kshitija Ramanam",
+   "raga": "Devagandhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/kshitija-ramanam.htm",
+   "karnatik_id": 5755
+  },
+  {
+   "shivkumar_title": "Koodarai Vellum (Thiruppavai Pasuram #27)",
+   "raga": "Purvi Kalyani",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-27-KUdAraiVellam-PurviKalyani.htm",
+   "karnatik_id": 9383
+  },
+  {
+   "shivkumar_title": "Kumaranthaal",
+   "raga": "Yadukula Kambodhi",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/kumaranthaal.htm",
+   "karnatik_id": 1581
+  },
+  {
+   "shivkumar_title": "Kuthu Vilakkeriya (Thiruppavai Pasuram #19)",
+   "raga": "Sahana",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-19-KuthuVilakkeriya-Sahana.htm",
+   "karnatik_id": 9384
+  },
+  {
+   "shivkumar_title": "Kurai Onrum Illai",
+   "raga": "Ragamalika",
+   "tala": "Adi",
+   "composer": "C. Ragagopalachari",
+   "notation": "https://www.shivkumar.org/music/kurai-onrum-illai.htm",
+   "karnatik_id": 1296
+  },
+  {
+   "shivkumar_title": "Lalithe",
+   "raga": "Yadukula Kambodhi",
+   "tala": "Rupakam",
+   "composer": "Chengalvaraya Shastri",
+   "notation": "https://www.shivkumar.org/music/lalithemaampahi.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Laavanya Raama",
+   "raga": "Rudrapriya",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/lavanyarama.htm",
+   "karnatik_id": 2528
+  },
+  {
+   "shivkumar_title": "Lokavana Chatura",
+   "raga": "Begada",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/lokavanachatura.htm",
+   "karnatik_id": 2531
+  },
+  {
+   "shivkumar_title": "Maa Janaki",
+   "raga": "Kamboji (Kambodhi)",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/maajanaki.htm",
+   "karnatik_id": 2532
+  },
+  {
+   "shivkumar_title": "Maakelara",
+   "raga": "Ravichandrika",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/maakelara1.htm",
+   "karnatik_id": 2538
+  },
+  {
+   "shivkumar_title": "Maal Maruga",
+   "raga": "Vasantha",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/maalmaruga.htm",
+   "karnatik_id": 2640
+  },
+  {
+   "shivkumar_title": "mAlE manivannA (Thiruppavai Pasuram #26)",
+   "raga": "Kunthalavarali",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-26-mAlEmannivannA-Kunthalavarali.htm",
+   "karnatik_id": 9385
+  },
+  {
+   "shivkumar_title": "Maara Vairi Ramani",
+   "raga": "Nasikabhushani",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja (?)",
+   "notation": "https://www.shivkumar.org/music/maravairi-ramani.htm",
+   "karnatik_id": 1235
+  },
+  {
+   "shivkumar_title": "mAri malai (Thiruppavai Pasuram #23)",
+   "raga": "Manirangu",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-23-mArimalai-Manirangu.htm",
+   "karnatik_id": 9387
+  },
+  {
+   "shivkumar_title": "mAtE malaya dvaja (DARU VARNAM)",
+   "raga": "Khamas",
+   "tala": "Adi (2 kalai)",
+   "composer": "Mysore Vasudevacharya",
+   "notation": "https://www.shivkumar.org/music/matemalayadwaja-khamas.htm",
+   "karnatik_id": 1466
+  },
+  {
+   "shivkumar_title": "Mayateeta Swaroopini",
+   "raga": "Mayamalavagowla",
+   "tala": "Rupakam",
+   "composer": "Ponnaiah Pillai",
+   "notation": "https://www.shivkumar.org/music/mayatheetha-swaroopini.htm",
+   "karnatik_id": 1410
+  },
+  {
+   "shivkumar_title": "Maayamma Anine",
+   "raga": "Ahiri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/mayamma-ahiri.htm",
+   "karnatik_id": 8803
+  },
+  {
+   "shivkumar_title": "Maayamma Nannu",
+   "raga": "Nata Kuranji",
+   "tala": "Adi",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/maayamma-natakuranji.htm",
+   "karnatik_id": 8802
+  },
+  {
+   "shivkumar_title": "Maayanai Mannu (Thiruppavai Pasuram #05)",
+   "raga": "Sri Ragam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-05-MayanaiMannu-SriRagam.htm",
+   "karnatik_id": 9388
+  },
+  {
+   "shivkumar_title": "Maanamu Leda",
+   "raga": "Hamir Kalyani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/manamuleda.htm",
+   "karnatik_id": 1802
+  },
+  {
+   "shivkumar_title": "Maapaala",
+   "raga": "Asaveri",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/maapaala.htm",
+   "karnatik_id": 2548
+  },
+  {
+   "shivkumar_title": "Maa Ramanan",
+   "raga": "Hindolam",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/maaramanan.htm",
+   "karnatik_id": 1343
+  },
+  {
+   "shivkumar_title": "Margazhi Thingal (Thiruppavai Pasuram #01)",
+   "raga": "Nata",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-01-MargazhiThingal-Nattai.htm",
+   "karnatik_id": 9386
+  },
+  {
+   "shivkumar_title": "Madhurambikayam",
+   "raga": "Hemavathi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/madhurambikayam.htm",
+   "karnatik_id": 5770
+  },
+  {
+   "shivkumar_title": "Mahalakshmi Jaganmata",
+   "raga": "Shankarabharanam",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/mahalakshmi-jaganmata.htm",
+   "karnatik_id": 6364
+  },
+  {
+   "shivkumar_title": "Malarinai Thunaiye",
+   "raga": "Reethigowlai",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/malarinai.htm",
+   "karnatik_id": 1556
+  },
+  {
+   "shivkumar_title": "Mamava Meenakshi",
+   "raga": "Varali",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/mamavameenakshi.htm",
+   "karnatik_id": 5782
+  },
+  {
+   "shivkumar_title": "Manasa Guru Guha",
+   "raga": "Ananda Bhairavi",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/manasaguruguha1.htm",
+   "karnatik_id": 1052
+  },
+  {
+   "shivkumar_title": "Manasa Sancharare",
+   "raga": "Sama",
+   "tala": "Adi",
+   "composer": "Sadasiva Brahmendrar",
+   "notation": "https://www.shivkumar.org/music/manasasancharare.htm",
+   "karnatik_id": 2542
+  },
+  {
+   "shivkumar_title": "Manasa Yetulorthune",
+   "raga": "Malayamarutham",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/manasayetu.htm",
+   "karnatik_id": 1486
+  },
+  {
+   "shivkumar_title": "Manasuloni",
+   "raga": "Varamu",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/manasuloni.htm",
+   "karnatik_id": 1116
+  },
+  {
+   "shivkumar_title": "Manasu Swaddhina",
+   "raga": "Shankarabharanam",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/manasuswaddhina.htm",
+   "karnatik_id": 2545
+  },
+  {
+   "shivkumar_title": "Manavyalakinchara",
+   "raga": "Nalinakanthi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/manavyala.htm",
+   "karnatik_id": 1020
+  },
+  {
+   "shivkumar_title": "Marakatha Mani",
+   "raga": "Varali",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/marakatamani-varali.htm",
+   "karnatik_id": 2550
+  },
+  {
+   "shivkumar_title": "Mari Vere Gati",
+   "raga": "Ananda Bhairavi",
+   "tala": "Misra Chapu",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/mariveregati-anandabhairavi.htm",
+   "karnatik_id": 8801
+  },
+  {
+   "shivkumar_title": "Marubalka",
+   "raga": "Sri Ranjani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/marubalka.htm",
+   "karnatik_id": 1281
+  },
+  {
+   "shivkumar_title": "MarugelarA O RaghavA",
+   "raga": "JayanthasrI",
+   "tala": "Deshadi (Adi)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/marugelara.htm",
+   "karnatik_id": 1024
+  },
+  {
+   "shivkumar_title": "Meenakshi Me Mudam",
+   "raga": "Purvi Kalyani",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/meenakshi-memudam.htm",
+   "karnatik_id": 9151
+  },
+  {
+   "shivkumar_title": "Meru Samaana",
+   "raga": "Mayamalavagowlai",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/merusamana.htm",
+   "karnatik_id": 2560
+  },
+  {
+   "shivkumar_title": "Mitri BhagyamE",
+   "raga": "Kharaharapriya",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/mitribhagyame.htm",
+   "karnatik_id": 2561
+  },
+  {
+   "shivkumar_title": "mOhana rAmA",
+   "raga": "Mohanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/mOhanarAma.htm",
+   "karnatik_id": 1128
+  },
+  {
+   "shivkumar_title": "Mundu Venuka",
+   "raga": "Durbar",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/munduvenuka-durbar.htm",
+   "karnatik_id": 2568
+  },
+  {
+   "shivkumar_title": "Muppathi mUvar (Thiruppavai Pasuram #20)",
+   "raga": "Senjurutti",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-20-MuppathiMuvar-Senchurutti.htm",
+   "karnatik_id": 9389
+  },
+  {
+   "shivkumar_title": "Muruga Muruga",
+   "raga": "Saveri",
+   "tala": "Misra Chapu",
+   "composer": "Periyaswamy Thooran",
+   "notation": "https://www.shivkumar.org/music/murugamuruga.htm",
+   "karnatik_id": 1208
+  },
+  {
+   "shivkumar_title": "Naadupai",
+   "raga": "Madhyamavathi",
+   "tala": "Khanda Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/naadupai.htm",
+   "karnatik_id": 2578
+  },
+  {
+   "shivkumar_title": "Nada Sudha Rasa",
+   "raga": "Arabhi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nadasudharasa.htm",
+   "karnatik_id": 2576
+  },
+  {
+   "shivkumar_title": "Nadathanumanisham",
+   "raga": "Chittaranjani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nadathanumanisham.htm",
+   "karnatik_id": 1184
+  },
+  {
+   "shivkumar_title": "Nadopasana",
+   "raga": "Begada",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nadopasana.htm",
+   "karnatik_id": 2577
+  },
+  {
+   "shivkumar_title": "Nagumomu",
+   "raga": "Abheri",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nagumomu.htm",
+   "karnatik_id": 1329
+  },
+  {
+   "shivkumar_title": "Nambi Kettavar",
+   "raga": "Hindolam",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/nambikettavar-hindolam.htm",
+   "karnatik_id": 1320
+  },
+  {
+   "shivkumar_title": "Namo Namo Raghukula Nayaka",
+   "raga": "Nattai",
+   "tala": "Rupakam",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/namo-namo-raghukula.htm",
+   "karnatik_id": 1114
+  },
+  {
+   "shivkumar_title": "Nanati Baduku",
+   "raga": "Revathi",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/nanatibaduku.htm",
+   "karnatik_id": 1508
+  },
+  {
+   "shivkumar_title": "Nanu Brovu LalithA",
+   "raga": "Lalitha",
+   "tala": "Misra Chapu",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/nannubrovulalitha.htm",
+   "karnatik_id": 8810
+  },
+  {
+   "shivkumar_title": "Nannu Kanna Thalli",
+   "raga": "Sindhu Kannada",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/Nannukannathalli.pdf",
+   "karnatik_id": 2585
+  },
+  {
+   "shivkumar_title": "Nannu Palimpa",
+   "raga": "Mohanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nannupAlimpa.htm",
+   "karnatik_id": 1426
+  },
+  {
+   "shivkumar_title": "Narada Gana Lola",
+   "raga": "Atana",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/naradaganalola.htm",
+   "karnatik_id": 2587
+  },
+  {
+   "shivkumar_title": "Narasimha Mamava",
+   "raga": "Arabhi",
+   "tala": "Khanda Chapu",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/narasimha-mamava.htm",
+   "karnatik_id": 6834
+  },
+  {
+   "shivkumar_title": "Narayana Ninna Namada",
+   "raga": "Shuddha Dhanyasi",
+   "tala": "Khanda Chapu",
+   "composer": "Purandara Dasa",
+   "notation": "https://www.shivkumar.org/music/narayana-shuddha-dhanyasi.htm",
+   "karnatik_id": 5284
+  },
+  {
+   "shivkumar_title": "nAyakanAi ninra (Thiruppavai Pasuram #16)",
+   "raga": "Durbar",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-16-NAyaganAiNinra-Durbar.htm",
+   "karnatik_id": 9390
+  },
+  {
+   "shivkumar_title": "Nee Bhajana Gana",
+   "raga": "Naayaki",
+   "tala": "Adi",
+   "composer": "Tyajaraja",
+   "notation": "https://www.shivkumar.org/music/neebhajana.htm",
+   "karnatik_id": 2645
+  },
+  {
+   "shivkumar_title": "Nee Daya Rada",
+   "raga": "Vasantha Bhairavi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/needayarada.htm",
+   "karnatik_id": 2441
+  },
+  {
+   "shivkumar_title": "Neelakantam",
+   "raga": "Kedaragowlai",
+   "tala": "Rupakam",
+   "composer": "Dikshitar. Learnt From Recording of: M.N. Subramanyam",
+   "notation": "https://www.shivkumar.org/music/neelakantam.htm",
+   "karnatik_id": 5818
+  },
+  {
+   "shivkumar_title": "Neemathisalaka",
+   "raga": "Ananda Bhairavi",
+   "tala": "Adi",
+   "composer": "Kavi Matrubhootayya",
+   "notation": "https://www.shivkumar.org/music/neemathisalaka.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Neevadane Gana",
+   "raga": "Saaranga",
+   "tala": "Khanda Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/neevadanegana.htm",
+   "karnatik_id": 2671
+  },
+  {
+   "shivkumar_title": "Nirajakshi Kamakshi",
+   "raga": "Hindolam",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/nirajakshi-kamakshi-hindolam.htm",
+   "karnatik_id": 5829
+  },
+  {
+   "shivkumar_title": "Neevanti Deivamunu",
+   "raga": "Thodi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nivanti-thodi.htm",
+   "karnatik_id": 2673
+  },
+  {
+   "shivkumar_title": "Nenarunchera",
+   "raga": "Simhavahini",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja. Learnt From Recording of: M.N. Subramanyam",
+   "notation": "https://www.shivkumar.org/music/nenarunchera.htm",
+   "karnatik_id": 2597
+  },
+  {
+   "shivkumar_title": "Nidhi ChAla SukhamA",
+   "raga": "Kalyani",
+   "tala": "Misra Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/nidhichala.htm",
+   "karnatik_id": 1478
+  },
+  {
+   "shivkumar_title": "Ninne Bhajana",
+   "raga": "Nattai",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ninnebhajana-new.htm",
+   "karnatik_id": 2667
+  },
+  {
+   "shivkumar_title": "Ninne Nera Namminaanu",
+   "raga": "Panthuvarali",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ninnenera-panthu.htm",
+   "karnatik_id": 2448
+  },
+  {
+   "shivkumar_title": "Ninnu Juchi",
+   "raga": "Sowrastram",
+   "tala": "Deshadi",
+   "composer": "Patnam Subramanya Iyer",
+   "notation": "https://www.shivkumar.org/music/ninnujuchi.htm",
+   "karnatik_id": 4019
+  },
+  {
+   "shivkumar_title": "Ninnu Vina",
+   "raga": "Thodi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar. Learnt From Recording of: M.N. Subramanyam",
+   "notation": "https://www.shivkumar.org/music/ninnuvina.htm",
+   "karnatik_id": 1414
+  },
+  {
+   "shivkumar_title": "NoRRu Chuvarkkam (Thiruppavai Pasuram #10)",
+   "raga": "Thodi",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-10-NotruChuvarkkam-Thodi.htm",
+   "karnatik_id": 9391
+  },
+  {
+   "shivkumar_title": "O Jagadamba",
+   "raga": "Ananda Bhairavi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Shyama Shastry",
+   "notation": "https://www.shivkumar.org/music/ojagadamba.htm",
+   "karnatik_id": 8817
+  },
+  {
+   "shivkumar_title": "Ongi Ulagalandha (Thiruppavai Pasuram #03)",
+   "raga": "Arabhi",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-03-OngiUlagalandha-Arabhi.htm",
+   "karnatik_id": 9392
+  },
+  {
+   "shivkumar_title": "O Rangashayi",
+   "raga": "Kambodhi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/orangashaayi.htm",
+   "karnatik_id": 2685
+  },
+  {
+   "shivkumar_title": "Oruthi MaganAi (Thiruppavai Pasuram #25)",
+   "raga": "Behag",
+   "tala": "Adi",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-25-OruthiMaganai-Behag.htm",
+   "karnatik_id": 9393
+  },
+  {
+   "shivkumar_title": "Okapari",
+   "raga": "Kharaharapriya",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/okapari.htm",
+   "karnatik_id": 1567
+  },
+  {
+   "shivkumar_title": "Padavini",
+   "raga": "Salaga Bhairavi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/padavini.htm",
+   "karnatik_id": 2690
+  },
+  {
+   "shivkumar_title": "Pahi Rama Doota",
+   "raga": "Shadvidhamargini",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja. Learnt From Recording of: C.V.Shankar",
+   "notation": "https://www.shivkumar.org/music/pahiramadoota.htm",
+   "karnatik_id": 2698
+  },
+  {
+   "shivkumar_title": "Pahimaam Sri RajaRajeshwari",
+   "raga": "Janaranjani",
+   "tala": "Adi",
+   "composer": "Maha Vaidyanatha Iyer. Learnt From Recording of: Semmangudi",
+   "notation": "https://www.shivkumar.org/music/pahimaamsriraja.htm",
+   "karnatik_id": 2428
+  },
+  {
+   "shivkumar_title": "Palimchu Kamakshi",
+   "raga": "Madhyamavathi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Shyama Shastri",
+   "notation": "https://www.shivkumar.org/music/palinchu-kamakshi.htm",
+   "karnatik_id": 2442
+  },
+  {
+   "shivkumar_title": "Pamarajana Palini",
+   "raga": "Simhendramadhyamam",
+   "tala": "Rupakam",
+   "composer": "Dikshitar. Learnt From Recording of: Hyderabad Brothers",
+   "notation": "https://www.shivkumar.org/music/pamarajanapalini.htm",
+   "karnatik_id": 5838
+  },
+  {
+   "shivkumar_title": "Pancha Matanga",
+   "raga": "Malahari",
+   "tala": "Rupakam",
+   "composer": "Dikshitar. Learnt From Recording of: M.N. Subramanyam",
+   "notation": "https://www.shivkumar.org/music/panchamatanga.htm",
+   "karnatik_id": 5840
+  },
+  {
+   "shivkumar_title": "Pankaja Lochana",
+   "raga": "Kalyani",
+   "tala": "Misra Chapu (Triputa)",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/pankajalochana.htm",
+   "karnatik_id": 3432
+  },
+  {
+   "shivkumar_title": "Paraamukham Yenaiyya",
+   "raga": "Kharaharapriya",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan. Learnt From Recording of: D.K. Pattammal",
+   "notation": "https://www.shivkumar.org/music/paraamukham.htm",
+   "karnatik_id": 1554
+  },
+  {
+   "shivkumar_title": "Paraloka Bhaya",
+   "raga": "Mandari",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja. Learnt From Recording of: Hyderabad Brothers",
+   "notation": "https://www.shivkumar.org/music/paraloka-bhaya.htm",
+   "karnatik_id": 2713
+  },
+  {
+   "shivkumar_title": "Parandhamavathi Jayati",
+   "raga": "Dharmavathi",
+   "tala": "Rupakam",
+   "composer": "Muthuswami Dikshitar. Learnt From Recording of: Hyderabad Brothers",
+   "notation": "https://www.shivkumar.org/music/parandhamavathi-dharmavathi.htm",
+   "karnatik_id": 5849
+  },
+  {
+   "shivkumar_title": "Paradevata",
+   "raga": "Dhanyasi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar. Learnt From Recording of: M.N. Subramanyam",
+   "notation": "https://www.shivkumar.org/music/paradevata.htm",
+   "karnatik_id": 5843
+  },
+  {
+   "shivkumar_title": "Parama Pavana",
+   "raga": "Ranjani",
+   "tala": "Rupakam",
+   "composer": "Misu Krishna Iyer",
+   "notation": "https://www.shivkumar.org/music/paramapavana-ranjini.htm",
+   "karnatik_id": 2715
+  },
+  {
+   "shivkumar_title": "Parama Pavani",
+   "raga": "Atana",
+   "tala": "Adi",
+   "composer": "Annaswami Shastry. Learnt From Recording of: Ram Kaushik (Orig: G.N. Balasubramanian: GNB)",
+   "notation": "https://www.shivkumar.org/music/paramapavani.htm",
+   "karnatik_id": 3152
+  },
+  {
+   "shivkumar_title": "Parameshwara",
+   "raga": "Nattai",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/parameshwara-nattai.htm",
+   "karnatik_id": 5847
+  },
+  {
+   "shivkumar_title": "Paratpara",
+   "raga": "Vachaspati",
+   "tala": "Deshadi",
+   "composer": "Papanasam Sivan. Learnt From Recording of: D.K.Pattammal",
+   "notation": "https://www.shivkumar.org/music/paratpara.htm",
+   "karnatik_id": 1823
+  },
+  {
+   "shivkumar_title": "Paridhana Icchithe",
+   "raga": "Bilahari",
+   "tala": "Khanda Chapu",
+   "composer": "Patnam Subramanya Iyer",
+   "notation": "https://www.shivkumar.org/music/paridhana.htm",
+   "karnatik_id": 1142
+  },
+  {
+   "shivkumar_title": "Parvai Onre Podhume",
+   "raga": "Surutti",
+   "tala": "Adi (2 kalai)",
+   "composer": "Oothukadu Venkata (Kavi) Subbaiyer",
+   "notation": "https://www.shivkumar.org/music/parvai-onre-podhume.htm",
+   "karnatik_id": 8623
+  },
+  {
+   "shivkumar_title": "Parvati Pathim",
+   "raga": "Hamsadhwani",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/parvatipathim.htm",
+   "karnatik_id": 5856
+  },
+  {
+   "shivkumar_title": "Pavana Guru",
+   "raga": "Hamsanandi",
+   "tala": "Rupakam",
+   "composer": "Lalita Dasar",
+   "notation": "https://www.shivkumar.org/music/pavanaguru-hamsanandi.htm",
+   "karnatik_id": 1327
+  },
+  {
+   "shivkumar_title": "Pavanatmaja Agaccha",
+   "raga": "Nattai (Nata)",
+   "tala": "Khanda Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/pavanatmaja-nata-dikshitar.htm",
+   "karnatik_id": 5859
+  },
+  {
+   "shivkumar_title": "petridalAm manamE",
+   "raga": "Sri Ranjani",
+   "tala": "Adi",
+   "composer": "Kovai Subri",
+   "notation": "https://www.shivkumar.org/music/petridalam-maname-sriranjani.htm",
+   "karnatik_id": 8257
+  },
+  {
+   "shivkumar_title": "Piravaavaram",
+   "raga": "Lathangi",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan. Learnt From Recording of: Neyveli Santhanagopalan",
+   "notation": "https://www.shivkumar.org/music/piravaavaram.htm",
+   "karnatik_id": 1434
+  },
+  {
+   "shivkumar_title": "Prakkala Nilabadi",
+   "raga": "Kharaharapriya",
+   "tala": "Triputa (Misra Chapu)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/prakkala.htm",
+   "karnatik_id": 1700
+  },
+  {
+   "shivkumar_title": "Pranamaamyaham",
+   "raga": "Gowlai",
+   "tala": "Adi",
+   "composer": "Mysore Vasudevachar. Learnt From Recording of: C.V. Shankar",
+   "notation": "https://www.shivkumar.org/music/pranamaamyaham.htm",
+   "karnatik_id": 4541
+  },
+  {
+   "shivkumar_title": "Pullin Vaay Kidanay (Thiruppavai Pasuram #13)",
+   "raga": "Atana",
+   "tala": "Rupakam",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-13-PullinVayKidanai-Atana.htm",
+   "karnatik_id": 9394
+  },
+  {
+   "shivkumar_title": "Pullum Silambina (Thiruppavai Pasuram #06)",
+   "raga": "Shankarabharanam",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-06-PullumSilambinagan-Shankarabharanam.htm",
+   "karnatik_id": 9395
+  },
+  {
+   "shivkumar_title": "Punnagai Onre",
+   "raga": "Hamsanandi",
+   "tala": "Adi",
+   "composer": "Ambujam Krishna. Learnt From Recording of: Neyveli Santhanagopalan",
+   "notation": "https://www.shivkumar.org/music/punnagaionre.htm",
+   "karnatik_id": 2627
+  },
+  {
+   "shivkumar_title": "Raghunayaka",
+   "raga": "Hamsadhwani",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/raghunayaka.htm",
+   "karnatik_id": 2455
+  },
+  {
+   "shivkumar_title": "Ramabhirama",
+   "raga": "Durbar",
+   "tala": "Misra Chapu (Triputa)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramabhirama.htm",
+   "karnatik_id": 2746
+  },
+  {
+   "shivkumar_title": "Ramachandram Bhaavayami",
+   "raga": "Vasanta",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ramachandram-bhavayami.htm",
+   "karnatik_id": 3575
+  },
+  {
+   "shivkumar_title": "Ramachandrena",
+   "raga": "Manji",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ramachandrena-manji.htm",
+   "karnatik_id": 5874
+  },
+  {
+   "shivkumar_title": "Rama Dayajudave",
+   "raga": "Dhanyasi",
+   "tala": "Adi",
+   "composer": "Bhadrachala Ramadas",
+   "notation": "https://www.shivkumar.org/music/ramadayajudave.htm",
+   "karnatik_id": 1158
+  },
+  {
+   "shivkumar_title": "Rama Nannu Brovara",
+   "raga": "Hari Kambodhi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramanannubrova.htm",
+   "karnatik_id": 2757
+  },
+  {
+   "shivkumar_title": "Ramanatham",
+   "raga": "Panthuvarali",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ramanatham.htm",
+   "karnatik_id": 5876
+  },
+  {
+   "shivkumar_title": "Rama Ika Nannu",
+   "raga": "Sahana",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramaikanannu.htm",
+   "karnatik_id": 1738
+  },
+  {
+   "shivkumar_title": "Rama Katha Sudha",
+   "raga": "Madhyamavathi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramakathasudha.htm",
+   "karnatik_id": 2751
+  },
+  {
+   "shivkumar_title": "Rama Neepai Tanaku",
+   "raga": "Kedaram",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramanipai2.htm",
+   "karnatik_id": 2760
+  },
+  {
+   "shivkumar_title": "Rama Nee Samana",
+   "raga": "Kharaharapriya",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramaneesamana.htm",
+   "karnatik_id": 1350
+  },
+  {
+   "shivkumar_title": "Rama Ninnu Nammina",
+   "raga": "Mohanam",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/ramaninnunammina.htm",
+   "karnatik_id": 2758
+  },
+  {
+   "shivkumar_title": "Ranganathude",
+   "raga": "Sowrastram",
+   "tala": "Rupakam",
+   "composer": "Ponnaiah Pillai",
+   "notation": "https://www.shivkumar.org/music/ranganathude.htm",
+   "karnatik_id": 2436
+  },
+  {
+   "shivkumar_title": "Ranganayakam",
+   "raga": "Nayaki",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/ranganayakam.htm",
+   "karnatik_id": 5878
+  },
+  {
+   "shivkumar_title": "Rangapura Vihaara",
+   "raga": "Brindavana Saranga",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/rangapura.htm",
+   "karnatik_id": 1008
+  },
+  {
+   "shivkumar_title": "Ranjani Mrudu Pankaja (Ranjani Mala)",
+   "raga": "Ragamalika",
+   "tala": "Adi",
+   "composer": "Tanjavur Sankara Iyer",
+   "notation": "https://www.shivkumar.org/music/Ranjanimridupankaja.htm",
+   "karnatik_id": 4297
+  },
+  {
+   "shivkumar_title": "Rathnakanchuka",
+   "raga": "Kambodhi",
+   "tala": "Misra Chapu",
+   "composer": "Muthaiah Bhagavathar",
+   "notation": "https://www.shivkumar.org/music/rathnakanchuka.htm",
+   "karnatik_id": 2030
+  },
+  {
+   "shivkumar_title": "Rave Himagiri (Swarajati)",
+   "raga": "Thodi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Shyama Shastri",
+   "notation": "https://www.shivkumar.org/music/ravehimagiri.htm",
+   "karnatik_id": 8827
+  },
+  {
+   "shivkumar_title": "Saadinchane",
+   "raga": "Arabhi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sadhinchane-new.htm",
+   "karnatik_id": 1033
+  },
+  {
+   "shivkumar_title": "Saamaja Vara Gamana",
+   "raga": "Hindolam",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/samajavaragamana.htm",
+   "karnatik_id": 1036
+  },
+  {
+   "shivkumar_title": "Santana Ramaswaminam",
+   "raga": "Hindola Vasantam",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/santana-ramaswaminam.htm",
+   "karnatik_id": 5895
+  },
+  {
+   "shivkumar_title": "Saarasa Dala Nayana",
+   "raga": "Khamas",
+   "tala": "Chathusra Jhampa (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sarasadalanayana.htm",
+   "karnatik_id": 5897
+  },
+  {
+   "shivkumar_title": "Saarasaksha",
+   "raga": "Panthuvarali",
+   "tala": "Adi",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/sarasaksha.htm",
+   "karnatik_id": 6936
+  },
+  {
+   "shivkumar_title": "Sabhapathikku",
+   "raga": "Abhogi",
+   "tala": "Rupakam",
+   "composer": "Gopalakrisha Bharati",
+   "notation": "https://www.shivkumar.org/music/sabaapathikku.htm",
+   "karnatik_id": 1035
+  },
+  {
+   "shivkumar_title": "Sadaachaleshwaram",
+   "raga": "Bhupalam",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sadachaleshwaram.htm",
+   "karnatik_id": 1084
+  },
+  {
+   "shivkumar_title": "Sakala Graha Bala",
+   "raga": "Atana",
+   "tala": "Khanda Chapu",
+   "composer": "Purandaradasa",
+   "notation": "https://www.shivkumar.org/music/sakalagraha.htm",
+   "karnatik_id": 1710
+  },
+  {
+   "shivkumar_title": "Salakalla",
+   "raga": "Arabhi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/salakalla.htm",
+   "karnatik_id": 2231
+  },
+  {
+   "shivkumar_title": "Sangeetha Gnyanamu",
+   "raga": "Dhanyasi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sangeethagnyanamu.htm",
+   "karnatik_id": 2809
+  },
+  {
+   "shivkumar_title": "Sarasa Sama Dana",
+   "raga": "Kapi Narayani",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sarasasamadana.htm",
+   "karnatik_id": 1083
+  },
+  {
+   "shivkumar_title": "Saraseeruhasana Priye",
+   "raga": "Nattai",
+   "tala": "Adi",
+   "composer": "Puliyur Doraiswamy Iyer",
+   "notation": "https://www.shivkumar.org/music/saraseeruhasana.htm",
+   "karnatik_id": 1081
+  },
+  {
+   "shivkumar_title": "Saraguna Palimpa",
+   "raga": "Kedaragowlai",
+   "tala": "Adi (2 kalai)",
+   "composer": "Poochi Srinivasa Iyengar",
+   "notation": "https://www.shivkumar.org/music/saragunapalimpa.htm",
+   "karnatik_id": 3263
+  },
+  {
+   "shivkumar_title": "Sarasija Nabha Sodhari",
+   "raga": "Naga Gandhari",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sarasijanabha-sodhari-nagagandhari-rupakam.htm",
+   "karnatik_id": 1234
+  },
+  {
+   "shivkumar_title": "Seethamma",
+   "raga": "Vasanta",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/seethamma.htm",
+   "karnatik_id": 1037
+  },
+  {
+   "shivkumar_title": "Seethapathe",
+   "raga": "Khamas",
+   "tala": "Deshaadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/seethapathe.htm",
+   "karnatik_id": 2867
+  },
+  {
+   "shivkumar_title": "Sevikka Vendum Ayya",
+   "raga": "Andolika",
+   "tala": "Adi",
+   "composer": "Muthu Thandavar",
+   "notation": "https://www.shivkumar.org/music/sevikka-vendum-andolika.htm",
+   "karnatik_id": null
+  },
+  {
+   "shivkumar_title": "Shankari Shankuru",
+   "raga": "Saveri",
+   "tala": "Adi (Thrisra nadai)",
+   "composer": "Shyama Shastri",
+   "notation": "https://www.shivkumar.org/music/shankarishankuru.htm",
+   "karnatik_id": 8834
+  },
+  {
+   "shivkumar_title": "Sharadhe",
+   "raga": "Devagandhari",
+   "tala": "Adi (2 kalai)",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/sharadhe.htm",
+   "karnatik_id": 6500
+  },
+  {
+   "shivkumar_title": "Senthil Andavan",
+   "raga": "Kharaharapriya",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/shendil-andavan-kharaharapriya.htm",
+   "karnatik_id": 6504
+  },
+  {
+   "shivkumar_title": "Shobillu Saptaswara",
+   "raga": "Jaganmohini",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/shobillu.htm",
+   "karnatik_id": 1044
+  },
+  {
+   "shivkumar_title": "Shree Gananaatham Bhajare",
+   "raga": "Eesha Manohari",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/shreegananatham.htm",
+   "karnatik_id": 1038
+  },
+  {
+   "shivkumar_title": "Siddhi Vinayakam",
+   "raga": "Shanmukhapriya",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/siddhivinayakam.htm",
+   "karnatik_id": 1510
+  },
+  {
+   "shivkumar_title": "Sitran Siru kAlE (Thiruppavai Pasuram #29)",
+   "raga": "Malayamarutham",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-29-SitranSiruKale-Malayamarutham.htm",
+   "karnatik_id": 9396
+  },
+  {
+   "shivkumar_title": "Sivakameshwari",
+   "raga": "Kalyani",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sivakameshwari.htm",
+   "karnatik_id": 5917
+  },
+  {
+   "shivkumar_title": "Siva Siva Siva",
+   "raga": "Panthuvarali",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sivasivasiva.htm",
+   "karnatik_id": 1325
+  },
+  {
+   "shivkumar_title": "SivE PAhimAm",
+   "raga": "Kalyani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sive-pahimam.htm",
+   "karnatik_id": 2831
+  },
+  {
+   "shivkumar_title": "Sogasuga Mridanga Talamu",
+   "raga": "Sri Ranjani",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sogasuga.htm",
+   "karnatik_id": 2870
+  },
+  {
+   "shivkumar_title": "Soundararajam Ashraye",
+   "raga": "Brindavani (Brindavana Saranga)",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/soundararajam.htm",
+   "karnatik_id": 5903
+  },
+  {
+   "shivkumar_title": "Sri Ganapathini",
+   "raga": "Sowrastram",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sriganapathi.htm",
+   "karnatik_id": 2834
+  },
+  {
+   "shivkumar_title": "Sri Kamakoti",
+   "raga": "Saveri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Mysore Sadasiva Rao",
+   "notation": "https://www.shivkumar.org/music/srikamakoti.htm",
+   "karnatik_id": 8889
+  },
+  {
+   "shivkumar_title": "Sri Kamakshi",
+   "raga": "Saaranga",
+   "tala": "Adi (2 kalai)",
+   "composer": "Annaswamy Shastry",
+   "notation": "https://www.shivkumar.org/music/srikamakshi.htm",
+   "karnatik_id": 8912
+  },
+  {
+   "shivkumar_title": "Sri Krishnam Bhaja",
+   "raga": "Thodi",
+   "tala": "Adi (2 Kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srikrishnam-thodi.htm",
+   "karnatik_id": 5938
+  },
+  {
+   "shivkumar_title": "Sri mAtru BhUtam",
+   "raga": "Kannada",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srimatrubhootam.htm",
+   "karnatik_id": 5949
+  },
+  {
+   "shivkumar_title": "Smarane Sukhamu",
+   "raga": "Janaranjani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/smarane-sukhamu.htm",
+   "karnatik_id": 2869
+  },
+  {
+   "shivkumar_title": "Sri Guru Guha",
+   "raga": "Shuddha Saveri (Devakriya)",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sriguruguha-shuddhasaveri.htm",
+   "karnatik_id": 5927
+  },
+  {
+   "shivkumar_title": "Sri Kanchi Nayike",
+   "raga": "Asaveri",
+   "tala": "Rupakam",
+   "composer": "Annaswamy Shastry",
+   "notation": "https://www.shivkumar.org/music/srikanchinayike.htm",
+   "karnatik_id": 8914
+  },
+  {
+   "shivkumar_title": "Srikantha Neeyada",
+   "raga": "Bhavapriya",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/srikantha.htm",
+   "karnatik_id": 2859
+  },
+  {
+   "shivkumar_title": "Sri Kanthimathim",
+   "raga": "Hemavathi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srikanthimathim.htm",
+   "karnatik_id": 1240
+  },
+  {
+   "shivkumar_title": "Sri Kumara Nagaraalaye",
+   "raga": "Atana",
+   "tala": "Adi (2 kalai)",
+   "composer": "Swati Tirunal",
+   "notation": "https://www.shivkumar.org/music/srikumara.htm",
+   "karnatik_id": 6961
+  },
+  {
+   "shivkumar_title": "Sri Lakshmi Varaham",
+   "raga": "Abhogi",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srilakshmivaraham.htm",
+   "karnatik_id": 1417
+  },
+  {
+   "shivkumar_title": "Sri Lalithe",
+   "raga": "Bhairavi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Annaswami Shastry",
+   "notation": "https://www.shivkumar.org/music/srilalithe.htm",
+   "karnatik_id": 8915
+  },
+  {
+   "shivkumar_title": "Sri Mahaganapathim Bhajeham",
+   "raga": "Atana",
+   "tala": "Adi",
+   "composer": "HH Jayachamaraja Wodeyar",
+   "notation": "https://www.shivkumar.org/music/shri-mahaganapathim-atana.htm",
+   "karnatik_id": 2422
+  },
+  {
+   "shivkumar_title": "Sri Mahaganapathi",
+   "raga": "Gowlai",
+   "tala": "Misra Chapu",
+   "composer": "Muthuswamy Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srimahaganapathi.htm",
+   "karnatik_id": 3577
+  },
+  {
+   "shivkumar_title": "Sriman Narayana",
+   "raga": "Bowli",
+   "tala": "Adi",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/sriman-narayana.htm",
+   "karnatik_id": 1040
+  },
+  {
+   "shivkumar_title": "Sri Nadadhi Guruguho",
+   "raga": "Mayamalavagowla",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srinadadi.htm",
+   "karnatik_id": 5954
+  },
+  {
+   "shivkumar_title": "Sri ParthasarathinA",
+   "raga": "Shuddha Dhanyasi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sriparthasarathina.htm",
+   "karnatik_id": 5956
+  },
+  {
+   "shivkumar_title": "Sri Narada",
+   "raga": "Kanada",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sreenarada.htm",
+   "karnatik_id": 2839
+  },
+  {
+   "shivkumar_title": "Sri Rajagopala",
+   "raga": "Saveri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/srirajagopala.htm",
+   "karnatik_id": 5958
+  },
+  {
+   "shivkumar_title": "Shri RamachandrO",
+   "raga": "Sri Ranjani",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/shri-ramachandro.htm",
+   "karnatik_id": 5962
+  },
+  {
+   "shivkumar_title": "Sri Ramam RaviKula",
+   "raga": "Narayanagowla",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sriramam.htm",
+   "karnatik_id": 1418
+  },
+  {
+   "shivkumar_title": "Sri Ranganatham",
+   "raga": "Poorna Chandrika",
+   "tala": "Adi",
+   "composer": "Ambi Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sriranganatham-poornachandrika.htm",
+   "karnatik_id": 1121
+  },
+  {
+   "shivkumar_title": "Sri Saraswati",
+   "raga": "Arabhi",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srisaraswati-arabhi.htm",
+   "karnatik_id": 5967
+  },
+  {
+   "shivkumar_title": "Sri Satyanarayanam",
+   "raga": "Shubha Panthuvarali",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/shrisatyanarayanam.htm",
+   "karnatik_id": 5968
+  },
+  {
+   "shivkumar_title": "Sri SubramanyAya NamastE",
+   "raga": "Kambodhi (Khamboji, Kambhoji)",
+   "tala": "Rupakam (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srisubramanyaaya.htm",
+   "karnatik_id": 8898
+  },
+  {
+   "shivkumar_title": "Sri Swaminaathaaya",
+   "raga": "Khamas",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/sriswaminaathaya.htm",
+   "karnatik_id": 5974
+  },
+  {
+   "shivkumar_title": "Sri Varalakshmi",
+   "raga": "Shree Ragam",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srivaralakshmi.htm",
+   "karnatik_id": 1827
+  },
+  {
+   "shivkumar_title": "Sri Venkata Girisham",
+   "raga": "Surutti",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/srivenkatagirisham.htm",
+   "karnatik_id": 1109
+  },
+  {
+   "shivkumar_title": "Subramanyena",
+   "raga": "Shuddha Dhanyasi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/subramanyena.htm",
+   "karnatik_id": 5999
+  },
+  {
+   "shivkumar_title": "Sudhamayi",
+   "raga": "Amrutavarshini",
+   "tala": "Rupakam",
+   "composer": "Muthaiah Bhagavatar",
+   "notation": "https://www.shivkumar.org/music/sudhamayi.htm",
+   "karnatik_id": 1045
+  },
+  {
+   "shivkumar_title": "Sugunamule",
+   "raga": "Chakravakam",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sugunamule.htm",
+   "karnatik_id": 2872
+  },
+  {
+   "shivkumar_title": "Sujana Jeevana",
+   "raga": "Khamas",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/sujanajeevana.htm",
+   "karnatik_id": 2873
+  },
+  {
+   "shivkumar_title": "Suryamurthe (Navagraha Krithi)",
+   "raga": "Sowrastram",
+   "tala": "Dhruva",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/suryamurthe.htm",
+   "karnatik_id": 6003
+  },
+  {
+   "shivkumar_title": "Swaminatha",
+   "raga": "Nattai",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/swaminatha-paripalaya.htm",
+   "karnatik_id": 1046
+  },
+  {
+   "shivkumar_title": "Swara Raga Sudha",
+   "raga": "Shankarabharanam",
+   "tala": "Adi (2 kalai)",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/swararagasudha.htm",
+   "karnatik_id": 1517
+  },
+  {
+   "shivkumar_title": "Tarunam Idamma",
+   "raga": "Gowli Panthu",
+   "tala": "Adi",
+   "composer": "Shyama Sastry",
+   "notation": "https://www.shivkumar.org/music/tharunamidamma.htm",
+   "karnatik_id": 1193
+  },
+  {
+   "shivkumar_title": "Tatvamariya Tarama",
+   "raga": "Reethigowlai",
+   "tala": "Adi",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/tatvamariya.htm",
+   "karnatik_id": 1295
+  },
+  {
+   "shivkumar_title": "Teliyaleru Rama",
+   "raga": "Dhenuka",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/theliyaleru.htm",
+   "karnatik_id": 2895
+  },
+  {
+   "shivkumar_title": "Tera Teeyagarada",
+   "raga": "Gowli Panthu",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/TeraTeeyagarada.htm",
+   "karnatik_id": 2896
+  },
+  {
+   "shivkumar_title": "ThAyE yasOdhA",
+   "raga": "Thodi",
+   "tala": "Adi",
+   "composer": "OothukaDu Venkata Subbaiyer",
+   "notation": "https://www.shivkumar.org/music/thaye-yashoda-thodi.htm",
+   "karnatik_id": 1446
+  },
+  {
+   "shivkumar_title": "Thiagarajaya Namaste",
+   "raga": "Begada",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/thiagarajaya.htm",
+   "karnatik_id": 6016
+  },
+  {
+   "shivkumar_title": "Vaiyathu VaazveergaaL (Thiruppavai Pasuram #02)",
+   "raga": "Gowlai",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-02-VaiyathuVaazveergal-Gowlai.htm",
+   "karnatik_id": 9401
+  },
+  {
+   "shivkumar_title": "ThUmani mAdathu (Thiruppavai Pasuram #09)",
+   "raga": "Hamir Kalyani",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-09-ThumaniMadathu-HamirKalyani.htm",
+   "karnatik_id": 9397
+  },
+  {
+   "shivkumar_title": "Ungkal Puzhai (Thiruppavai Pasuram #14)",
+   "raga": "Ananda Bhairavi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-14-UngakalPuzhai-AnandaBhairavi.htm",
+   "karnatik_id": 9399
+  },
+  {
+   "shivkumar_title": "Unthu Matha Kalitran (Thiruppavai Pasuram #18)",
+   "raga": "Saveri",
+   "tala": "Adi (2 kalai)",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-18-UnthuMadakalitran-Saveri.htm",
+   "karnatik_id": 9398
+  },
+  {
+   "shivkumar_title": "Vanga Kadal(Thiruppavai Pasuram #30)",
+   "raga": "Surutti",
+   "tala": "Misra Chapu",
+   "composer": "Andal",
+   "notation": "https://www.shivkumar.org/music/Thiruppavai-30-VangaKadal-Surutti.htm",
+   "karnatik_id": 1078
+  },
+  {
+   "shivkumar_title": "Toli Janmamuna",
+   "raga": "Bilahari",
+   "tala": "Khanda Chapu",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/tolijanma.htm",
+   "karnatik_id": 2619
+  },
+  {
+   "shivkumar_title": "Tulasi Dalamulache",
+   "raga": "Mayamalavagowla",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/tulasidalamulache.htm",
+   "karnatik_id": 1047
+  },
+  {
+   "shivkumar_title": "Tulasi Jagadjanani",
+   "raga": "Saveri",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/tulasijaga.htm",
+   "karnatik_id": 2901
+  },
+  {
+   "shivkumar_title": "Upacharamu jEsEvaru",
+   "raga": "Bhairavi",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/upacharamu.htm",
+   "karnatik_id": 2903
+  },
+  {
+   "shivkumar_title": "Vaachaamagocharame",
+   "raga": "Kaikavasi",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vaachama.htm",
+   "karnatik_id": 2906
+  },
+  {
+   "shivkumar_title": "Vaadera Daivamu",
+   "raga": "Panthuvarali",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vadera-daivamu.htm",
+   "karnatik_id": 2910
+  },
+  {
+   "shivkumar_title": "Vaanchathonu",
+   "raga": "Karnaranjani",
+   "tala": "Adi (thrisra nadai)",
+   "composer": "Muthaiah Bhagavathar",
+   "notation": "https://www.shivkumar.org/music/vaanchathonu.htm",
+   "karnatik_id": 1561
+  },
+  {
+   "shivkumar_title": "Vaarana Mukha Vaa",
+   "raga": "Hamsadhwani",
+   "tala": "Adi",
+   "composer": "Kotishwara Iyer",
+   "notation": "https://www.shivkumar.org/music/vaaranamukha.htm",
+   "karnatik_id": 1203
+  },
+  {
+   "shivkumar_title": "Vallabha Nayakasya",
+   "raga": "Begada",
+   "tala": "Rupakam",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/vallabha.htm",
+   "karnatik_id": 3150
+  },
+  {
+   "shivkumar_title": "Vandeham Jagad Vallabham",
+   "raga": "Hamsadhwani",
+   "tala": "Khanda Chapu",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/vandehamjagat-hamsadhwani.htm",
+   "karnatik_id": 3146
+  },
+  {
+   "shivkumar_title": "Vande Vasudevam",
+   "raga": "Sri Ragam",
+   "tala": "Khanda Chapu",
+   "composer": "Annamacharya",
+   "notation": "https://www.shivkumar.org/music/vandevasudevam.htm",
+   "karnatik_id": 1150
+  },
+  {
+   "shivkumar_title": "Vara Narada",
+   "raga": "Vijayasri",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/varanarada.htm",
+   "karnatik_id": 2913
+  },
+  {
+   "shivkumar_title": "Vatapi Ganapathim",
+   "raga": "Hamsadhwani",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/vatapi.htm",
+   "karnatik_id": 6029
+  },
+  {
+   "shivkumar_title": "VeenaPustaka",
+   "raga": "Vegavahini (Chakravakam)",
+   "tala": "Misra Jhampa (2 kalai)",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/veenapustaka1.htm",
+   "karnatik_id": 6035
+  },
+  {
+   "shivkumar_title": "Venkataramana",
+   "raga": "Lathangi",
+   "tala": "Rupakam",
+   "composer": "Papanasam Sivan",
+   "notation": "https://www.shivkumar.org/music/venkataramana.htm",
+   "karnatik_id": 6605
+  },
+  {
+   "shivkumar_title": "Venugana Loluni",
+   "raga": "Kedaragowlai",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/venuganalola.htm",
+   "karnatik_id": 2927
+  },
+  {
+   "shivkumar_title": "Vidajaaladura",
+   "raga": "Janaranjani",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vidajaladura.htm",
+   "karnatik_id": 2929
+  },
+  {
+   "shivkumar_title": "Vidhulaku Mrokkeda",
+   "raga": "Mayamalavagowla",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vidulaku.htm",
+   "karnatik_id": 2933
+  },
+  {
+   "shivkumar_title": "Vinaradha",
+   "raga": "Devagandhari",
+   "tala": "Deshadi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vinaradha.htm",
+   "karnatik_id": 2935
+  },
+  {
+   "shivkumar_title": "Vinatasuta",
+   "raga": "Jayanthasena",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vinatasuta.htm",
+   "karnatik_id": 2937
+  },
+  {
+   "shivkumar_title": "Vinave O Manasa",
+   "raga": "Vivardhini",
+   "tala": "Rupakam",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vinaveomanasa.htm",
+   "karnatik_id": 2939
+  },
+  {
+   "shivkumar_title": "Vinayakuni",
+   "raga": "Madhyamavathi",
+   "tala": "Adi",
+   "composer": "Tyagaraja",
+   "notation": "https://www.shivkumar.org/music/vinayakuni-madhyamavathi.htm",
+   "karnatik_id": 2701
+  },
+  {
+   "shivkumar_title": "Vishalakshim",
+   "raga": "Panthuvarali",
+   "tala": "Misra Chapu",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/vishalakshim.htm",
+   "karnatik_id": 6610
+  },
+  {
+   "shivkumar_title": "VishweshwarO",
+   "raga": "Kanada",
+   "tala": "Adi",
+   "composer": "Dikshitar",
+   "notation": "https://www.shivkumar.org/music/vishweshwaro-kanada.htm",
+   "karnatik_id": 6042
+  },
+  {
+   "shivkumar_title": "yArO ivar yArO",
+   "raga": "Bhairavi",
+   "tala": "Adi (2 kalai)",
+   "composer": "Arunachala Kavi",
+   "notation": "https://www.shivkumar.org/music/yArOIvaryArO.htm",
+   "karnatik_id": 1156
+  }
+ ]
+}
