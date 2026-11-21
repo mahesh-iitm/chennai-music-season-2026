@@ -1,0 +1,36 @@
+name: Nightly majority vote and season stats
+
+on:
+  schedule:
+    - cron: "40 20 * * *"     # 02:10 IST every night
+  workflow_dispatch: {}        # run by hand from the Actions tab
+  push:
+    paths: ["data/schedules/**", "site/data/sabhas.json"]
+
+permissions:
+  contents: write
+
+concurrency: { group: aggregate, cancel-in-progress: false }
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Build concert list from schedule CSVs
+        run: python scripts/build_concerts.py
+      - name: Pull confirmed lists and run the vote
+        env:
+          EXPORT_URL: ${{ secrets.EXPORT_URL }}
+          EXPORT_TOKEN: ${{ secrets.EXPORT_TOKEN }}
+        run: |
+          if [ -z "$EXPORT_URL" ]; then echo "EXPORT_URL secret not set yet; skipping vote"; exit 0; fi
+          python scripts/aggregate.py
+      - name: Commit updated data
+        run: |
+          git config user.name "season-bot"
+          git config user.email "season-bot@users.noreply.github.com"
+          git add site/data open-data || true
+          git diff --cached --quiet && echo "no changes" || (git commit -m "Nightly update: schedules, votes, season stats" && git push)
