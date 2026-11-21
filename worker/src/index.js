@@ -26,7 +26,13 @@ export default {
     try {
       const route = `${request.method} ${url.pathname}`;
       let res;
+      if (request.method === "GET" && url.pathname.startsWith("/api/data/")) {
+        res = await readPublished(url.pathname.slice("/api/data/".length), env);
+        for (const [k, v] of Object.entries(cors)) res.headers.set(k, v);
+        return res;
+      }
       switch (route) {
+        case "POST /api/publish":          res = await publish(request, env); break;
         case "GET /api/health":            res = json({ ok: true }); break;
         case "POST /api/ocr":              res = await ocr(request, env); break;
         case "POST /api/submit":           res = await submit(request, env); break;
@@ -270,4 +276,37 @@ async function listSubscribers(request, env) {
   await ensureSubscribers(env);
   const { results } = await env.DB.prepare("SELECT wa_id FROM subscribers WHERE status='active'").all();
   return json({ subscribers: results.map(r => r.wa_id) });
+}
+
+// ---------- results published nightly by the GitHub Action ----------
+// Song lists and statistics are kept here (D1), not in the public GitHub repo.
+const PUB_NAME = /^(stats|concert-index|concert\/[a-z0-9-]{5,90}|digest\/(latest|\d{4}-\d{2}-\d{2}))$/;
+async function ensurePublished(env) {
+  await env.DB.prepare("CREATE TABLE IF NOT EXISTS published (name TEXT PRIMARY KEY, json TEXT NOT NULL, updated_at TEXT)").run();
+}
+async function publish(request, env) {
+  const auth = request.headers.get("authorization") || "";
+  if (!env.EXPORT_TOKEN || auth !== `Bearer ${env.EXPORT_TOKEN}`) fail("unauthorised", 401);
+  const b = await body(request, 20_000_000);
+  const items = Array.isArray(b.items) ? b.items.slice(0, 100) : [];
+  await ensurePublished(env);
+  const now = new Date().toISOString(), stmts = [];
+  for (const it of items) {
+    const txt = JSON.stringify(it.data ?? null);
+    if (!PUB_NAME.test(String(it.name)) || txt.length > 1_900_000) continue;
+    stmts.push(env.DB.prepare("INSERT INTO published(name,json,updated_at) VALUES(?,?,?) ON CONFLICT(name) DO UPDATE SET json=excluded.json, updated_at=excluded.updated_at").bind(it.name, txt, now));
+  }
+  if (stmts.length) await env.DB.batch(stmts);
+  return json({ ok: true, saved: stmts.length });
+}
+async function readPublished(name, env) {
+  await ensurePublished(env);
+  const headers = { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=300", "x-robots-tag": "noindex, noai, noimageai" };
+  if (name === "digest/index") {
+    const { results } = await env.DB.prepare("SELECT name FROM published WHERE name LIKE 'digest/20%' ORDER BY name DESC").all();
+    return new Response(JSON.stringify({ days: results.map(r => r.name.slice(7)) }), { headers });
+  }
+  if (!PUB_NAME.test(name)) return json({ error: "not found" }, 404);
+  const row = await env.DB.prepare("SELECT json FROM published WHERE name=?").bind(name).first();
+  return row ? new Response(row.json, { headers }) : json({ error: "not found" }, 404);
 }

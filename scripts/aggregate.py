@@ -5,11 +5,10 @@
   python scripts/aggregate.py --input export.json        # offline / testing
 
 Writes
-  site/data/consensus.json       agreed song list per concert, with vote support
-  site/data/stats.json           season dashboard numbers
-  site/data/added_concerts.json  concerts rasikas added that are not in the schedules
-  open-data/submissions.json     every confirmed submission, anonymised (the open dataset)
-  open-data/consensus.csv        one row per agreed song per concert
+  site/data/added_concerts.json  concerts rasikas added (public, committed)
+  build/consensus.json, build/stats.json, build/digest/   private: uploaded to the Worker by publish.py
+  build/open-data/               full anonymised dataset, kept for a possible release after the season
+Song lists and statistics are never committed to the public repo.
 """
 import argparse, collections, sys, csv, hashlib, json, math, os, re, statistics, urllib.request
 from datetime import datetime, timezone
@@ -18,7 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site/data"
-OPEN = ROOT / "open-data"
+BUILD = ROOT / "build"          # private outputs: published to the Worker, never committed
+OPEN = BUILD / "open-data"
 SUPPORT = 0.5          # a song is "agreed" when at least half the rasikas at that concert listed it
 
 # ---------- transliteration-tolerant keys (same rules as site/app.js) ----------
@@ -219,10 +219,10 @@ def main():
 
     SITE.mkdir(parents=True, exist_ok=True); OPEN.mkdir(parents=True, exist_ok=True)
     dump = lambda p, o: p.write_text(json.dumps(o, ensure_ascii=False, indent=1))
-    dump(SITE / "consensus.json", {"generated_at": stats["generated_at"], "support_threshold": SUPPORT, "concerts": consensus})
-    dump(SITE / "stats.json", stats)
+    dump(BUILD / "consensus.json", {"generated_at": stats["generated_at"], "support_threshold": SUPPORT, "concerts": consensus})
+    dump(BUILD / "stats.json", stats)
     dump(SITE / "added_concerts.json", {"concerts": sorted(added, key=lambda c: (c["date"], c["time"]))})
-    dump(OPEN / "submissions.json", {"licence": "CC BY 4.0", "generated_at": stats["generated_at"],
+    dump(OPEN / "submissions.json", {"licence": "not yet released", "generated_at": stats["generated_at"],
          "submissions": [{"concert_id": s["concert_id"], "rasika": s["rasika"], "created_at": s["created_at"], "used_photo": s.get("used_photo", False),
                           "items": [{k: it.get(k) for k in ("pos", "song_id", "title", "raga", "tala", "composer", "type", "notes")} for it in s["items"]]}
                          for subs in by_concert.values() for s in subs]})
@@ -240,7 +240,7 @@ def main():
     day = args.digest_date or dg.ist_yesterday()
     d = dg.build(day, consensus, concerts, sabha_names)
     if d["concerts_with_lists"]:
-        dg.write(SITE, d); print(f"digest for {day}: {d['concerts_with_lists']} concerts, {d['songs']} songs")
+        dg.write(BUILD, d); print(f"digest for {day}: {d['concerts_with_lists']} concerts, {d['songs']} songs")
     else:
         print(f"no lists for {day}; digest not written")
     t = stats["totals"]

@@ -1,9 +1,8 @@
 """Nightly digest: "what was sung where" for one day, in three shapes.
 
 Called by aggregate.py after the vote. Writes
-  site/data/digest/latest.json      newest digest (the morning send job reads this)
-  site/data/digest/<YYYY-MM-DD>.json one file per day (the site's archive)
-  site/data/digest/index.json        list of available days
+  build/digest/latest.json and build/digest/<YYYY-MM-DD>.json
+which publish.py uploads to the Worker (they are not committed to the public repo).
 
 Each digest holds structured data for the website, the six short parameters of
 the approved WhatsApp template, and a longer HTML message for Telegram.
@@ -102,10 +101,8 @@ def build(day, consensus, concerts, sabha_names):
     return data
 
 
-def write(site_data_dir, digest):
-    d = Path(site_data_dir) / "digest"
+def write(out_dir, digest):
+    d = Path(out_dir) / "digest"
     d.mkdir(parents=True, exist_ok=True)
     (d / f"{digest['date']}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1))
     (d / "latest.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1))
-    days = sorted({p.stem for p in d.glob("20*.json")}, reverse=True)
-    (d / "index.json").write_text(json.dumps({"days": days}))

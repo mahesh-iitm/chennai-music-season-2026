@@ -3,3 +3,5 @@ node_modules/
 .dev.vars
 __pycache__/
 *.draft.csv
+build/
+open-data/

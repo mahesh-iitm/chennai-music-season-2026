@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Morning send: post yesterday's digest to WhatsApp subscribers and the Telegram channel.
 
-Reads site/data/digest/latest.json (written by the nightly vote) and records what
+Reads the latest digest from the Worker (published by the nightly vote) and records what
 was sent in data/digest_sent.json, so a re-run never sends the same day twice.
 Each channel is skipped quietly when its secrets are not set.
 
@@ -76,10 +76,12 @@ def send_telegram(d):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--force", action="store_true"); a = ap.parse_args()
-    p = ROOT / "site/data/digest/latest.json"
-    if not p.exists():
+    exp = os.environ.get("EXPORT_URL")
+    if not exp:
+        print("EXPORT_URL not set"); return
+    st, d = call(exp.replace("/api/export", "/api/data/digest/latest"))
+    if st != 200 or not d.get("date"):
         print("no digest yet"); return
-    d = json.loads(p.read_text())
     yesterday = (datetime.now(IST).date() - timedelta(days=1)).isoformat()
     log = json.loads(LOG.read_text()) if LOG.exists() else {}
     if not a.force:

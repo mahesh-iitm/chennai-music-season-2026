@@ -40,7 +40,7 @@ const TYPES_NO_SONG = new Set(["tani", "viruttam", "mangalam"]);
 
 // ---------- data ----------
 const D = { songs: [], byId: new Map(), ragaByKey: new Map(), ragaKeys: [], gramIdx: new Map(), sabhas: [], sabhaById: new Map(),
-            concerts: [], concertById: new Map(), consensus: null, stats: null, counts: {} };
+            concerts: [], concertById: new Map(), cindex: {}, stats: null, counts: {} };
 async function getJSON(path, fallback) {
   try { const r = await fetch(path, { cache: "no-cache" }); if (!r.ok) throw 0; return await r.json(); } catch { return fallback; }
 }
@@ -61,13 +61,14 @@ function loadSongs() {
   }));
 }
 async function loadCore() {
-  const [sab, con, add, cons, stats] = await Promise.all([
+  const pub = (name, fb) => API ? getJSON(`${API}/api/data/${name}`, fb) : Promise.resolve(fb);
+  const [sab, con, add, cidx, stats] = await Promise.all([
     getJSON("data/sabhas.json", { sabhas: [] }), getJSON("data/concerts.json", { concerts: [] }),
-    getJSON("data/added_concerts.json", { concerts: [] }), getJSON("data/consensus.json", null), getJSON("data/stats.json", null)]);
+    getJSON("data/added_concerts.json", { concerts: [] }), pub("concert-index", {}), pub("stats", null)]);
   D.sabhas = sab.sabhas; D.sabhas.forEach(s => D.sabhaById.set(s.id, s));
   const addConcerts = list => list.forEach(c => { if (!D.concertById.has(c.id)) { c.source = c.source || "rasika"; D.concerts.push(c); D.concertById.set(c.id, c); } });
   addConcerts(con.concerts); addConcerts(add.concerts);
-  D.consensus = cons; D.stats = stats;
+  D.cindex = cidx || {}; D.stats = stats;
   if (API) {
     const [live, counts] = await Promise.all([getJSON(API + "/api/concert-additions", { concerts: [] }), getJSON(API + "/api/counts", {})]);
     addConcerts(live.concerts); D.counts = counts;
@@ -137,7 +138,7 @@ loadCore().then(go);
 const sabhaName = id => D.sabhaById.get(id)?.name || id;
 const fmtDate = d => { if (!d) return ""; const x = new Date(d + "T00:00:00"); return x.toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short" }); };
 const fmtTime = t => { if (!t) return ""; const [h, m] = t.split(":").map(Number); return `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "am" : "pm"}`; };
-const nLists = id => Math.max(D.counts[id] || 0, D.consensus?.concerts?.[id]?.n_rasikas || 0);
+const nLists = id => Math.max(D.counts[id] || 0, D.cindex[id] || 0);
 const listsPill = id => { const n = nLists(id); return n ? `<span class="pill ${n >= 3 ? "green" : ""}">${n} list${n > 1 ? "s" : ""}</span>` : `<span class="pill grey">no list yet</span>`; };
 
 // ---------- Season dashboard ----------
@@ -150,7 +151,7 @@ function viewSeason() {
   const st = D.stats, t = st?.totals;
   const hero = `<section class="hero">
     <div><h1>What is Chennai singing this Margazhi?</h1>
-      <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. Lists from several rasikas are cross-checked, and the whole season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
+      <p class="lede">Rasikas share the song list from each concert they attend: a photo of the handwritten notes is enough. Lists from several rasikas are cross-checked, and the whole Season builds up here: which ragas dominate, which krithis are everywhere, and which rare gems were heard only once.</p>
       <div class="actions"><a class="btn primary" href="#/submit">Share a concert's song list</a><a class="btn" href="#/concerts">Browse concerts</a></div></div>
     <div class="card"><h3>How it works</h3><ol class="sub" style="padding-left:18px;margin:0">
       <li>Pick the sabha, date and concert.</li><li>Snap your notes. We read the handwriting.</li>
@@ -200,8 +201,8 @@ function subscribeCard() {
 }
 async function viewDaily(day) {
   app.innerHTML = `<p class="loading">Loading…</p>`;
-  const idx = await getJSON("data/digest/index.json", { days: [] });
-  const d = await getJSON(`data/digest/${day || "latest"}.json`, null);
+  const idx = API ? await getJSON(`${API}/api/data/digest/index`, { days: [] }) : { days: [] };
+  const d = API ? await getJSON(`${API}/api/data/digest/${day || "latest"}`, null) : null;
   if (!d) { app.innerHTML = `<h1>Daily summary</h1><div class="card empty"><h2>The first summary arrives the morning after the first song lists are shared.</h2></div>` + subscribeCard(); return; }
   const pick = idx.days.length > 1 ? `<select id="dd" style="max-width:220px">${idx.days.map(x => `<option value="${x}" ${x === d.date ? "selected" : ""}>${fmtDate(x)}</option>`).join("")}</select>` : "";
   app.innerHTML = `<div class="actions" style="justify-content:space-between;margin:0"><h1 style="margin:0">${esc(fmtDate(d.date))}</h1>${pick}</div>
@@ -241,8 +242,9 @@ function viewConcerts() {
   document.querySelectorAll("[data-day]").forEach(b => b.onclick = () => { f.day = b.dataset.day; draw(); });
   draw();
 }
-function viewConcert(id) {
-  const c = D.concertById.get(id), cons = D.consensus?.concerts?.[id];
+async function viewConcert(id) {
+  const c = D.concertById.get(id);
+  const cons = D.cindex[id] && API ? await getJSON(`${API}/api/data/concert/${encodeURIComponent(id)}`, null) : null;
   if (!c && !cons) { app.innerHTML = `<div class="empty"><h2>Concert not found</h2><a href="#/concerts">Back to concerts</a></div>`; return; }
   const head = c ? `<h1>${esc(c.artist)}</h1><p class="sub">${fmtDate(c.date)}, ${fmtTime(c.time)} · ${esc(sabhaName(c.sabha_id))}${c.accompanists ? `<br>${esc(c.accompanists)}` : ""}</p>` : `<h1>${esc(id)}</h1>`;
   const live = D.counts[id] || 0;
@@ -263,7 +265,7 @@ function viewAbout() {
   <p><b>Reading your notes.</b> Your photo is sent to an AI handwriting reader, which returns each line it can read. The photo is not stored. Each line is then matched to the <a href="https://www.karnatik.com/lyrics.shtml">karnatik.com</a> catalogue of over 8,000 compositions, using the raga you noted to tell apart songs with similar names. You correct anything it got wrong before confirming.</p>
   <p><b>Majority vote.</b> Every night, all confirmed lists for a concert are combined. A song is accepted when at least half the rasikas at that concert listed it, and the order follows the median position. One list is shown as a "single report", three or more as a consensus.</p>
   <p><b>Privacy.</b> No login, no names, no photos kept. Each browser gets a random id so that a rasika who resubmits replaces their own earlier list rather than voting twice.</p>
-  <p><b>Open data.</b> After the season, every confirmed list and the combined results will be published under CC BY 4.0 in the project's GitHub repository.</p></div>`;
+  <p><b>Your data.</b> Song lists and statistics are shown here for rasikas and are not published as downloadable data. How the collected data may be shared after the Season will be decided later.</p></div>`;
 }
 
 // ---------- Share a list ----------

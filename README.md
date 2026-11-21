@@ -2,7 +2,7 @@
 
 Rasikas share the song lists of concerts they attend in the Chennai December Season. A photo of handwritten notes is read by an AI handwriting reader, matched to the [karnatik.com](https://www.karnatik.com/lyrics.shtml) catalogue of 8,029 compositions, checked by the rasika, and stored. Lists from several rasikas at the same concert are combined by majority vote every night, building a season-level view: most-heard ragas, most-sung krithis, ragas chosen for the main piece, rare krithis heard only once, and ragas nobody sang.
 
-All confirmed lists will be published here as open data after the season.
+Song lists and statistics are kept private: they are stored in Cloudflare and shown only through the site, never committed to this public repository. How the data may be shared after the Season is still to be decided.
 
 ## How the pieces fit
 
@@ -12,7 +12,7 @@ Rasika's phone ──> GitHub Pages site (site/) ──> Cloudflare Worker (work
                           │                             ▼
                    season dashboard               D1 database (confirmed lists)
                           ▲                             │
-                          └──── nightly GitHub Action: majority vote ──> site/data + open-data/
+                          └──── nightly GitHub Action: majority vote ──> results back into D1 (private)
 ```
 
 | Folder | What it is |
@@ -21,11 +21,10 @@ Rasika's phone ──> GitHub Pages site (site/) ──> Cloudflare Worker (work
 | `site/data/songs.json` | Karnatik catalogue with standardised raga, tala and composer names |
 | `site/data/sabhas.json` | The 20 sabhas in the dropdown |
 | `site/data/concerts.json` | Generated from `data/schedules/*.csv` |
-| `site/data/consensus.json`, `stats.json` | Generated nightly by the vote |
+| `build/` (not committed) | Nightly results; uploaded to the Worker by `scripts/publish.py` |
 | `data/schedules/` | One CSV per sabha: the season schedule |
 | `worker/` | Cloudflare Worker: handwriting reading, saving lists, rasika-added concerts, private export |
 | `scripts/` | Schedule loader, schedule-from-image helper, majority vote, catalogue scrapers |
-| `open-data/` | The public dataset (CC BY 4.0), refreshed nightly |
 
 ## One-time setup (about 30 minutes)
 
@@ -98,7 +97,7 @@ npx wrangler d1 execute cms2026 --remote --command "UPDATE added_concerts SET hi
 
 ## Morning summary on WhatsApp and Telegram
 
-The nightly vote also writes a digest of the previous day (`site/data/digest/`), shown on the site's **Daily** page. At 07:30 IST the **Morning summary** workflow sends it to WhatsApp subscribers and posts it to a Telegram channel. Each channel stays off until its secrets are set, and a day is never sent twice (`data/digest_sent.json`).
+The nightly vote also writes a digest of the previous day (stored in the Worker), shown on the site's **Daily** page. At 07:30 IST the **Morning summary** workflow sends it to WhatsApp subscribers and posts it to a Telegram channel. Each channel stays off until its secrets are set, and a day is never sent twice (`data/digest_sent.json`).
 
 ### Telegram (free, about 5 minutes)
 
@@ -134,6 +133,12 @@ Rasikas subscribe by tapping **Subscribe on WhatsApp** on the Daily page. WhatsA
 
 **Cost.** Each delivered summary is a paid template message, about ₹0.86 per subscriber per day in India for marketing templates (Meta's rate card). The welcome and unsubscribe replies answer the rasika's own message and cost little or nothing.
 
+## Keeping the data private
+
+- Song lists, statistics and digests are never committed to this repository. The nightly job writes them to `build/` (ignored by git) and uploads them to the Worker, which stores them in D1.
+- The site reads them one piece at a time from the Worker (`/api/data/...`), with `noindex, noai` headers.
+- `site/robots.txt` and a `noai` meta tag ask AI crawlers not to collect the site. Only well-behaved crawlers obey these; stronger protection (Cloudflare's "Block AI bots", Turnstile, rate limits) needs the site on its own domain.
+
 ## How the vote works
 
 - Each browser gets a random id. If a rasika shares again for the same concert, the new list replaces their old one, so nobody votes twice.
@@ -162,4 +167,4 @@ cd site && python3 -m http.server 8000
 ## Data and credits
 
 - Song catalogue: [karnatik.com](https://www.karnatik.com/lyrics.shtml), scraped 19 Nov 2026 (`scripts/scrape_karnatik_*.py`). Raga, tala and composer spellings standardised by `scripts/standardise_karnatik.py` and `scripts/build_site_songs.py`. The site's original spellings are kept in `data/karnatik/`.
-- Code: MIT licence. Rasika-contributed data in `open-data/`: CC BY 4.0.
+- Code: MIT licence. Rasika-contributed song lists are not released; terms for any release after the Season are to be decided.
